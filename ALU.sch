@@ -1,0 +1,122 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:myCpu-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 1025 450  950  2775
+U 5AE63A88
+F0 "AND" 60
+F1 "AND.sch" 60
+F2 "X0" I L 1025 625 60 
+F3 "X1" I L 1025 775 60 
+F4 "X2" I L 1025 900 60 
+F5 "X3" I L 1025 1025 60 
+F6 "X4" I L 1025 1150 60 
+F7 "X5" I L 1025 1300 60 
+F8 "X6" I L 1025 1425 60 
+F9 "X7" I L 1025 1600 60 
+F10 "Y2" I L 1025 2000 60 
+F11 "Y3" I L 1025 2125 60 
+F12 "Y4" I L 1025 2225 60 
+F13 "Y5" I L 1025 2350 60 
+F14 "Y6" I L 1025 2475 60 
+F15 "Y7" I L 1025 2600 60 
+F16 "Z0" O R 1975 900 60 
+F17 "Z1" O R 1975 1050 60 
+F18 "Z2" O R 1975 1200 60 
+F19 "Z3" O R 1975 1350 60 
+F20 "Z4" O R 1975 1550 60 
+F21 "Z5" O R 1975 1725 60 
+F22 "Z6" O R 1975 1925 60 
+F23 "Z7" O R 1975 2075 60 
+F24 "Y0" I L 1025 1775 60 
+F25 "Y1" I L 1025 1875 60 
+$EndSheet
+$Sheet
+S 3925 525  1125 2875
+U 5AE655FE
+F0 "OR" 60
+F1 "OR.sch" 60
+F2 "X0" I L 3925 750 60 
+F3 "X1" I L 3925 900 60 
+F4 "X2" I L 3925 1050 60 
+F5 "X3" I L 3925 1150 60 
+F6 "X4" I L 3925 1300 60 
+F7 "X5" I L 3925 1500 60 
+F8 "X6" I L 3925 1700 60 
+F9 "X7" I L 3925 1900 60 
+F10 "Y0" I L 3925 2100 60 
+F11 "Y1" I L 3925 2275 60 
+F12 "Y2" I L 3925 2425 60 
+F13 "Y3" I L 3925 2575 60 
+F14 "Y4" I L 3925 2750 60 
+F15 "Y5" I L 3925 2900 60 
+F16 "Y6" I L 3925 3050 60 
+F17 "Y7" I R 5050 975 60 
+$EndSheet
+$Sheet
+S 1500 3700 3350 1025
+U 5AE6649D
+F0 "NOT" 60
+F1 "NOT.sch" 60
+$EndSheet
+$Sheet
+S 5725 3500 3400 1150
+U 5AE671BE
+F0 "XOR" 60
+F1 "XOR.sch" 60
+$EndSheet
+$Sheet
+S 1325 5150 3325 1575
+U 5AE74AF7
+F0 "INC8" 60
+F1 "INC8.sch" 60
+$EndSheet
+$Sheet
+S 5375 5225 1525 1150
+U 5AE75BF4
+F0 "DEC" 60
+F1 "DEC.sch" 60
+$EndSheet
+$EndSCHEMATC
