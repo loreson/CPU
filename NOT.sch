@@ -323,6 +323,6 @@ Wire Wire Line
 Wire Wire Line
 	5250 3800 6375 3800
 Wire Wire Line
-	5250 3800 5250 3775
+	5250 3775 5250 3800
 Connection ~ 5800 3800
 $EndSCHEMATC
