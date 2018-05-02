@@ -1,8 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:spice
-LIBS:pspice
+EESchema Schematic File Version 4
 LIBS:myCpu-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -65,18 +63,22 @@ Z6
 Text HLabel 4150 1600 1    60   Output ~ 0
 Z7
 $Comp
-L 4070 U7
+L myCpu-rescue:4070 U7
 U 1 1 5AE671E3
 P 2350 3975
 F 0 "U7" H 2350 4025 50  0000 C CNN
 F 1 "4070" H 2350 3925 50  0000 C CNN
 F 2 "" H 2350 3975 60  0001 C CNN
 F 3 "" H 2350 3975 60  0001 C CNN
+F 4 "X" H 2350 3975 50  0001 C CNN "Spice_Primitive"
+F 5 "CD4070B" H 2350 3975 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 2350 3975 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "cd4000.lib" H 2350 3975 50  0001 C CNN "Spice_Lib_File"
 	1    2350 3975
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 4070 U7
+L myCpu-rescue:4070 U7
 U 2 1 5AE67266
 P 3050 3950
 F 0 "U7" H 3050 4000 50  0000 C CNN
@@ -87,7 +89,7 @@ F 3 "" H 3050 3950 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 4070 U7
+L myCpu-rescue:4070 U7
 U 3 1 5AE672EB
 P 3750 3950
 F 0 "U7" H 3750 4000 50  0000 C CNN
@@ -98,7 +100,7 @@ F 3 "" H 3750 3950 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 4070 U7
+L myCpu-rescue:4070 U7
 U 4 1 5AE6737A
 P 4450 3925
 F 0 "U7" H 4450 3975 50  0000 C CNN
@@ -109,7 +111,7 @@ F 3 "" H 4450 3925 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 4070 U8
+L myCpu-rescue:4070 U8
 U 1 1 5AE67413
 P 5150 3950
 F 0 "U8" H 5150 4000 50  0000 C CNN
@@ -120,7 +122,7 @@ F 3 "" H 5150 3950 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 4070 U8
+L myCpu-rescue:4070 U8
 U 2 1 5AE6749C
 P 5825 3950
 F 0 "U8" H 5825 4000 50  0000 C CNN
@@ -131,7 +133,7 @@ F 3 "" H 5825 3950 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 4070 U8
+L myCpu-rescue:4070 U8
 U 3 1 5AE67535
 P 6550 3975
 F 0 "U8" H 6550 4025 50  0000 C CNN
@@ -142,7 +144,7 @@ F 3 "" H 6550 3975 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 4070 U8
+L myCpu-rescue:4070 U8
 U 4 1 5AE675DA
 P 7250 3975
 F 0 "U8" H 7250 4025 50  0000 C CNN
@@ -309,7 +311,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 1600 4150 1600
 $Comp
-L VCC #PWR06
+L myCpu-rescue:VCC #PWR06
 U 1 1 5AEBE631
 P 8300 4525
 F 0 "#PWR06" H 8300 4375 50  0001 C CNN
@@ -320,7 +322,7 @@ F 3 "" H 8300 4525 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C6
+L spice:C C6
 U 1 1 5AEBE655
 P 8025 3975
 F 0 "C6" V 7875 3975 60  0000 C CNN
@@ -331,7 +333,7 @@ F 3 "" H 8025 3975 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 0 #GND6
+L spice:0 #GND6
 U 1 1 5AEBE6D2
 P 8100 3275
 F 0 "#GND6" H 8100 3175 60  0001 C CNN
@@ -350,7 +352,7 @@ Wire Wire Line
 Wire Wire Line
 	8100 3725 8100 3275
 $Comp
-L VCC #PWR07
+L myCpu-rescue:VCC #PWR07
 U 1 1 5AEBE8CD
 P 1525 4575
 F 0 "#PWR07" H 1525 4425 50  0001 C CNN
@@ -361,7 +363,7 @@ F 3 "" H 1525 4575 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C5
+L spice:C C5
 U 1 1 5AEBE8D3
 P 1250 4025
 F 0 "C5" V 1100 4025 60  0000 C CNN
@@ -372,7 +374,7 @@ F 3 "" H 1250 4025 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 0 #GND5
+L spice:0 #GND5
 U 1 1 5AEBE8D9
 P 1325 3325
 F 0 "#GND5" H 1325 3225 60  0001 C CNN

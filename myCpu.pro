@@ -1,4 +1,4 @@
-update=Mi 02 Mai 2018 03:30:52 CEST
+update=Mi 02 Mai 2018 07:32:26 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,7 +37,4 @@ LabSize=60
 version=1
 [eeschema]
 version=1
-LibDir=C:/Program Files/LTC/LTspiceXVII/lib/sub
-[eeschema/libraries]
-LibName1=mithat-kicad-spice-library-746df8e9878b/primitives/spice
-LibName2=pspice
+LibDir=

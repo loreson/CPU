@@ -1,8 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:spice
-LIBS:pspice
+EESchema Schematic File Version 4
 LIBS:myCpu-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -17,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 74LS151 U19
+L myCpu-rescue:74LS151 U19
 U 1 1 5AE9E2A5
 P 2625 5225
 AR Path="/5AE62FB7/5AE9DF6E/5AE9E178/5AE9E2A5" Ref="U19"  Part="1" 
@@ -32,11 +30,15 @@ F 0 "U21" H 2625 5225 50  0000 C CNN
 F 1 "74LS151" H 2625 5075 50  0000 C CNN
 F 2 "" H 2625 5225 50  0000 C CNN
 F 3 "" H 2625 5225 50  0000 C CNN
+F 4 "X" H 2625 5225 50  0001 C CNN "Spice_Primitive"
+F 5 "74HC151" H 2625 5225 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 2625 5225 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "74hc.lib" H 2625 5225 50  0001 C CNN "Spice_Lib_File"
 	1    2625 5225
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 74LS151 U20
+L myCpu-rescue:74LS151 U20
 U 1 1 5AE9E4A8
 P 4200 5275
 AR Path="/5AE62FB7/5AE9DF6E/5AE9E178/5AE9E4A8" Ref="U20"  Part="1" 
@@ -51,6 +53,10 @@ F 0 "U22" H 4200 5275 50  0000 C CNN
 F 1 "74LS151" H 4200 5125 50  0000 C CNN
 F 2 "" H 4200 5275 50  0000 C CNN
 F 3 "" H 4200 5275 50  0000 C CNN
+F 4 "X" H 4200 5275 50  0001 C CNN "Spice_Primitive"
+F 5 "74HC151" H 4200 5275 50  0001 C CNN "Spice_Model"
+F 6 "Y" H 4200 5275 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "74hc.lib" H 4200 5275 50  0001 C CNN "Spice_Lib_File"
 	1    4200 5275
 	0    -1   -1   0   
 $EndComp
@@ -167,7 +173,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 6750 4250 5975
 $Comp
-L VCC #PWR019
+L myCpu-rescue:VCC #PWR019
 U 1 1 5AE9E89C
 P 1200 5675
 AR Path="/5AE62FB7/5AE9DF6E/5AE9E178/5AE9E89C" Ref="#PWR019"  Part="1" 
@@ -186,7 +192,7 @@ F 3 "" H 1200 5675 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR020
+L myCpu-rescue:VCC #PWR020
 U 1 1 5AE9E8B8
 P 5275 5850
 AR Path="/5AE62FB7/5AE9DF6E/5AE9E178/5AE9E8B8" Ref="#PWR020"  Part="1" 
@@ -217,15 +223,13 @@ S2
 Text HLabel 2975 7375 3    60   Input ~ 0
 S3
 Wire Wire Line
-	2875 5925 2875 7175
+	2875 5925 2875 7125
 Wire Wire Line
 	2875 7175 2775 7175
 Wire Wire Line
 	2775 7175 2775 7375
 Wire Wire Line
 	2875 7375 2875 7275
-Wire Wire Line
-	2875 7275 2975 7275
 Wire Wire Line
 	2975 7275 2975 5925
 Wire Wire Line
@@ -237,22 +241,15 @@ Wire Wire Line
 Connection ~ 2875 7125
 Wire Wire Line
 	4550 5975 4550 7275
-Wire Wire Line
-	4550 7275 2950 7275
 Connection ~ 2950 7275
-Connection ~ 3075 7375
 Wire Wire Line
 	4650 5975 4650 7375
 Wire Wire Line
 	4650 7375 4625 7375
-Connection ~ 4625 7375
 Wire Wire Line
 	4850 5975 5000 5975
 Wire Wire Line
 	5000 5975 5000 5025
-Wire Wire Line
-	5000 5025 5525 5025
-Connection ~ 5225 5025
 Wire Wire Line
 	3275 5925 3275 5325
 Wire Wire Line
@@ -270,7 +267,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 3700 3700 4575
 $Comp
-L C C18
+L spice:C C18
 U 1 1 5AEB02AD
 P 5725 5150
 AR Path="/5AE62FB7/5AE9DF6E/5AE9E178/5AEB02AD" Ref="C18"  Part="1" 
@@ -289,7 +286,7 @@ F 3 "" H 5725 5150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 0 #GND20
+L spice:0 #GND20
 U 1 1 5AEB030E
 P 5525 4775
 AR Path="/5AE62FB7/5AE9DF6E/5AE9E178/5AEB030E" Ref="#GND20"  Part="1" 
@@ -320,7 +317,7 @@ Wire Wire Line
 Wire Wire Line
 	5725 4775 5725 4900
 $Comp
-L C C17
+L spice:C C17
 U 1 1 5AEB04DC
 P 1225 5250
 AR Path="/5AE62FB7/5AE9DF6E/5AE9E178/5AEB04DC" Ref="C17"  Part="1" 
@@ -339,7 +336,7 @@ F 3 "" H 1225 5250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 0 #GND19
+L spice:0 #GND19
 U 1 1 5AEB056F
 P 1400 5025
 AR Path="/5AE62FB7/5AE9DF6E/5AE9E178/5AEB056F" Ref="#GND19"  Part="1" 
@@ -371,4 +368,10 @@ Wire Wire Line
 	1425 5500 1200 5675
 NoConn ~ 2225 4525
 NoConn ~ 3800 4575
+Wire Wire Line
+	2875 7125 2875 7175
+Wire Wire Line
+	5000 5025 5525 5025
+Wire Wire Line
+	2875 7275 4550 7275
 $EndSCHEMATC
