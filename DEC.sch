@@ -268,4 +268,12 @@ Wire Wire Line
 Wire Wire Line
 	5025 5050 5025 5075
 Connection ~ 5025 5050
+Text HLabel 4975 3175 1    60   Output ~ 0
+C_OUT
+Wire Wire Line
+	4825 3625 4975 3625
+Wire Wire Line
+	4975 3625 4975 3175
+Wire Wire Line
+	4825 3625 4825 3650
 $EndSCHEMATC
