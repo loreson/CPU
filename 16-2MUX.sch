@@ -1,33 +1,6 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+LIBS:spice
+LIBS:pspice
 LIBS:myCpu-cache
 EELAYER 25 0
 EELAYER END
@@ -43,28 +16,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L C_Small C?
-U 1 1 5AE9E181
-P 1400 5175
-F 0 "C?" H 1410 5245 50  0000 L CNN
-F 1 "100n" H 1410 5095 50  0000 L CNN
-F 2 "" H 1400 5175 50  0000 C CNN
-F 3 "" H 1400 5175 50  0000 C CNN
-	1    1400 5175
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5AE9E21C
-P 5225 5150
-F 0 "C?" H 5235 5220 50  0000 L CNN
-F 1 "100n" H 5235 5070 50  0000 L CNN
-F 2 "" H 5225 5150 50  0000 C CNN
-F 3 "" H 5225 5150 50  0000 C CNN
-	1    5225 5150
-	1    0    0    -1  
-$EndComp
 $Comp
 L 74LS151 U?
 U 1 1 5AE9E2A5
@@ -200,36 +151,14 @@ Wire Wire Line
 Wire Wire Line
 	4250 6750 4250 5975
 $Comp
-L GND #PWR?
-U 1 1 5AE9E85C
-P 5225 4775
-F 0 "#PWR?" H 5225 4525 50  0001 C CNN
-F 1 "GND" H 5225 4625 50  0000 C CNN
-F 2 "" H 5225 4775 50  0000 C CNN
-F 3 "" H 5225 4775 50  0000 C CNN
-	1    5225 4775
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5AE9E87C
-P 1600 4825
-F 0 "#PWR?" H 1600 4575 50  0001 C CNN
-F 1 "GND" H 1600 4675 50  0000 C CNN
-F 2 "" H 1600 4825 50  0000 C CNN
-F 3 "" H 1600 4825 50  0000 C CNN
-	1    1600 4825
-	1    0    0    -1  
-$EndComp
-$Comp
 L VCC #PWR?
 U 1 1 5AE9E89C
-P 1425 5475
-F 0 "#PWR?" H 1425 5325 50  0001 C CNN
-F 1 "VCC" H 1425 5625 50  0000 C CNN
-F 2 "" H 1425 5475 50  0000 C CNN
-F 3 "" H 1425 5475 50  0000 C CNN
-	1    1425 5475
+P 1200 5675
+F 0 "#PWR?" H 1200 5525 50  0001 C CNN
+F 1 "VCC" H 1200 5825 50  0000 C CNN
+F 2 "" H 1200 5675 50  0000 C CNN
+F 3 "" H 1200 5675 50  0000 C CNN
+	1    1200 5675
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -249,16 +178,6 @@ Wire Wire Line
 	5100 5850 5100 5250
 Wire Wire Line
 	5100 5250 5225 5250
-Wire Wire Line
-	5225 4775 5225 5050
-Wire Wire Line
-	1425 5475 1425 5275
-Wire Wire Line
-	1425 5275 1400 5275
-Wire Wire Line
-	1400 5075 1600 5075
-Wire Wire Line
-	1600 4825 1600 5325
 Text HLabel 2775 7375 3    60   Input ~ 0
 S1
 Text HLabel 2875 7375 3    60   Input ~ 0
@@ -266,7 +185,9 @@ S2
 Text HLabel 2975 7375 3    60   Input ~ 0
 S3
 Wire Wire Line
-	2875 5925 2875 7175
+	2875 5925 2875 7125
+Wire Wire Line
+	2875 7125 2875 7175
 Wire Wire Line
 	2875 7175 2775 7175
 Wire Wire Line
@@ -274,7 +195,9 @@ Wire Wire Line
 Wire Wire Line
 	2875 7375 2875 7275
 Wire Wire Line
-	2875 7275 2975 7275
+	2875 7275 2950 7275
+Wire Wire Line
+	2950 7275 2975 7275
 Wire Wire Line
 	2975 7275 2975 5925
 Wire Wire Line
@@ -301,12 +224,13 @@ Wire Wire Line
 	5000 5975 5000 5025
 Wire Wire Line
 	5000 5025 5225 5025
+Wire Wire Line
+	5225 5025 5525 5025
 Connection ~ 5225 5025
 Wire Wire Line
 	3275 5925 3275 5325
 Wire Wire Line
 	3275 5325 1600 5325
-Connection ~ 1600 5075
 Text HLabel 2150 3700 1    60   Output ~ 0
 Z0
 Text HLabel 2250 3700 1    60   Output ~ 0
@@ -319,4 +243,72 @@ Wire Wire Line
 	2250 3700 3700 3700
 Wire Wire Line
 	3700 3700 3700 4575
+$Comp
+L C C?
+U 1 1 5AEB02AD
+P 5725 5150
+F 0 "C?" V 5575 5150 60  0000 C CNN
+F 1 "100nF" V 5875 5150 60  0000 C CNN
+F 2 "" H 5725 5150 60  0000 C CNN
+F 3 "" H 5725 5150 60  0000 C CNN
+	1    5725 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0 #GND?
+U 1 1 5AEB030E
+P 5525 4775
+F 0 "#GND?" H 5525 4675 60  0001 C CNN
+F 1 "0" H 5525 4705 60  0000 C CNN
+F 2 "" H 5525 4775 60  0000 C CNN
+F 3 "" H 5525 4775 60  0000 C CNN
+	1    5525 4775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5225 5250 5225 5425
+Wire Wire Line
+	5225 5425 5725 5425
+Wire Wire Line
+	5725 5425 5725 5400
+Wire Wire Line
+	5525 5025 5525 4775
+Wire Wire Line
+	5525 4775 5725 4775
+Wire Wire Line
+	5725 4775 5725 4900
+$Comp
+L C C?
+U 1 1 5AEB04DC
+P 1225 5250
+F 0 "C?" V 1075 5250 60  0000 C CNN
+F 1 "100nF" V 1375 5250 60  0000 C CNN
+F 2 "" H 1225 5250 60  0000 C CNN
+F 3 "" H 1225 5250 60  0000 C CNN
+	1    1225 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0 #GND?
+U 1 1 5AEB056F
+P 1400 5025
+F 0 "#GND?" H 1400 4925 60  0001 C CNN
+F 1 "0" H 1400 4955 60  0000 C CNN
+F 2 "" H 1400 5025 60  0000 C CNN
+F 3 "" H 1400 5025 60  0000 C CNN
+	1    1400 5025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1225 5000 1400 5000
+Wire Wire Line
+	1400 5000 1400 5025
+Wire Wire Line
+	1600 5325 1600 5025
+Wire Wire Line
+	1600 5025 1400 5025
+Wire Wire Line
+	1225 5500 1425 5500
+Wire Wire Line
+	1425 5500 1200 5675
 $EndSCHEMATC

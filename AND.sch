@@ -1,33 +1,6 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+LIBS:spice
+LIBS:pspice
 LIBS:myCpu-cache
 EELAYER 25 0
 EELAYER END
@@ -302,50 +275,6 @@ Wire Wire Line
 Wire Wire Line
 	4775 2925 5850 2925
 $Comp
-L C C2
-U 1 1 5AE7579C
-P 750 3550
-F 0 "C2" H 775 3650 50  0000 L CNN
-F 1 "C" H 775 3450 50  0000 L CNN
-F 2 "" H 788 3400 50  0000 C CNN
-F 3 "" H 750 3550 50  0000 C CNN
-	1    750  3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C3
-U 1 1 5AE75811
-P 6475 3550
-F 0 "C3" H 6500 3650 50  0000 L CNN
-F 1 "C" H 6500 3450 50  0000 L CNN
-F 2 "" H 6513 3400 50  0000 C CNN
-F 3 "" H 6475 3550 50  0000 C CNN
-	1    6475 3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR3
-U 1 1 5AE75904
-P 6500 3050
-F 0 "#PWR3" H 6500 2800 50  0001 C CNN
-F 1 "GND" H 6500 2900 50  0000 C CNN
-F 2 "" H 6500 3050 50  0000 C CNN
-F 3 "" H 6500 3050 50  0000 C CNN
-	1    6500 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR2
-U 1 1 5AE75968
-P 850 3125
-F 0 "#PWR2" H 850 2875 50  0001 C CNN
-F 1 "GND" H 850 2975 50  0000 C CNN
-F 2 "" H 850 3125 50  0000 C CNN
-F 3 "" H 850 3125 50  0000 C CNN
-	1    850  3125
-	1    0    0    -1  
-$EndComp
-$Comp
 L VCC #PWR1
 U 1 1 5AE75990
 P 775 4000
@@ -368,19 +297,67 @@ F 3 "" H 6500 4100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6500 4100 6500 3700
-Wire Wire Line
-	6500 3700 6475 3700
-Wire Wire Line
-	6475 3400 6475 3050
-Wire Wire Line
-	6475 3050 6500 3050
-Wire Wire Line
-	750  3400 750  3125
-Wire Wire Line
-	750  3125 850  3125
-Wire Wire Line
-	750  3700 750  4000
-Wire Wire Line
 	750  4000 775  4000
+$Comp
+L C C?
+U 1 1 5AEBB378
+P 750 3750
+F 0 "C?" V 600 3750 60  0000 C CNN
+F 1 "C" V 900 3750 60  0000 C CNN
+F 2 "" H 750 3750 60  0000 C CNN
+F 3 "" H 750 3750 60  0000 C CNN
+	1    750  3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5AEBB40C
+P 6375 3825
+F 0 "C?" V 6225 3825 60  0000 C CNN
+F 1 "C" V 6525 3825 60  0000 C CNN
+F 2 "" H 6375 3825 60  0000 C CNN
+F 3 "" H 6375 3825 60  0000 C CNN
+	1    6375 3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0 #GND?
+U 1 1 5AEBB4E1
+P 6250 3575
+F 0 "#GND?" H 6250 3475 60  0001 C CNN
+F 1 "0" H 6250 3505 60  0000 C CNN
+F 2 "" H 6250 3575 60  0000 C CNN
+F 3 "" H 6250 3575 60  0000 C CNN
+	1    6250 3575
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0 #GND?
+U 1 1 5AEBB527
+P 575 3550
+F 0 "#GND?" H 575 3450 60  0001 C CNN
+F 1 "0" H 575 3480 60  0000 C CNN
+F 2 "" H 575 3550 60  0000 C CNN
+F 3 "" H 575 3550 60  0000 C CNN
+	1    575  3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	575  3550 575  3425
+Wire Wire Line
+	575  3425 775  3425
+Wire Wire Line
+	775  3425 775  3500
+Wire Wire Line
+	775  3500 750  3500
+Wire Wire Line
+	6375 3575 6375 3525
+Wire Wire Line
+	6375 3525 6250 3525
+Wire Wire Line
+	6250 3525 6250 3575
+Wire Wire Line
+	6375 4075 6500 4075
+Wire Wire Line
+	6500 4075 6500 4100
 $EndSCHEMATC

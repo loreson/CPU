@@ -1,39 +1,12 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+LIBS:spice
+LIBS:pspice
 LIBS:myCpu-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 21
+Sheet 10 21
 Title ""
 Date ""
 Rev ""
@@ -264,28 +237,6 @@ Wire Wire Line
 Wire Wire Line
 	5225 3850 5225 3800
 $Comp
-L C_Small C?
-U 1 1 5AE8D2BA
-P 2125 4450
-F 0 "C?" H 2135 4520 50  0000 L CNN
-F 1 "100n" H 2135 4370 50  0000 L CNN
-F 2 "" H 2125 4450 50  0000 C CNN
-F 3 "" H 2125 4450 50  0000 C CNN
-	1    2125 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C?
-U 1 1 5AE8D35A
-P 5375 4600
-F 0 "C?" H 5385 4670 50  0000 L CNN
-F 1 "100n" H 5385 4520 50  0000 L CNN
-F 2 "" H 5375 4600 50  0000 C CNN
-F 3 "" H 5375 4600 50  0000 C CNN
-	1    5375 4600
-	1    0    0    -1  
-$EndComp
-$Comp
 L VCC #PWR?
 U 1 1 5AE8D3DE
 P 2050 4825
@@ -307,40 +258,64 @@ F 3 "" H 5275 4925 50  0000 C CNN
 	1    5275 4925
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5275 4925 5600 4925
 $Comp
-L GND #PWR?
-U 1 1 5AE8D416
-P 2125 4000
-F 0 "#PWR?" H 2125 3750 50  0001 C CNN
-F 1 "GND" H 2125 3850 50  0000 C CNN
-F 2 "" H 2125 4000 50  0000 C CNN
-F 3 "" H 2125 4000 50  0000 C CNN
-	1    2125 4000
+L C C?
+U 1 1 5AEB4A12
+P 5600 4450
+F 0 "C?" V 5450 4450 60  0000 C CNN
+F 1 "100nF" V 5750 4450 60  0000 C CNN
+F 2 "" H 5600 4450 60  0000 C CNN
+F 3 "" H 5600 4450 60  0000 C CNN
+	1    5600 4450
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
-U 1 1 5AE8D432
-P 5325 4275
-F 0 "#PWR?" H 5325 4025 50  0001 C CNN
-F 1 "GND" H 5325 4125 50  0000 C CNN
-F 2 "" H 5325 4275 50  0000 C CNN
-F 3 "" H 5325 4275 50  0000 C CNN
-	1    5325 4275
+L C C?
+U 1 1 5AEB4A63
+P 2200 4450
+F 0 "C?" V 2050 4450 60  0000 C CNN
+F 1 "100nF" V 2350 4450 60  0000 C CNN
+F 2 "" H 2200 4450 60  0000 C CNN
+F 3 "" H 2200 4450 60  0000 C CNN
+	1    2200 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0 #GND?
+U 1 1 5AEB4A84
+P 5850 4125
+F 0 "#GND?" H 5850 4025 60  0001 C CNN
+F 1 "0" H 5850 4055 60  0000 C CNN
+F 2 "" H 5850 4125 60  0000 C CNN
+F 3 "" H 5850 4125 60  0000 C CNN
+	1    5850 4125
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0 #GND?
+U 1 1 5AEB4AA0
+P 2300 4000
+F 0 "#GND?" H 2300 3900 60  0001 C CNN
+F 1 "0" H 2300 3930 60  0000 C CNN
+F 2 "" H 2300 4000 60  0000 C CNN
+F 3 "" H 2300 4000 60  0000 C CNN
+	1    2300 4000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2050 4825 2050 4550
+	2050 4825 2200 4825
 Wire Wire Line
-	2050 4550 2125 4550
+	2200 4825 2200 4700
 Wire Wire Line
-	2125 4350 2125 4000
+	2200 4200 2200 4000
 Wire Wire Line
-	5300 4275 5375 4275
+	2200 4000 2300 4000
 Wire Wire Line
-	5375 4275 5375 4500
+	5850 4125 5600 4125
 Wire Wire Line
-	5275 4925 5375 4925
+	5600 4125 5600 4200
 Wire Wire Line
-	5375 4925 5375 4700
+	5600 4925 5600 4700
 $EndSCHEMATC

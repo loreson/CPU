@@ -1,6 +1,19 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
+# 0
+#
+DEF 0 #GND 0 0 Y Y 1 F N
+F0 "#GND" 0 -100 60 H I C CNN
+F1 "0" 0 -70 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 4 0 1 0 -50 0 0 -50 50 0 -50 0 N
+X 0 1 0 0 0 R 40 40 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # 4069
 #
 DEF 4069 U 0 30 Y Y 6 F N
@@ -244,58 +257,16 @@ ENDDEF
 #
 # C
 #
-DEF C C 0 10 N Y 1 F N
-F0 "C" 25 100 50 H V L CNN
-F1 "C" 25 -100 50 H V L CNN
-F2 "" 38 -150 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-$FPLIST
- C?
- C_????_*
- C_????
- SMD*_c
- Capacitor*
-$ENDFPLIST
+DEF C C 0 10 N N 1 F N
+F0 "C" -150 0 60 V V C CNN
+F1 "C" 150 0 60 V V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 DRAW
-P 2 0 1 20 -80 -30 80 -30 N
-P 2 0 1 20 -80 30 80 30 N
-X ~ 1 0 150 110 D 50 50 1 1 P
-X ~ 2 0 -150 110 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# C_Small
-#
-DEF C_Small C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "C_Small" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-$FPLIST
- C?
- C_????_*
- C_????
- SMD*_c
- Capacitor*
-$ENDFPLIST
-DRAW
-P 2 0 1 13 -60 -20 60 -20 N
-P 2 0 1 12 -60 20 60 20 N
-X ~ 1 0 100 80 D 50 50 1 1 P
-X ~ 2 0 -100 80 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# GND
-#
-DEF GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H V C CNN
-F3 "" 0 0 50 H V C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
+S -100 -30 100 -15 0 1 0 F
+S -100 30 100 15 0 1 0 F
+X ~ 1 0 250 225 D 40 40 1 1 P
+X ~ 2 0 -250 225 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #

@@ -1,33 +1,6 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+LIBS:spice
+LIBS:pspice
 LIBS:myCpu-cache
 EELAYER 25 0
 EELAYER END
@@ -314,4 +287,86 @@ Wire Wire Line
 	5375 850  6100 850 
 Wire Wire Line
 	6100 850  6100 1625
+$Comp
+L 0 #GND?
+U 1 1 5AEBC873
+P 7400 1700
+F 0 "#GND?" H 7400 1600 60  0001 C CNN
+F 1 "0" H 7400 1630 60  0000 C CNN
+F 2 "" H 7400 1700 60  0000 C CNN
+F 3 "" H 7400 1700 60  0000 C CNN
+	1    7400 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5AEBC897
+P 7300 2150
+F 0 "C?" V 7150 2150 60  0000 C CNN
+F 1 "100nF" V 7450 2150 60  0000 C CNN
+F 2 "" H 7300 2150 60  0000 C CNN
+F 3 "" H 7300 2150 60  0000 C CNN
+	1    7300 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 5AEBC8FE
+P 6925 2500
+F 0 "#PWR?" H 6925 2350 50  0001 C CNN
+F 1 "VCC" H 6925 2650 50  0000 C CNN
+F 2 "" H 6925 2500 50  0000 C CNN
+F 3 "" H 6925 2500 50  0000 C CNN
+	1    6925 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 1900 7400 1900
+Wire Wire Line
+	7400 1900 7400 1700
+Wire Wire Line
+	6925 2500 7300 2500
+Wire Wire Line
+	7300 2500 7300 2400
+$Comp
+L 0 #GND?
+U 1 1 5AEBCAF9
+P 1025 1850
+F 0 "#GND?" H 1025 1750 60  0001 C CNN
+F 1 "0" H 1025 1780 60  0000 C CNN
+F 2 "" H 1025 1850 60  0000 C CNN
+F 3 "" H 1025 1850 60  0000 C CNN
+	1    1025 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5AEBCAFF
+P 925 2300
+F 0 "C?" V 775 2300 60  0000 C CNN
+F 1 "100nF" V 1075 2300 60  0000 C CNN
+F 2 "" H 925 2300 60  0000 C CNN
+F 3 "" H 925 2300 60  0000 C CNN
+	1    925  2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 5AEBCB05
+P 550 2650
+F 0 "#PWR?" H 550 2500 50  0001 C CNN
+F 1 "VCC" H 550 2800 50  0000 C CNN
+F 2 "" H 550 2650 50  0000 C CNN
+F 3 "" H 550 2650 50  0000 C CNN
+	1    550  2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	925  2050 1025 2050
+Wire Wire Line
+	1025 2050 1025 1850
+Wire Wire Line
+	550  2650 925  2650
+Wire Wire Line
+	925  2650 925  2550
 $EndSCHEMATC
