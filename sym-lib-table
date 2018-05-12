@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name myCpu-rescue)(type Legacy)(uri ${KIPRJMOD}/myCpu-rescue.lib)(options "")(descr ""))
+  (lib (name spice)(type Legacy)(uri ${KIPRJMOD}/mithat-kicad-spice-library-746df8e9878b/primitives/spice.lib)(options "")(descr ""))
+  (lib (name 74xx)(type Legacy)(uri /home/christian/kicad-library-master/library/74xx.lib)(options "")(descr ""))
+  (lib (name cmos4000)(type Legacy)(uri /home/christian/kicad-library-master/library/cmos4000.lib)(options "")(descr ""))
+)

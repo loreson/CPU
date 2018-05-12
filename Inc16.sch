@@ -1,0 +1,371 @@
+EESchema Schematic File Version 4
+LIBS:myCpu-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 75 81
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 4525 3400 1000 975 
+U 82611C8C
+F0 "PCInc8" 60
+F1 "Inc8.sch" 60
+F2 "X0" I L 4525 3525 60 
+F3 "X1" I L 4525 3625 60 
+F4 "X2" I L 4525 3750 60 
+F5 "X3" I L 4525 3850 60 
+F6 "X4" I L 4525 3950 60 
+F7 "X5" I L 4525 4050 60 
+F8 "X6" I L 4525 4150 60 
+F9 "X7" I L 4525 4250 60 
+F10 "Z0" O R 5525 3475 60 
+F11 "Z1" O R 5525 3600 60 
+F12 "Z2" O R 5525 3725 60 
+F13 "Z3" O R 5525 3800 60 
+F14 "Z4" O R 5525 3900 60 
+F15 "Z5" O R 5525 4000 60 
+F16 "Z6" O R 5525 4075 60 
+F17 "Z7" O R 5525 4175 60 
+F18 "C_OUT" O R 5525 4275 60 
+$EndSheet
+$Sheet
+S 4775 4675 1025 2250
+U 82611C91
+F0 "PCADD" 60
+F1 "ADD.sch" 60
+F2 "X0" I L 4775 4800 60 
+F3 "X1" I L 4775 4975 60 
+F4 "X2" I L 4775 5150 60 
+F5 "X3" I L 4775 5325 60 
+F6 "X4" I L 4775 5475 60 
+F7 "X5" I L 4775 5600 60 
+F8 "X6" I L 4775 5725 60 
+F9 "X7" I L 4775 5850 60 
+F10 "Y0" I L 4775 6025 60 
+F11 "Y1" I L 4775 6150 60 
+F12 "Y2" I L 4775 6275 60 
+F13 "Y3" I L 4775 6350 60 
+F14 "Y4" I L 4775 6425 60 
+F15 "Y5" I L 4775 6525 60 
+F16 "Y6" I L 4775 6600 60 
+F17 "Y7" I L 4775 6700 60 
+F18 "Z0" O R 5800 5100 60 
+F19 "Z1" O R 5800 5250 60 
+F20 "Z2" O R 5800 5400 60 
+F21 "Z3" O R 5800 5500 60 
+F22 "Z4" O R 5800 5625 60 
+F23 "Z5" O R 5800 5725 60 
+F24 "Z6" O R 5800 5800 60 
+F25 "Z7" O R 5800 5900 60 
+F26 "CIN" I L 4775 4700 60 
+F27 "COUT" O R 5800 6125 60 
+$EndSheet
+Wire Wire Line
+	4775 4275 4775 4700
+Wire Wire Line
+	4775 4275 5525 4275
+Text HLabel 3575 3525 0    60   Input ~ 0
+X0
+Text HLabel 3575 3625 0    60   Input ~ 0
+X1
+Text HLabel 3575 3725 0    60   Input ~ 0
+X2
+Text HLabel 3575 3825 0    60   Input ~ 0
+X3
+Text HLabel 3575 3925 0    60   Input ~ 0
+X4
+Text HLabel 3575 4025 0    60   Input ~ 0
+X5
+Text HLabel 3575 4125 0    60   Input ~ 0
+X6
+Text HLabel 3575 4225 0    60   Input ~ 0
+X7
+Text HLabel 4400 4925 0    60   Input ~ 0
+X8
+Text HLabel 4400 5025 0    60   Input ~ 0
+X9
+Text HLabel 4400 5125 0    60   Input ~ 0
+X10
+Text HLabel 4400 5225 0    60   Input ~ 0
+X11
+Text HLabel 4400 5325 0    60   Input ~ 0
+X12
+Text HLabel 4400 5425 0    60   Input ~ 0
+X13
+Text HLabel 4400 5525 0    60   Input ~ 0
+X14
+Text HLabel 4400 5625 0    60   Input ~ 0
+X15
+Wire Wire Line
+	3575 3525 4525 3525
+Wire Wire Line
+	4450 3650 4450 3625
+Wire Wire Line
+	4450 3625 4525 3625
+Wire Wire Line
+	3575 3650 3575 3625
+Wire Wire Line
+	4525 3725 4525 3750
+Wire Wire Line
+	3575 3725 4525 3725
+Wire Wire Line
+	3575 3650 4450 3650
+Wire Wire Line
+	3575 3850 3575 3825
+Wire Wire Line
+	3575 3850 4525 3850
+Wire Wire Line
+	4525 3950 3575 3950
+Wire Wire Line
+	3575 3950 3575 3925
+Wire Wire Line
+	3575 4025 4500 4025
+Wire Wire Line
+	4500 4025 4500 4050
+Wire Wire Line
+	4500 4050 4525 4050
+Wire Wire Line
+	4525 4150 3575 4150
+Wire Wire Line
+	3575 4150 3575 4125
+Wire Wire Line
+	3575 4225 4525 4225
+Wire Wire Line
+	4525 4225 4525 4250
+Wire Wire Line
+	4775 4800 4400 4800
+Wire Wire Line
+	4400 4800 4400 4925
+Wire Wire Line
+	4400 5025 4625 5025
+Wire Wire Line
+	4625 5025 4625 4975
+Wire Wire Line
+	4625 4975 4775 4975
+Wire Wire Line
+	4775 5150 4400 5150
+Wire Wire Line
+	4400 5150 4400 5125
+Wire Wire Line
+	4400 5225 4750 5225
+Wire Wire Line
+	4750 5225 4750 5325
+Wire Wire Line
+	4750 5325 4775 5325
+Wire Wire Line
+	4775 5475 4675 5475
+Wire Wire Line
+	4675 5475 4675 5325
+Wire Wire Line
+	4675 5325 4400 5325
+Wire Wire Line
+	4400 5425 4600 5425
+Wire Wire Line
+	4600 5425 4600 5600
+Wire Wire Line
+	4600 5600 4775 5600
+Wire Wire Line
+	4775 5725 4575 5725
+Wire Wire Line
+	4575 5725 4575 5525
+Wire Wire Line
+	4575 5525 4400 5525
+Wire Wire Line
+	4400 5625 4525 5625
+Wire Wire Line
+	4525 5625 4525 5850
+Wire Wire Line
+	4525 5850 4775 5850
+$Comp
+L power:GND #PWR?
+U 1 1 82617424
+P 4550 6375
+F 0 "#PWR?" H 4550 6375 30  0001 C CNN
+F 1 "GND" H 4550 6305 30  0001 C CNN
+F 2 "" H 4550 6375 60  0001 C CNN
+F 3 "" H 4550 6375 60  0001 C CNN
+	1    4550 6375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 6375 4550 6025
+Wire Wire Line
+	4550 6025 4725 6025
+Wire Wire Line
+	4725 6025 4725 6150
+Wire Wire Line
+	4725 6150 4775 6150
+Connection ~ 4725 6025
+Wire Wire Line
+	4725 6025 4775 6025
+Wire Wire Line
+	4725 6150 4725 6275
+Wire Wire Line
+	4725 6275 4775 6275
+Connection ~ 4725 6150
+Wire Wire Line
+	4725 6275 4725 6350
+Wire Wire Line
+	4725 6350 4775 6350
+Connection ~ 4725 6275
+Wire Wire Line
+	4725 6350 4725 6425
+Wire Wire Line
+	4725 6425 4775 6425
+Connection ~ 4725 6350
+Wire Wire Line
+	4775 6425 4775 6525
+Wire Wire Line
+	4725 6425 4725 6525
+Wire Wire Line
+	4725 6600 4775 6600
+Connection ~ 4725 6425
+Wire Wire Line
+	4725 6525 4775 6525
+Connection ~ 4725 6525
+Wire Wire Line
+	4725 6525 4725 6600
+Wire Wire Line
+	4725 6600 4725 6700
+Wire Wire Line
+	4725 6700 4775 6700
+Connection ~ 4725 6600
+NoConn ~ 5800 6125
+Text HLabel 6325 3525 2    60   Output ~ 0
+Z0
+Text HLabel 6325 3625 2    60   Output ~ 0
+Z1
+Text HLabel 6325 3725 2    60   Output ~ 0
+Z2
+Text HLabel 6325 3825 2    60   Output ~ 0
+Z3
+Text HLabel 6325 3925 2    60   Output ~ 0
+Z4
+Text HLabel 6325 4025 2    60   Output ~ 0
+Z5
+Text HLabel 6325 4125 2    60   Output ~ 0
+Z6
+Text HLabel 6325 4225 2    60   Output ~ 0
+Z7
+Text HLabel 6250 5025 2    60   Output ~ 0
+Z8
+Text HLabel 6250 5125 2    60   Output ~ 0
+Z9
+Text HLabel 6250 5225 2    60   Output ~ 0
+Z10
+Text HLabel 6250 5325 2    60   Output ~ 0
+Z11
+Text HLabel 6250 5425 2    60   Output ~ 0
+Z12
+Text HLabel 6250 5525 2    60   Output ~ 0
+Z13
+Text HLabel 6250 5625 2    60   Output ~ 0
+Z14
+Text HLabel 6250 5725 2    60   Output ~ 0
+Z15
+Wire Wire Line
+	5525 3475 6200 3475
+Wire Wire Line
+	6200 3475 6200 3525
+Wire Wire Line
+	6200 3525 6325 3525
+Wire Wire Line
+	6325 3625 5800 3625
+Wire Wire Line
+	5800 3625 5800 3600
+Wire Wire Line
+	5800 3600 5525 3600
+Wire Wire Line
+	6325 3725 5525 3725
+Wire Wire Line
+	5525 3800 6250 3800
+Wire Wire Line
+	6250 3800 6250 3825
+Wire Wire Line
+	6250 3825 6325 3825
+Wire Wire Line
+	6325 3925 5825 3925
+Wire Wire Line
+	5825 3925 5825 3900
+Wire Wire Line
+	5825 3900 5525 3900
+Wire Wire Line
+	5525 4000 6325 4000
+Wire Wire Line
+	6325 4000 6325 4025
+Wire Wire Line
+	6300 4100 5525 4100
+Wire Wire Line
+	5525 4100 5525 4075
+Wire Wire Line
+	5525 4175 6025 4175
+Wire Wire Line
+	6025 4175 6025 4225
+Wire Wire Line
+	6025 4225 6325 4225
+Wire Wire Line
+	6325 4125 6300 4125
+Wire Wire Line
+	6300 4125 6300 4100
+Wire Wire Line
+	5800 5100 5975 5100
+Wire Wire Line
+	5975 5100 5975 5025
+Wire Wire Line
+	5975 5025 6250 5025
+Wire Wire Line
+	6250 5125 6025 5125
+Wire Wire Line
+	6025 5125 6025 5250
+Wire Wire Line
+	6025 5250 5800 5250
+Wire Wire Line
+	6225 5200 6100 5200
+Wire Wire Line
+	6100 5200 6100 5375
+Wire Wire Line
+	6100 5375 5800 5375
+Wire Wire Line
+	5800 5375 5800 5400
+Wire Wire Line
+	6225 5200 6225 5225
+Wire Wire Line
+	6225 5225 6250 5225
+Wire Wire Line
+	6250 5325 6150 5325
+Wire Wire Line
+	6150 5325 6150 5500
+Wire Wire Line
+	6150 5500 5800 5500
+Wire Wire Line
+	5800 5625 5925 5625
+Wire Wire Line
+	5925 5625 5925 5425
+Wire Wire Line
+	5925 5425 6250 5425
+Wire Wire Line
+	6250 5525 6150 5525
+Wire Wire Line
+	6150 5525 6150 5725
+Wire Wire Line
+	6150 5725 5800 5725
+Wire Wire Line
+	5800 5800 6100 5800
+Wire Wire Line
+	6100 5800 6100 5625
+Wire Wire Line
+	6100 5625 6250 5625
+Wire Wire Line
+	6250 5725 6250 5900
+Wire Wire Line
+	6250 5900 5800 5900
+$EndSCHEMATC
