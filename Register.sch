@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 11693 16535 portrait
 encoding utf-8
-Sheet 73 81
+Sheet 90 90
 Title ""
 Date ""
 Rev ""
@@ -108,8 +108,6 @@ Wire Wire Line
 Wire Wire Line
 	2150 7475 2150 7525
 Wire Wire Line
-	2150 7975 2325 7975
-Wire Wire Line
 	2475 9400 2200 9400
 Wire Wire Line
 	2200 9400 2200 9900
@@ -163,8 +161,6 @@ Wire Wire Line
 Connection ~ 2150 7525
 Wire Wire Line
 	2150 7525 2150 7975
-Wire Wire Line
-	2325 7475 2150 7475
 Wire Wire Line
 	1500 9400 2200 9400
 Connection ~ 2200 9400
@@ -745,4 +741,10 @@ Wire Wire Line
 	2075 3625 2400 3625
 Wire Wire Line
 	2075 4125 2400 4125
+Wire Wire Line
+	2150 7975 2425 7975
+Wire Wire Line
+	2425 7725 2325 7725
+Wire Wire Line
+	2150 7475 2425 7475
 $EndSCHEMATC
