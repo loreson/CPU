@@ -22,7 +22,7 @@ Text HLabel 2225 6550 3    60   Input ~ 0
 X2
 Text HLabel 2350 6500 3    60   Input ~ 0
 X3
-Text HLabel 2475 6425 3    60   Input ~ 0
+Text HLabel 2475 6500 3    60   Input ~ 0
 X4
 Text HLabel 2575 6425 3    60   Input ~ 0
 X5
@@ -58,8 +58,6 @@ Wire Wire Line
 	2275 5925 2350 5925
 Wire Wire Line
 	2350 5925 2350 6500
-Wire Wire Line
-	2375 6425 2575 6425
 Wire Wire Line
 	2575 6325 2675 6325
 Wire Wire Line
@@ -170,8 +168,6 @@ Wire Wire Line
 	2325 5400 2325 5775
 Wire Wire Line
 	2325 5775 2475 5775
-Wire Wire Line
-	2475 5775 2475 6425
 Wire Wire Line
 	2375 5350 2400 5350
 Wire Wire Line
@@ -470,4 +466,8 @@ Wire Wire Line
 NoConn ~ 2750 1875
 NoConn ~ 3000 1875
 NoConn ~ 3250 1875
+Wire Wire Line
+	2475 5775 2475 6500
+Wire Wire Line
+	2575 6425 2375 6425
 $EndSCHEMATC

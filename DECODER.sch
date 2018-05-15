@@ -929,9 +929,9 @@ ALU_S2
 Text HLabel 14900 6800 2    59   Output ~ 0
 ALU_S3
 Text Label 6750 13525 2    59   ~ 0
-ALU_S3
+ALU_S3_W0
 Text Label 13700 6700 2    59   ~ 0
-ALU_S3
+ALU_S3_W0
 Text Label 4875 11225 2    59   ~ 0
 ALU_S0_W0
 Text Label 3825 11200 2    59   ~ 0
