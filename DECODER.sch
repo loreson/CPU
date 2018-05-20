@@ -1490,11 +1490,11 @@ Connection ~ 6525 6275
 Connection ~ 6625 6275
 NoConn ~ 6475 7475
 Text HLabel 8950 8425 3    60   Output ~ 0
-CALL
+CALL_ANY
 Text HLabel 7650 6725 3    60   Output ~ 0
 RET
 Text HLabel 10525 8375 3    60   Output ~ 0
-JMP
+JMP_ANY
 $Comp
 L cmos4000:4071 U255
 U 2 1 5B782B48
