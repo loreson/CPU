@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A0 46811 33110
 encoding utf-8
-Sheet 1 101
+Sheet 1 75
 Title ""
 Date ""
 Rev ""
@@ -2509,17 +2509,6 @@ Wire Wire Line
 	29075 10475 28400 10475
 Connection ~ 28400 10475
 NoConn ~ 28975 11050
-$Sheet
-S 15525 6500 1250 1325
-U 64EF26C6
-F0 "SREG" 59
-F1 "SREG.sch" 59
-F2 "CLK" I L 15525 7775 60 
-F3 "Cin" I L 15525 6800 60 
-F4 "Zin" I L 15525 6925 60 
-F5 "Zout" O R 16775 6900 60 
-F6 "Cout" O R 16775 7050 60 
-$EndSheet
 Wire Wire Line
 	16075 4600 16625 4600
 Wire Wire Line
