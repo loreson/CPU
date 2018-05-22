@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 95 75
+Sheet 95 100
 Title ""
 Date ""
 Rev ""
@@ -46,21 +46,21 @@ Text HLabel 1275 3300 0    59   Input ~ 0
 Y6
 Text HLabel 1275 3400 0    59   Input ~ 0
 Y7
-Text HLabel 3975 1575 2    59   Input ~ 0
+Text HLabel 3975 1575 0    59   Input ~ 0
 W0
-Text HLabel 3975 1675 2    59   Input ~ 0
+Text HLabel 3975 1675 0    59   Input ~ 0
 W1
-Text HLabel 3975 1775 2    59   Input ~ 0
+Text HLabel 3975 1775 0    59   Input ~ 0
 W2
-Text HLabel 3975 1875 2    59   Input ~ 0
+Text HLabel 3975 1875 0    59   Input ~ 0
 W3
-Text HLabel 3925 3350 2    59   Input ~ 0
+Text HLabel 3925 3350 0    59   Input ~ 0
 W4
-Text HLabel 3925 3450 2    59   Input ~ 0
+Text HLabel 3925 3450 0    59   Input ~ 0
 W5
-Text HLabel 3925 3550 2    59   Input ~ 0
+Text HLabel 3925 3550 0    59   Input ~ 0
 W6
-Text HLabel 3925 3650 2    59   Input ~ 0
+Text HLabel 3925 3650 0    59   Input ~ 0
 W7
 Text HLabel 6475 1650 2    59   Output ~ 0
 Z0
