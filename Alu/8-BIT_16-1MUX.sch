@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A0 46811 33110
 encoding utf-8
-Sheet 11 156
+Sheet 78 191
 Title ""
 Date ""
 Rev ""
@@ -317,17 +317,13 @@ Z6
 Text HLabel 35700 8000 2    60   Output ~ 0
 Z7
 Wire Wire Line
-	35625 5525 35625 6075
-Wire Wire Line
-	35650 6225 16700 6225
+	35625 5525 35625 5925
 Wire Wire Line
 	16700 6225 16700 5775
 Wire Wire Line
 	16525 6025 16525 6825
 Wire Wire Line
-	16525 6825 35700 6825
-Wire Wire Line
-	35725 7100 16100 7100
+	35725 7100 35275 7100
 Wire Wire Line
 	16100 7100 16100 6275
 Wire Wire Line
@@ -335,19 +331,11 @@ Wire Wire Line
 Wire Wire Line
 	30475 18125 30475 7275
 Wire Wire Line
-	30475 7275 35725 7275
-Wire Wire Line
-	35700 7475 30800 7475
-Wire Wire Line
 	30800 7475 30800 18375
 Wire Wire Line
 	30800 18375 16875 18375
 Wire Wire Line
 	31475 18625 31475 7725
-Wire Wire Line
-	31475 7725 35725 7725
-Wire Wire Line
-	35700 8000 32100 8000
 Wire Wire Line
 	32100 8000 32100 18875
 Wire Wire Line
@@ -1660,6 +1648,10 @@ F 0 "U54" H 16125 19703 50  0000 C CNN
 F 1 "74LS157" H 16125 19612 50  0000 C CNN
 F 2 "" H 16125 18625 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS157" H 16125 18625 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    16125 18625
 	1    0    0    -1  
 $EndComp
@@ -1671,6 +1663,10 @@ F 0 "U53" H 15350 7103 50  0000 C CNN
 F 1 "74LS157" H 15350 7012 50  0000 C CNN
 F 2 "" H 15350 6025 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS157" H 15350 6025 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    15350 6025
 	1    0    0    -1  
 $EndComp
@@ -1702,8 +1698,12 @@ U 1 1 660588FA
 P 21000 13725
 F 0 "C18" H 21092 13771 50  0000 L CNN
 F 1 "100nF" H 21092 13680 50  0000 L CNN
-F 2 "" H 21000 13725 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 21000 13725 50  0001 C CNN
 F 3 "~" H 21000 13725 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    21000 13725
 	1    0    0    -1  
 $EndComp
@@ -1713,8 +1713,12 @@ U 1 1 660589C5
 P 21675 13700
 F 0 "C19" H 21767 13746 50  0000 L CNN
 F 1 "100nF" H 21767 13655 50  0000 L CNN
-F 2 "" H 21675 13700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 21675 13700 50  0001 C CNN
 F 3 "~" H 21675 13700 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    21675 13700
 	1    0    0    -1  
 $EndComp
@@ -1740,4 +1744,128 @@ Wire Wire Line
 Connection ~ 21275 13800
 Wire Wire Line
 	21275 13800 21000 13800
+$Sheet
+S 38650 5425 500  150 
+U 5B845671
+F0 "Sheet5B845670" 50
+F1 "LED_RED.sch" 50
+F2 "X" I L 38650 5500 50 
+$EndSheet
+$Sheet
+S 38650 5700 500  150 
+U 5B8456AD
+F0 "sheet5B8456AA" 50
+F1 "LED_RED.sch" 50
+F2 "X" I L 38650 5775 50 
+$EndSheet
+$Sheet
+S 38625 5975 500  150 
+U 5B88F9EE
+F0 "sheet5B88F9EA" 50
+F1 "LED_RED.sch" 50
+F2 "X" I L 38625 6050 50 
+$EndSheet
+$Sheet
+S 38625 6250 500  150 
+U 5B88F9F1
+F0 "sheet5B88F9EB" 50
+F1 "LED_RED.sch" 50
+F2 "X" I L 38625 6325 50 
+$EndSheet
+$Sheet
+S 38625 6550 500  150 
+U 5B8D9D38
+F0 "sheet5B8D9D32" 50
+F1 "LED_RED.sch" 50
+F2 "X" I L 38625 6625 50 
+$EndSheet
+$Sheet
+S 38625 6825 500  150 
+U 5B8D9D3B
+F0 "sheet5B8D9D33" 50
+F1 "LED_RED.sch" 50
+F2 "X" I L 38625 6900 50 
+$EndSheet
+$Sheet
+S 38600 7100 500  150 
+U 5B8D9D3E
+F0 "sheet5B8D9D34" 50
+F1 "LED_RED.sch" 50
+F2 "X" I L 38600 7175 50 
+$EndSheet
+$Sheet
+S 38600 7375 500  150 
+U 5B8D9D41
+F0 "sheet5B8D9D35" 50
+F1 "LED_RED.sch" 50
+F2 "X" I L 38600 7450 50 
+$EndSheet
+Wire Wire Line
+	35625 5925 36750 5925
+Wire Wire Line
+	36750 5925 36750 5500
+Wire Wire Line
+	36750 5500 38650 5500
+Connection ~ 35625 5925
+Wire Wire Line
+	35625 5925 35625 6075
+Wire Wire Line
+	38650 5775 36975 5775
+Wire Wire Line
+	36975 5775 36975 6225
+Wire Wire Line
+	16700 6225 36975 6225
+Wire Wire Line
+	36600 6825 36600 6325
+Wire Wire Line
+	36600 6325 38325 6325
+Wire Wire Line
+	38325 6325 38325 6050
+Wire Wire Line
+	38325 6050 38625 6050
+Wire Wire Line
+	16525 6825 36600 6825
+Wire Wire Line
+	38625 6325 38400 6325
+Wire Wire Line
+	38400 6325 38400 6925
+Wire Wire Line
+	38400 6925 35275 6925
+Wire Wire Line
+	35275 6925 35275 7100
+Connection ~ 35275 7100
+Wire Wire Line
+	35275 7100 16100 7100
+Wire Wire Line
+	38150 7275 38150 7000
+Wire Wire Line
+	38150 7000 38500 7000
+Wire Wire Line
+	38500 7000 38500 6625
+Wire Wire Line
+	38500 6625 38625 6625
+Wire Wire Line
+	30475 7275 38150 7275
+Wire Wire Line
+	38625 6900 38550 6900
+Wire Wire Line
+	38550 6900 38550 7075
+Wire Wire Line
+	38550 7075 38200 7075
+Wire Wire Line
+	38200 7075 38200 7475
+Wire Wire Line
+	30800 7475 38200 7475
+Wire Wire Line
+	38600 7175 38250 7175
+Wire Wire Line
+	38250 7175 38250 7725
+Wire Wire Line
+	31475 7725 38250 7725
+Wire Wire Line
+	38425 8000 38425 7450
+Wire Wire Line
+	38425 7450 38600 7450
+Wire Wire Line
+	32100 8000 38425 8000
 $EndSCHEMATC

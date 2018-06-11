@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A0 33110 46811 portrait
 encoding utf-8
-Sheet 1 156
+Sheet 1 191
 Title ""
 Date ""
 Rev ""
@@ -2687,6 +2687,10 @@ F 0 "U1" H 3100 19163 60  0000 C CNN
 F 1 "74LS08" H 3100 19057 60  0000 C CNN
 F 2 "" H 3100 18775 60  0001 C CNN
 F 3 "" H 3100 18775 60  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    3100 18775
 	1    0    0    -1  
 $EndComp
@@ -2698,6 +2702,10 @@ F 0 "U1" H 3125 19913 60  0000 C CNN
 F 1 "74LS08" H 3125 19807 60  0000 C CNN
 F 2 "" H 3125 19525 60  0001 C CNN
 F 3 "" H 3125 19525 60  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	2    3125 19525
 	1    0    0    -1  
 $EndComp
@@ -2709,6 +2717,10 @@ F 0 "U1" H 3250 20538 60  0000 C CNN
 F 1 "74LS08" H 3250 20432 60  0000 C CNN
 F 2 "" H 3250 20150 60  0001 C CNN
 F 3 "" H 3250 20150 60  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	4    3250 20150
 	1    0    0    -1  
 $EndComp
@@ -2720,6 +2732,10 @@ F 0 "U1" H 3225 21188 60  0000 C CNN
 F 1 "74LS08" H 3225 21082 60  0000 C CNN
 F 2 "" H 3225 20800 60  0001 C CNN
 F 3 "" H 3225 20800 60  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	3    3225 20800
 	1    0    0    -1  
 $EndComp
@@ -2860,98 +2876,10 @@ Wire Wire Line
 Wire Wire Line
 	21125 10425 21575 10425
 Wire Wire Line
-	24675 11900 26350 11900
+	24675 11900 25525 11900
 Wire Wire Line
 	26350 11900 26350 11925
 NoConn ~ 11000 8325
-$Comp
-L 74xx:74LS32 U2
-U 1 1 5B3616A8
-P 22525 5850
-F 0 "U2" H 22525 6238 60  0000 C CNN
-F 1 "74LS32" H 22525 6132 60  0000 C CNN
-F 2 "" H 22525 5850 60  0001 C CNN
-F 3 "" H 22525 5850 60  0001 C CNN
-	1    22525 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS32 U2
-U 2 1 5B44259E
-P 22525 6350
-F 0 "U2" H 22525 6738 60  0000 C CNN
-F 1 "74LS32" H 22525 6632 60  0000 C CNN
-F 2 "" H 22525 6350 60  0001 C CNN
-F 3 "" H 22525 6350 60  0001 C CNN
-	2    22525 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS32 U2
-U 3 1 5B44262C
-P 22550 6875
-F 0 "U2" H 22550 7263 60  0000 C CNN
-F 1 "74LS32" H 22550 7157 60  0000 C CNN
-F 2 "" H 22550 6875 60  0001 C CNN
-F 3 "" H 22550 6875 60  0001 C CNN
-	3    22550 6875
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS32 U2
-U 4 1 5B4426DD
-P 22575 7450
-F 0 "U2" H 22575 7838 60  0000 C CNN
-F 1 "74LS32" H 22575 7732 60  0000 C CNN
-F 2 "" H 22575 7450 60  0001 C CNN
-F 3 "" H 22575 7450 60  0001 C CNN
-	4    22575 7450
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS32 U3
-U 2 1 5B5234AF
-P 24425 6025
-F 0 "U3" H 24425 6413 60  0000 C CNN
-F 1 "74LS32" H 24425 6307 60  0000 C CNN
-F 2 "" H 24425 6025 60  0001 C CNN
-F 3 "" H 24425 6025 60  0001 C CNN
-	2    24425 6025
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS32 U3
-U 1 1 5B52353F
-P 24400 6700
-F 0 "U3" H 24400 7088 60  0000 C CNN
-F 1 "74LS32" H 24400 6982 60  0000 C CNN
-F 2 "" H 24400 6700 60  0001 C CNN
-F 3 "" H 24400 6700 60  0001 C CNN
-	1    24400 6700
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS32 U3
-U 4 1 5B5235CF
-P 25750 6225
-F 0 "U3" H 25750 6613 60  0000 C CNN
-F 1 "74LS32" H 25750 6507 60  0000 C CNN
-F 2 "" H 25750 6225 60  0001 C CNN
-F 3 "" H 25750 6225 60  0001 C CNN
-	4    25750 6225
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS32 U3
-U 3 1 5B523672
-P 24975 7975
-F 0 "U3" H 24975 8363 60  0000 C CNN
-F 1 "74LS32" H 24975 8257 60  0000 C CNN
-F 2 "" H 24975 7975 60  0001 C CNN
-F 3 "" H 24975 7975 60  0001 C CNN
-	3    24975 7975
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	21200 5900 21200 5750
 Wire Wire Line
@@ -3772,6 +3700,10 @@ F 0 "U1" V 3492 22025 50  0000 C CNN
 F 1 "74LS08" V 3401 22025 50  0000 C CNN
 F 2 "" H 3125 22025 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 3125 22025 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	5    3125 22025
 	0    -1   -1   0   
 $EndComp
@@ -3784,28 +3716,6 @@ Wire Wire Line
 Connection ~ 2525 21475
 Wire Wire Line
 	2525 21475 2400 21475
-$Comp
-L 74xx:74LS32 U2
-U 5 1 5C561AA1
-P 22675 8725
-F 0 "U2" V 22308 8725 50  0000 C CNN
-F 1 "74LS32" V 22399 8725 50  0000 C CNN
-F 2 "" H 22675 8725 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 22675 8725 50  0001 C CNN
-	5    22675 8725
-	0    1    1    0   
-$EndComp
-$Comp
-L 74xx:74LS32 U4
-U 5 1 5C561BC0
-P 24150 8675
-F 0 "U4" V 24517 8675 50  0000 C CNN
-F 1 "74LS32" V 24426 8675 50  0000 C CNN
-F 2 "" H 24150 8675 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 24150 8675 50  0001 C CNN
-	5    24150 8675
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	21200 5750 22225 5750
 Wire Wire Line
@@ -3847,12 +3757,9 @@ Wire Wire Line
 Wire Wire Line
 	24725 6025 25150 6025
 Wire Wire Line
-	26050 6225 26600 6225
+	26050 6225 26425 6225
 Wire Wire Line
 	24375 8075 24500 8075
-Wire Wire Line
-	24675 7875 24675 8075
-Connection ~ 24675 8075
 Wire Wire Line
 	24500 8075 24500 8325
 Wire Wire Line
@@ -3861,7 +3768,7 @@ Wire Wire Line
 	24650 8325 24650 8675
 Connection ~ 24500 8075
 Wire Wire Line
-	24500 8075 24675 8075
+	24500 8075 24625 8075
 Wire Wire Line
 	23175 8725 23250 8725
 Wire Wire Line
@@ -3969,8 +3876,12 @@ U 1 1 617C4631
 P 3125 21450
 F 0 "C1" V 3354 21450 50  0000 C CNN
 F 1 "100nF" V 3263 21450 50  0000 C CNN
-F 2 "" H 3125 21450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3125 21450 50  0001 C CNN
 F 3 "~" H 3125 21450 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    3125 21450
 	0    -1   -1   0   
 $EndComp
@@ -4102,6 +4013,10 @@ F 0 "J1" H 1995 4975 50  0000 C CNN
 F 1 "Conn_01x34" H 1995 5066 50  0000 C CNN
 F 2 "" H 2075 6900 50  0001 C CNN
 F 3 "~" H 2075 6900 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    2075 6900
 	-1   0    0    1   
 $EndComp
@@ -4171,8 +4086,12 @@ U 1 1 6624E322
 P 24150 7225
 F 0 "C71" V 23921 7225 50  0000 C CNN
 F 1 "100nF" V 24012 7225 50  0000 C CNN
-F 2 "" H 24150 7225 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 24150 7225 50  0001 C CNN
 F 3 "~" H 24150 7225 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    24150 7225
 	0    1    1    0   
 $EndComp
@@ -4184,8 +4103,12 @@ U 1 1 663CF5BB
 P 22500 8125
 F 0 "C70" V 22271 8125 50  0000 C CNN
 F 1 "100nF" V 22362 8125 50  0000 C CNN
-F 2 "" H 22500 8125 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 22500 8125 50  0001 C CNN
 F 3 "~" H 22500 8125 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    22500 8125
 	0    1    1    0   
 $EndComp
@@ -4200,6 +4123,10 @@ F 0 "J2" H 29365 11277 50  0000 R CNN
 F 1 "Barrel_Jack" H 29365 11368 50  0000 R CNN
 F 2 "" H 29600 11260 50  0001 C CNN
 F 3 "~" H 29600 11260 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    29550 11300
 	-1   0    0    1   
 $EndComp
@@ -4652,4 +4579,194 @@ Text Label 3875 9025 2    50   ~ 0
 CinE
 Wire Wire Line
 	3875 9025 4025 9025
+$Sheet
+S 26775 6500 500  150 
+U 5BB8E174
+F0 "Sheet5BB8E173" 50
+F1 "LED_BLUE.sch" 50
+F2 "X" I L 26775 6575 50 
+$EndSheet
+Wire Wire Line
+	26425 6225 26425 6575
+Wire Wire Line
+	26425 6575 26775 6575
+Connection ~ 26425 6225
+Wire Wire Line
+	26425 6225 26600 6225
+$Sheet
+S 25825 11325 525  150 
+U 5BD55BA2
+F0 "Sheet5BD55BA1" 50
+F1 "LED_BLUE.sch" 50
+F2 "X" I L 25825 11400 50 
+$EndSheet
+Wire Wire Line
+	25525 11900 25525 11450
+Wire Wire Line
+	25525 11450 25700 11450
+Wire Wire Line
+	25700 11450 25700 11400
+Wire Wire Line
+	25700 11400 25825 11400
+Connection ~ 25525 11900
+Wire Wire Line
+	25525 11900 26350 11900
+$Comp
+L 74xx:74HC02 U2
+U 1 1 5BF239D3
+P 22525 5850
+F 0 "U2" H 22525 6175 50  0000 C CNN
+F 1 "74HC02" H 22525 6084 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 22525 5850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc02" H 22525 5850 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
+	1    22525 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC02 U2
+U 2 1 5BF23BA5
+P 22525 6350
+F 0 "U2" H 22525 6675 50  0000 C CNN
+F 1 "74HC02" H 22525 6584 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 22525 6350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc02" H 22525 6350 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
+	2    22525 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC02 U2
+U 3 1 5BF23C1E
+P 22550 6875
+F 0 "U2" H 22550 7200 50  0000 C CNN
+F 1 "74HC02" H 22550 7109 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 22550 6875 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc02" H 22550 6875 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
+	3    22550 6875
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC02 U2
+U 4 1 5BF23CA2
+P 22575 7450
+F 0 "U2" H 22575 7775 50  0000 C CNN
+F 1 "74HC02" H 22575 7684 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 22575 7450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc02" H 22575 7450 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
+	4    22575 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC02 U3
+U 5 1 5BF23DE7
+P 24150 8675
+F 0 "U3" V 24517 8675 50  0000 C CNN
+F 1 "74HC02" V 24426 8675 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 24150 8675 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc02" H 24150 8675 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
+	5    24150 8675
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74HC02 U3
+U 1 1 5C9E2450
+P 24425 6025
+F 0 "U3" H 24425 6350 50  0000 C CNN
+F 1 "74HC02" H 24425 6259 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 24425 6025 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc02" H 24425 6025 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
+	1    24425 6025
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC02 U3
+U 2 1 5C9E25D7
+P 24400 6700
+F 0 "U3" H 24400 7025 50  0000 C CNN
+F 1 "74HC02" H 24400 6934 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 24400 6700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc02" H 24400 6700 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
+	2    24400 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC02 U3
+U 3 1 5C9E26BD
+P 25750 6225
+F 0 "U3" H 25750 6550 50  0000 C CNN
+F 1 "74HC02" H 25750 6459 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 25750 6225 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc02" H 25750 6225 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
+	3    25750 6225
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC02 U3
+U 4 1 5C9E287A
+P 24975 7975
+F 0 "U3" H 24975 8300 50  0000 C CNN
+F 1 "74HC02" H 24975 8209 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 24975 7975 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc02" H 24975 7975 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
+	4    24975 7975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	24625 8075 24675 8075
+Wire Wire Line
+	24675 8075 24675 7875
+Connection ~ 24625 8075
+Wire Wire Line
+	24625 8075 24675 8075
+Connection ~ 24675 8075
+$Comp
+L 74xx:74HC02 U2
+U 5 1 5CBAD8E1
+P 22675 8725
+F 0 "U2" V 22308 8725 50  0000 C CNN
+F 1 "74HC02" V 22399 8725 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 22675 8725 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74hc02" H 22675 8725 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
+	5    22675 8725
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

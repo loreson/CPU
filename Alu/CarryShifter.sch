@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 32 156
+Sheet 133 191
 Title ""
 Date ""
 Rev ""
@@ -58,6 +58,10 @@ F 0 "U36" H 3325 2333 60  0000 C CNN
 F 1 "74LS157" H 3325 2227 60  0000 C CNN
 F 2 "" H 3325 1525 60  0001 C CNN
 F 3 "" H 3325 1525 60  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    3325 1525
 	1    0    0    -1  
 $EndComp
@@ -69,6 +73,10 @@ F 0 "U35" H 3425 7058 60  0000 C CNN
 F 1 "74LS157" H 3425 6952 60  0000 C CNN
 F 2 "" H 3425 6250 60  0001 C CNN
 F 3 "" H 3425 6250 60  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    3425 6250
 	1    0    0    -1  
 $EndComp
@@ -160,6 +168,10 @@ F 0 "U37" H 3375 4558 60  0000 C CNN
 F 1 "74LS157" H 3375 4452 60  0000 C CNN
 F 2 "" H 3375 3750 60  0001 C CNN
 F 3 "" H 3375 3750 60  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    3375 3750
 	1    0    0    -1  
 $EndComp
@@ -273,8 +285,6 @@ Wire Wire Line
 Wire Wire Line
 	2925 5725 2925 5750
 Wire Wire Line
-	4300 5675 3925 5675
-Wire Wire Line
 	3925 5675 3925 5650
 NoConn ~ 3925 5950
 NoConn ~ 3925 6250
@@ -369,8 +379,12 @@ U 1 1 6561CF89
 P 5825 4450
 F 0 "C67" H 5917 4496 50  0000 L CNN
 F 1 "100nF" H 5917 4405 50  0000 L CNN
-F 2 "" H 5825 4450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5825 4450 50  0001 C CNN
 F 3 "~" H 5825 4450 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    5825 4450
 	1    0    0    -1  
 $EndComp
@@ -380,8 +394,12 @@ U 1 1 6561D088
 P 6450 4425
 F 0 "C68" H 6542 4471 50  0000 L CNN
 F 1 "100nF" H 6542 4380 50  0000 L CNN
-F 2 "" H 6450 4425 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6450 4425 50  0001 C CNN
 F 3 "~" H 6450 4425 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    6450 4425
 	1    0    0    -1  
 $EndComp
@@ -391,8 +409,12 @@ U 1 1 6561EAC6
 P 7075 4450
 F 0 "C69" H 7167 4496 50  0000 L CNN
 F 1 "100nF" H 7167 4405 50  0000 L CNN
-F 2 "" H 7075 4450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7075 4450 50  0001 C CNN
 F 3 "~" H 7075 4450 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    7075 4450
 	1    0    0    -1  
 $EndComp
@@ -612,4 +634,17 @@ Wire Wire Line
 	5825 3350 5975 3350
 Wire Wire Line
 	5650 3325 5825 3325
+$Sheet
+S 5725 5525 900  175 
+U 5B7ED1CC
+F0 "Sheet5B7ED1CB" 50
+F1 "LED_BLUE.sch" 50
+F2 "X" I L 5725 5625 50 
+$EndSheet
+Wire Wire Line
+	5650 5675 5650 5625
+Wire Wire Line
+	5650 5625 5725 5625
+Wire Wire Line
+	3925 5675 5650 5675
 $EndSCHEMATC

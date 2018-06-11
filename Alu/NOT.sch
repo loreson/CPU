@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 87 156
+Sheet 20 191
 Title ""
 Date ""
 Rev ""
@@ -54,7 +54,7 @@ P 7900 2325
 AR Path="/5B1BA146/5C8F8352" Ref="#PWR0125"  Part="1" 
 AR Path="/5AE655FE/64F62017/5C8F8352" Ref="#PWR050"  Part="1" 
 AR Path="/5AE6649D/5C8F8352" Ref="#PWR057"  Part="1" 
-F 0 "#PWR0125" H 7900 2425 30  0001 C CNN
+F 0 "#PWR057" H 7900 2425 30  0001 C CNN
 F 1 "VDD" H 7915 2462 30  0000 C CNN
 F 2 "" H 7900 2325 60  0001 C CNN
 F 3 "" H 7900 2325 60  0001 C CNN
@@ -68,7 +68,7 @@ P 7375 4250
 AR Path="/5B1BA146/5C8FF848" Ref="#PWR0123"  Part="1" 
 AR Path="/5AE655FE/64F62017/5C8FF848" Ref="#PWR048"  Part="1" 
 AR Path="/5AE6649D/5C8FF848" Ref="#PWR055"  Part="1" 
-F 0 "#PWR0123" H 7375 4250 30  0001 C CNN
+F 0 "#PWR055" H 7375 4250 30  0001 C CNN
 F 1 "GND" H 7375 4180 30  0001 C CNN
 F 2 "" H 7375 4250 60  0001 C CNN
 F 3 "" H 7375 4250 60  0001 C CNN
@@ -82,7 +82,7 @@ P 7250 4300
 AR Path="/5B1BA146/5C8FF8DB" Ref="#PWR0122"  Part="1" 
 AR Path="/5AE655FE/64F62017/5C8FF8DB" Ref="#PWR047"  Part="1" 
 AR Path="/5AE6649D/5C8FF8DB" Ref="#PWR054"  Part="1" 
-F 0 "#PWR0122" H 7250 4300 30  0001 C CNN
+F 0 "#PWR054" H 7250 4300 30  0001 C CNN
 F 1 "VSS" H 7250 4358 30  0000 C CNN
 F 2 "" H 7250 4300 60  0001 C CNN
 F 3 "" H 7250 4300 60  0001 C CNN
@@ -96,7 +96,7 @@ P 5600 5025
 AR Path="/5B1BA146/5F2354CD" Ref="#PWR0121"  Part="1" 
 AR Path="/5AE655FE/64F62017/5F2354CD" Ref="#PWR025"  Part="1" 
 AR Path="/5AE6649D/5F2354CD" Ref="#PWR053"  Part="1" 
-F 0 "#PWR0121" H 5600 5125 30  0001 C CNN
+F 0 "#PWR053" H 5600 5125 30  0001 C CNN
 F 1 "VCC" H 5604 5152 30  0000 C CNN
 F 2 "" H 5600 5025 50  0001 C CNN
 F 3 "" H 5600 5025 50  0001 C CNN
@@ -110,7 +110,7 @@ P 7900 2250
 AR Path="/5B1BA146/5F235506" Ref="#PWR0124"  Part="1" 
 AR Path="/5AE655FE/64F62017/5F235506" Ref="#PWR049"  Part="1" 
 AR Path="/5AE6649D/5F235506" Ref="#PWR056"  Part="1" 
-F 0 "#PWR0124" H 7900 2350 30  0001 C CNN
+F 0 "#PWR056" H 7900 2350 30  0001 C CNN
 F 1 "VCC" H 7904 2377 30  0000 C CNN
 F 2 "" H 7900 2250 50  0001 C CNN
 F 3 "" H 7900 2250 50  0001 C CNN
@@ -124,10 +124,14 @@ P 1000 2925
 AR Path="/5AE6649D/5F235FE9" Ref="U41"  Part="1" 
 AR Path="/5B1BA146/5F235FE9" Ref="U71"  Part="1" 
 AR Path="/5AE655FE/64F62017/5F235FE9" Ref="U39"  Part="1" 
-F 0 "U71" V 1038 2747 40  0000 R CNN
+F 0 "U41" V 1038 2747 40  0000 R CNN
 F 1 "74HC04" V 962 2747 40  0000 R CNN
-F 2 "" H 1000 2925 60  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1000 2925 60  0001 C CNN
 F 3 "" H 1000 2925 60  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    1000 2925
 	0    -1   -1   0   
 $EndComp
@@ -138,10 +142,14 @@ P 1600 2975
 AR Path="/5AE6649D/5F2360F5" Ref="U41"  Part="2" 
 AR Path="/5B1BA146/5F2360F5" Ref="U71"  Part="2" 
 AR Path="/5AE655FE/64F62017/5F2360F5" Ref="U39"  Part="2" 
-F 0 "U71" V 1638 2797 40  0000 R CNN
+F 0 "U41" V 1638 2797 40  0000 R CNN
 F 1 "74HC04" V 1562 2797 40  0000 R CNN
-F 2 "" H 1600 2975 60  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1600 2975 60  0001 C CNN
 F 3 "" H 1600 2975 60  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	2    1600 2975
 	0    -1   -1   0   
 $EndComp
@@ -152,10 +160,14 @@ P 2275 2950
 AR Path="/5AE6649D/5F2361D5" Ref="U41"  Part="3" 
 AR Path="/5B1BA146/5F2361D5" Ref="U71"  Part="3" 
 AR Path="/5AE655FE/64F62017/5F2361D5" Ref="U39"  Part="3" 
-F 0 "U71" V 2313 2772 40  0000 R CNN
+F 0 "U41" V 2313 2772 40  0000 R CNN
 F 1 "74HC04" V 2237 2772 40  0000 R CNN
-F 2 "" H 2275 2950 60  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2275 2950 60  0001 C CNN
 F 3 "" H 2275 2950 60  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	3    2275 2950
 	0    -1   -1   0   
 $EndComp
@@ -166,10 +178,14 @@ P 2925 2950
 AR Path="/5AE6649D/5F236273" Ref="U41"  Part="4" 
 AR Path="/5B1BA146/5F236273" Ref="U71"  Part="4" 
 AR Path="/5AE655FE/64F62017/5F236273" Ref="U39"  Part="4" 
-F 0 "U71" V 2963 2772 40  0000 R CNN
+F 0 "U41" V 2963 2772 40  0000 R CNN
 F 1 "74HC04" V 2887 2772 40  0000 R CNN
 F 2 "" H 2925 2950 60  0001 C CNN
 F 3 "" H 2925 2950 60  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	4    2925 2950
 	0    -1   -1   0   
 $EndComp
@@ -180,10 +196,14 @@ P 3600 2950
 AR Path="/5AE6649D/5F236307" Ref="U41"  Part="5" 
 AR Path="/5B1BA146/5F236307" Ref="U71"  Part="5" 
 AR Path="/5AE655FE/64F62017/5F236307" Ref="U39"  Part="5" 
-F 0 "U71" V 3638 2772 40  0000 R CNN
+F 0 "U41" V 3638 2772 40  0000 R CNN
 F 1 "74HC04" V 3562 2772 40  0000 R CNN
 F 2 "" H 3600 2950 60  0001 C CNN
 F 3 "" H 3600 2950 60  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	5    3600 2950
 	0    -1   -1   0   
 $EndComp
@@ -194,10 +214,14 @@ P 4125 2950
 AR Path="/5AE6649D/5F23638F" Ref="U41"  Part="6" 
 AR Path="/5B1BA146/5F23638F" Ref="U71"  Part="6" 
 AR Path="/5AE655FE/64F62017/5F23638F" Ref="U39"  Part="6" 
-F 0 "U71" V 4163 2772 40  0000 R CNN
+F 0 "U41" V 4163 2772 40  0000 R CNN
 F 1 "74HC04" V 4087 2772 40  0000 R CNN
 F 2 "" H 4125 2950 60  0001 C CNN
 F 3 "" H 4125 2950 60  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	6    4125 2950
 	0    -1   -1   0   
 $EndComp
@@ -208,10 +232,14 @@ P 4775 2975
 AR Path="/5AE6649D/5F23644B" Ref="U42"  Part="1" 
 AR Path="/5B1BA146/5F23644B" Ref="U72"  Part="1" 
 AR Path="/5AE655FE/64F62017/5F23644B" Ref="U40"  Part="1" 
-F 0 "U72" V 4813 2797 40  0000 R CNN
+F 0 "U42" V 4813 2797 40  0000 R CNN
 F 1 "74HC04" V 4737 2797 40  0000 R CNN
-F 2 "" H 4775 2975 60  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4775 2975 60  0001 C CNN
 F 3 "" H 4775 2975 60  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    4775 2975
 	0    -1   -1   0   
 $EndComp
@@ -222,10 +250,14 @@ P 5375 3000
 AR Path="/5AE6649D/5F236521" Ref="U42"  Part="2" 
 AR Path="/5B1BA146/5F236521" Ref="U72"  Part="2" 
 AR Path="/5AE655FE/64F62017/5F236521" Ref="U40"  Part="2" 
-F 0 "U72" V 5413 2822 40  0000 R CNN
+F 0 "U42" V 5413 2822 40  0000 R CNN
 F 1 "74HC04" V 5337 2822 40  0000 R CNN
 F 2 "" H 5375 3000 60  0001 C CNN
 F 3 "" H 5375 3000 60  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	2    5375 3000
 	0    -1   -1   0   
 $EndComp
@@ -236,10 +268,14 @@ P 7175 5025
 AR Path="/5AE6649D/5F2365E7" Ref="U42"  Part="3" 
 AR Path="/5B1BA146/5F2365E7" Ref="U72"  Part="3" 
 AR Path="/5AE655FE/64F62017/5F2365E7" Ref="U40"  Part="3" 
-F 0 "U72" H 7175 5317 40  0000 C CNN
+F 0 "U42" H 7175 5317 40  0000 C CNN
 F 1 "74HC04" H 7175 5241 40  0000 C CNN
 F 2 "" H 7175 5025 60  0001 C CNN
 F 3 "" H 7175 5025 60  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	3    7175 5025
 	1    0    0    -1  
 $EndComp
@@ -250,10 +286,14 @@ P 7375 5600
 AR Path="/5AE6649D/5F236679" Ref="U42"  Part="5" 
 AR Path="/5B1BA146/5F236679" Ref="U72"  Part="5" 
 AR Path="/5AE655FE/64F62017/5F236679" Ref="U40"  Part="5" 
-F 0 "U72" H 7375 5892 40  0000 C CNN
+F 0 "U42" H 7375 5892 40  0000 C CNN
 F 1 "74HC04" H 7375 5816 40  0000 C CNN
 F 2 "" H 7375 5600 60  0001 C CNN
 F 3 "" H 7375 5600 60  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	5    7375 5600
 	1    0    0    -1  
 $EndComp
@@ -264,10 +304,14 @@ P 7350 6150
 AR Path="/5AE6649D/5F236716" Ref="U42"  Part="4" 
 AR Path="/5B1BA146/5F236716" Ref="U72"  Part="4" 
 AR Path="/5AE655FE/64F62017/5F236716" Ref="U40"  Part="4" 
-F 0 "U72" H 7350 6442 40  0000 C CNN
+F 0 "U42" H 7350 6442 40  0000 C CNN
 F 1 "74HC04" H 7350 6366 40  0000 C CNN
 F 2 "" H 7350 6150 60  0001 C CNN
 F 3 "" H 7350 6150 60  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	4    7350 6150
 	1    0    0    -1  
 $EndComp
@@ -278,10 +322,14 @@ P 7375 6550
 AR Path="/5AE6649D/5F2367A4" Ref="U42"  Part="6" 
 AR Path="/5B1BA146/5F2367A4" Ref="U72"  Part="6" 
 AR Path="/5AE655FE/64F62017/5F2367A4" Ref="U40"  Part="6" 
-F 0 "U72" H 7375 6842 40  0000 C CNN
+F 0 "U42" H 7375 6842 40  0000 C CNN
 F 1 "74HC04" H 7375 6766 40  0000 C CNN
 F 2 "" H 7375 6550 60  0001 C CNN
 F 3 "" H 7375 6550 60  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	6    7375 6550
 	1    0    0    -1  
 $EndComp
@@ -387,10 +435,14 @@ P 3300 4900
 AR Path="/5AE6649D/5FB83B89" Ref="U41"  Part="7" 
 AR Path="/5B1BA146/5FB83B89" Ref="U71"  Part="7" 
 AR Path="/5AE655FE/64F62017/5FB83B89" Ref="U39"  Part="7" 
-F 0 "U71" H 3530 4946 50  0000 L CNN
+F 0 "U41" H 3530 4946 50  0000 L CNN
 F 1 "74HC04" H 3530 4855 50  0000 L CNN
 F 2 "" H 3300 4900 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf" H 3300 4900 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	7    3300 4900
 	1    0    0    -1  
 $EndComp
@@ -401,10 +453,14 @@ P 4225 4925
 AR Path="/5AE6649D/5FB83CAA" Ref="U42"  Part="7" 
 AR Path="/5B1BA146/5FB83CAA" Ref="U72"  Part="7" 
 AR Path="/5AE655FE/64F62017/5FB83CAA" Ref="U40"  Part="7" 
-F 0 "U72" H 4455 4971 50  0000 L CNN
+F 0 "U42" H 4455 4971 50  0000 L CNN
 F 1 "74HC04" H 4455 4880 50  0000 L CNN
 F 2 "" H 4225 4925 50  0001 C CNN
 F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf" H 4225 4925 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	7    4225 4925
 	1    0    0    -1  
 $EndComp
@@ -415,10 +471,14 @@ P 2700 4875
 AR Path="/5B1BA146/5FB83DC0" Ref="C36"  Part="1" 
 AR Path="/5AE655FE/64F62017/5FB83DC0" Ref="C6"  Part="1" 
 AR Path="/5AE6649D/5FB83DC0" Ref="C8"  Part="1" 
-F 0 "C36" H 2792 4921 50  0000 L CNN
+F 0 "C8" H 2792 4921 50  0000 L CNN
 F 1 "100nF" H 2792 4830 50  0000 L CNN
-F 2 "" H 2700 4875 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2700 4875 50  0001 C CNN
 F 3 "~" H 2700 4875 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    2700 4875
 	1    0    0    -1  
 $EndComp
@@ -429,10 +489,14 @@ P 4850 4875
 AR Path="/5B1BA146/5FB83F1E" Ref="C37"  Part="1" 
 AR Path="/5AE655FE/64F62017/5FB83F1E" Ref="C7"  Part="1" 
 AR Path="/5AE6649D/5FB83F1E" Ref="C9"  Part="1" 
-F 0 "C37" H 4942 4921 50  0000 L CNN
+F 0 "C9" H 4942 4921 50  0000 L CNN
 F 1 "100nF" H 4942 4830 50  0000 L CNN
-F 2 "" H 4850 4875 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4850 4875 50  0001 C CNN
 F 3 "~" H 4850 4875 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    4850 4875
 	1    0    0    -1  
 $EndComp
@@ -467,7 +531,7 @@ P 3675 5550
 AR Path="/5B1BA146/5FB88813" Ref="#PWR0119"  Part="1" 
 AR Path="/5AE655FE/64F62017/5FB88813" Ref="#PWR023"  Part="1" 
 AR Path="/5AE6649D/5FB88813" Ref="#PWR051"  Part="1" 
-F 0 "#PWR0119" H 3675 5550 30  0001 C CNN
+F 0 "#PWR051" H 3675 5550 30  0001 C CNN
 F 1 "GND-power" H 3675 5480 30  0001 C CNN
 F 2 "" H 3675 5550 50  0001 C CNN
 F 3 "" H 3675 5550 50  0001 C CNN
@@ -481,7 +545,7 @@ P 3750 4100
 AR Path="/5B1BA146/5FB8886C" Ref="#PWR0120"  Part="1" 
 AR Path="/5AE655FE/64F62017/5FB8886C" Ref="#PWR024"  Part="1" 
 AR Path="/5AE6649D/5FB8886C" Ref="#PWR052"  Part="1" 
-F 0 "#PWR0120" H 3750 3950 50  0001 C CNN
+F 0 "#PWR052" H 3750 3950 50  0001 C CNN
 F 1 "VCC" H 3767 4273 50  0000 C CNN
 F 2 "" H 3750 4100 50  0001 C CNN
 F 3 "" H 3750 4100 50  0001 C CNN

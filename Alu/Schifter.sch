@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 107 156
+Sheet 116 191
 Title ""
 Date ""
 Rev ""
@@ -1195,21 +1195,21 @@ Text Label 10250 6125 0    60   ~ 0
 Z6
 Text Label 13500 6050 0    60   ~ 0
 Z7
-Text HLabel 14650 3400 2    60   Output ~ 0
+Text HLabel 15350 3350 2    60   Output ~ 0
 Z0
-Text HLabel 14650 3550 2    60   Output ~ 0
+Text HLabel 15350 3500 2    60   Output ~ 0
 Z1
-Text HLabel 14650 3650 2    60   Output ~ 0
+Text HLabel 15350 3600 2    60   Output ~ 0
 Z2
-Text HLabel 14650 3750 2    60   Output ~ 0
+Text HLabel 15350 3700 2    60   Output ~ 0
 Z3
-Text HLabel 14650 3850 2    60   Output ~ 0
+Text HLabel 15350 3800 2    60   Output ~ 0
 Z4
-Text HLabel 14650 3950 2    60   Output ~ 0
+Text HLabel 15350 3900 2    60   Output ~ 0
 Z5
-Text HLabel 14650 4050 2    60   Output ~ 0
+Text HLabel 15350 4000 2    60   Output ~ 0
 Z6
-Text HLabel 14650 4150 2    60   Output ~ 0
+Text HLabel 15350 4100 2    60   Output ~ 0
 Z7
 Text Label 2175 6475 2    50   ~ 0
 S0
@@ -1443,4 +1443,108 @@ Wire Wire Line
 	2325 3425 2175 3425
 Wire Wire Line
 	2175 3425 2175 3475
+$Sheet
+S 14100 2375 500  150 
+U 5B603685
+F0 "Sheet5B603684" 50
+F1 "LED_RED.sch" 50
+F2 "X" I R 14600 2450 50 
+$EndSheet
+$Sheet
+S 14075 2725 500  150 
+U 5B60368D
+F0 "sheet5B60368A" 50
+F1 "LED_RED.sch" 50
+F2 "X" I R 14575 2800 50 
+$EndSheet
+$Sheet
+S 14125 3050 500  150 
+U 5B62A79F
+F0 "sheet5B62A79B" 50
+F1 "LED_RED.sch" 50
+F2 "X" I R 14625 3125 50 
+$EndSheet
+$Sheet
+S 14100 3400 500  150 
+U 5B62A7A2
+F0 "sheet5B62A79C" 50
+F1 "LED_RED.sch" 50
+F2 "X" I R 14600 3475 50 
+$EndSheet
+$Sheet
+S 14150 3675 500  150 
+U 5B6518B2
+F0 "sheet5B6518AC" 50
+F1 "LED_RED.sch" 50
+F2 "X" I R 14650 3750 50 
+$EndSheet
+$Sheet
+S 14125 4025 500  150 
+U 5B6518B5
+F0 "sheet5B6518AD" 50
+F1 "LED_RED.sch" 50
+F2 "X" I R 14625 4100 50 
+$EndSheet
+$Sheet
+S 14175 4350 500  150 
+U 5B6518B8
+F0 "sheet5B6518AE" 50
+F1 "LED_RED.sch" 50
+F2 "X" I R 14675 4425 50 
+$EndSheet
+$Sheet
+S 14150 4700 500  150 
+U 5B6518BB
+F0 "sheet5B6518AF" 50
+F1 "LED_RED.sch" 50
+F2 "X" I R 14650 4775 50 
+$EndSheet
+Wire Wire Line
+	14600 2450 15125 2450
+Wire Wire Line
+	15125 2450 15125 3350
+Wire Wire Line
+	15125 3350 15350 3350
+Wire Wire Line
+	15350 3500 14975 3500
+Wire Wire Line
+	14975 3500 14975 2800
+Wire Wire Line
+	14975 2800 14575 2800
+Wire Wire Line
+	14625 3125 14850 3125
+Wire Wire Line
+	14850 3125 14850 3600
+Wire Wire Line
+	14850 3600 15350 3600
+Wire Wire Line
+	14600 3475 14775 3475
+Wire Wire Line
+	14775 3475 14775 3700
+Wire Wire Line
+	14775 3700 15350 3700
+Wire Wire Line
+	14650 3750 15275 3750
+Wire Wire Line
+	15275 3750 15275 3800
+Wire Wire Line
+	15275 3800 15350 3800
+Wire Wire Line
+	15350 3900 14900 3900
+Wire Wire Line
+	14900 3900 14900 4100
+Wire Wire Line
+	14900 4100 14625 4100
+Wire Wire Line
+	14675 4425 15050 4425
+Wire Wire Line
+	15050 4425 15050 4000
+Wire Wire Line
+	15050 4000 15350 4000
+Wire Wire Line
+	15350 4100 15125 4100
+Wire Wire Line
+	15125 4100 15125 4775
+Wire Wire Line
+	15125 4775 14650 4775
 $EndSCHEMATC

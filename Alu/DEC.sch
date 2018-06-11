@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 57 156
+Sheet 57 191
 Title ""
 Date ""
 Rev ""
@@ -83,7 +83,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 4650 5150 4650
 Wire Wire Line
-	2600 3550 2600 3825
+	2600 3550 2600 3580
 Wire Wire Line
 	2600 3825 2550 3825
 Wire Wire Line
@@ -93,35 +93,25 @@ Wire Wire Line
 Wire Wire Line
 	2650 3700 2700 3700
 Wire Wire Line
-	2700 3700 2700 3550
-Wire Wire Line
-	2800 3550 2800 3800
-Wire Wire Line
 	2800 3800 2750 3800
 Wire Wire Line
 	2750 3800 2750 3950
 Wire Wire Line
 	2850 3925 2900 3925
 Wire Wire Line
-	2900 3925 2900 3550
+	2900 3925 2900 3625
 Wire Wire Line
 	2850 3925 2850 3950
 Wire Wire Line
-	4575 3100 4575 3650
+	4575 3100 4575 3150
 Wire Wire Line
 	4575 3650 4650 3650
 Wire Wire Line
-	4675 3100 4675 3650
-Wire Wire Line
 	4675 3650 4750 3650
-Wire Wire Line
-	4775 3100 4775 3650
 Wire Wire Line
 	4775 3650 4850 3650
 Wire Wire Line
 	4875 3100 4950 3100
-Wire Wire Line
-	4950 3100 4950 3650
 Wire Wire Line
 	3375 5400 3200 5400
 Wire Wire Line
@@ -148,7 +138,7 @@ C_OUT
 Wire Wire Line
 	5150 3625 5300 3625
 Wire Wire Line
-	5300 3625 5300 3175
+	5300 3625 5300 3300
 Wire Wire Line
 	5150 3625 5150 3650
 Wire Wire Line
@@ -185,6 +175,10 @@ F 0 "U47" V 3096 3609 50  0000 R CNN
 F 1 "74LS283" V 3005 3609 50  0000 R CNN
 F 2 "" H 3050 4450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS283" H 3050 4450 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    3050 4450
 	0    -1   -1   0   
 $EndComp
@@ -197,6 +191,10 @@ F 0 "U48" V 5196 3309 50  0000 R CNN
 F 1 "74LS283" V 5105 3309 50  0000 R CNN
 F 2 "" H 5150 4150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS283" H 5150 4150 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    5150 4150
 	0    -1   -1   0   
 $EndComp
@@ -295,4 +293,131 @@ F 3 "" H 5950 4275 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5950 4275 5950 4150
+$Sheet
+S 2150 1755 150  500 
+U 5B58723F
+F0 "Sheet5B58723E" 50
+F1 "LED_RED.sch" 50
+F2 "X" I B 2240 2255 50 
+$EndSheet
+$Sheet
+S 2500 1750 150  500 
+U 5B587284
+F0 "sheet5B587281" 50
+F1 "LED_RED.sch" 50
+F2 "X" I B 2575 2250 50 
+$EndSheet
+$Sheet
+S 2850 1750 150  500 
+U 5B588630
+F0 "sheet5B58862C" 50
+F1 "LED_RED.sch" 50
+F2 "X" I B 2925 2250 50 
+$EndSheet
+$Sheet
+S 3200 1750 150  500 
+U 5B588633
+F0 "sheet5B58862D" 50
+F1 "LED_RED.sch" 50
+F2 "X" I B 3275 2250 50 
+$EndSheet
+$Sheet
+S 3600 1700 150  500 
+U 5B5899DB
+F0 "sheet5B5899D7" 50
+F1 "LED_RED.sch" 50
+F2 "X" I B 3675 2200 50 
+$EndSheet
+$Sheet
+S 3950 1700 150  500 
+U 5B5899DE
+F0 "sheet5B5899D8" 50
+F1 "LED_RED.sch" 50
+F2 "X" I B 4025 2200 50 
+$EndSheet
+$Sheet
+S 4300 1700 150  500 
+U 5B58AD84
+F0 "sheet5B58AD80" 50
+F1 "LED_RED.sch" 50
+F2 "X" I B 4375 2200 50 
+$EndSheet
+$Sheet
+S 5200 1650 150  500 
+U 5B58AD87
+F0 "sheet5B58AD81" 50
+F1 "LED_BLUE.sch" 50
+F2 "X" I B 5275 2150 50 
+$EndSheet
+$Sheet
+S 4650 1700 150  500 
+U 5B58C14C
+F0 "sheet5B58C149" 50
+F1 "LED_RED.sch" 50
+F2 "X" I B 4725 2200 50 
+$EndSheet
+Connection ~ 2600 3580
+Wire Wire Line
+	2600 3580 2600 3825
+Wire Wire Line
+	2240 2255 2240 3580
+Wire Wire Line
+	2235 3580 2240 3580
+Connection ~ 2240 3580
+Wire Wire Line
+	2240 3580 2600 3580
+Wire Wire Line
+	5275 2150 5275 3300
+Wire Wire Line
+	5275 3300 5300 3300
+Connection ~ 5300 3300
+Wire Wire Line
+	5300 3300 5300 3175
+Wire Wire Line
+	4950 2275 4725 2275
+Wire Wire Line
+	4725 2275 4725 2200
+Wire Wire Line
+	4950 2275 4950 3100
+Connection ~ 4950 3100
+Wire Wire Line
+	4950 3100 4950 3650
+Wire Wire Line
+	4375 2200 4375 2525
+Wire Wire Line
+	4375 2525 4775 2525
+Wire Wire Line
+	4775 2525 4775 3650
+Wire Wire Line
+	4675 2650 4025 2650
+Wire Wire Line
+	4025 2650 4025 2200
+Wire Wire Line
+	4675 2650 4675 3650
+Wire Wire Line
+	4575 3150 3675 3150
+Wire Wire Line
+	3675 3150 3675 2200
+Connection ~ 4575 3150
+Wire Wire Line
+	4575 3150 4575 3650
+Wire Wire Line
+	3275 2250 3275 3625
+Wire Wire Line
+	3275 3625 2900 3625
+Connection ~ 2900 3625
+Wire Wire Line
+	2900 3625 2900 3550
+Wire Wire Line
+	2800 2375 2925 2375
+Wire Wire Line
+	2925 2375 2925 2250
+Wire Wire Line
+	2800 2375 2800 3800
+Wire Wire Line
+	2575 2250 2575 3225
+Wire Wire Line
+	2575 3225 2700 3225
+Wire Wire Line
+	2700 3225 2700 3700
 $EndSCHEMATC
