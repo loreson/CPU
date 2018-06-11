@@ -1,0 +1,543 @@
+EESchema Schematic File Version 4
+LIBS:Alu-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 96 156
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 1075 6500 3    60   Input ~ 0
+X0
+Text HLabel 1375 6550 3    60   Input ~ 0
+X1
+Text HLabel 1675 6550 3    60   Input ~ 0
+X2
+Text HLabel 1875 6575 3    60   Input ~ 0
+X3
+Text HLabel 3400 6425 3    60   Input ~ 0
+X4
+Text HLabel 3575 6450 3    60   Input ~ 0
+X5
+Text HLabel 3800 6450 3    60   Input ~ 0
+X6
+Text HLabel 4000 6500 3    60   Input ~ 0
+X7
+Text HLabel 1225 2725 1    60   Output ~ 0
+Z0
+Text HLabel 1375 2700 1    60   Output ~ 0
+Z1
+Text HLabel 1650 2675 1    60   Output ~ 0
+Z2
+Text HLabel 1875 2675 1    60   Output ~ 0
+Z3
+Text HLabel 3200 2600 1    60   Output ~ 0
+Z4
+Text HLabel 3400 2550 1    60   Output ~ 0
+Z5
+Text HLabel 3600 2500 1    60   Output ~ 0
+Z6
+Text HLabel 3825 2525 1    60   Output ~ 0
+Z7
+Wire Wire Line
+	1075 6500 1075 5525
+Wire Wire Line
+	1075 5525 1250 5525
+Wire Wire Line
+	1350 6550 1375 6550
+Wire Wire Line
+	1450 6450 1675 6450
+Wire Wire Line
+	1675 6450 1675 6550
+Wire Wire Line
+	1550 5950 1875 5950
+Wire Wire Line
+	1875 5950 1875 6575
+Wire Wire Line
+	1975 5475 2000 5475
+Wire Wire Line
+	2000 5475 2000 5300
+Wire Wire Line
+	4125 5400 4125 5425
+Wire Wire Line
+	3275 6425 3400 6425
+Wire Wire Line
+	3375 6100 3575 6100
+Wire Wire Line
+	3575 6100 3575 6450
+Wire Wire Line
+	3475 5700 3800 5700
+Wire Wire Line
+	3800 5700 3800 6450
+Wire Wire Line
+	3575 5625 4000 5625
+Wire Wire Line
+	4000 5625 4000 6500
+Wire Wire Line
+	1375 3750 1350 3750
+Wire Wire Line
+	1450 3875 1450 2975
+Wire Wire Line
+	1450 2975 1650 2975
+Wire Wire Line
+	1650 2975 1650 2750
+Wire Wire Line
+	1875 2675 1875 2800
+Wire Wire Line
+	1875 3025 1550 3025
+Wire Wire Line
+	1550 3025 1550 3875
+Wire Wire Line
+	3200 2600 3200 2900
+Wire Wire Line
+	3375 2550 3400 2550
+Wire Wire Line
+	3600 3600 3475 3600
+Wire Wire Line
+	3575 4000 3575 3675
+Wire Wire Line
+	3575 3675 3825 3675
+Wire Wire Line
+	3825 3675 3825 2675
+Text HLabel 4375 2800 1    60   Output ~ 0
+C_OUT
+Wire Wire Line
+	3775 4000 4375 4000
+Wire Wire Line
+	875  4900 775  4925
+Wire Wire Line
+	600  4875 775  4925
+Connection ~ 775  4925
+Wire Wire Line
+	600  4375 700  4425
+Wire Wire Line
+	700  4425 700  4200
+Wire Wire Line
+	2850 4300 2675 4300
+Wire Wire Line
+	2675 4300 2675 4375
+Wire Wire Line
+	2675 5000 2525 5000
+Wire Wire Line
+	1975 5475 1975 5575
+Wire Wire Line
+	775  4925 775  5275
+$Comp
+L power:GND #PWR020
+U 1 1 5CF197AB
+P 4125 5650
+AR Path="/5AE74AF7/5CF197AB" Ref="#PWR020"  Part="1" 
+AR Path="/5AF84E03/5CF197AB" Ref="#PWR029"  Part="1" 
+F 0 "#PWR029" H 4125 5650 30  0001 C CNN
+F 1 "GND" H 4125 5580 30  0001 C CNN
+F 2 "" H 4125 5650 60  0001 C CNN
+F 3 "" H 4125 5650 60  0001 C CNN
+	1    4125 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 5CF198E5
+P 1975 5575
+AR Path="/5AE74AF7/5CF198E5" Ref="#PWR018"  Part="1" 
+AR Path="/5AF84E03/5CF198E5" Ref="#PWR027"  Part="1" 
+F 0 "#PWR027" H 1975 5575 30  0001 C CNN
+F 1 "GND" H 1975 5505 30  0001 C CNN
+F 2 "" H 1975 5575 60  0001 C CNN
+F 3 "" H 1975 5575 60  0001 C CNN
+	1    1975 5575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR019
+U 1 1 5CF199DA
+P 2850 4300
+AR Path="/5AE74AF7/5CF199DA" Ref="#PWR019"  Part="1" 
+AR Path="/5AF84E03/5CF199DA" Ref="#PWR028"  Part="1" 
+F 0 "#PWR028" H 2850 4300 30  0001 C CNN
+F 1 "GND" H 2850 4230 30  0001 C CNN
+F 2 "" H 2850 4300 60  0001 C CNN
+F 3 "" H 2850 4300 60  0001 C CNN
+	1    2850 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 5CF19D18
+P 700 4200
+AR Path="/5AE74AF7/5CF19D18" Ref="#PWR017"  Part="1" 
+AR Path="/5AF84E03/5CF19D18" Ref="#PWR026"  Part="1" 
+F 0 "#PWR026" H 700 4200 30  0001 C CNN
+F 1 "GND" H 700 4130 30  0001 C CNN
+F 2 "" H 700 4200 60  0001 C CNN
+F 3 "" H 700 4200 60  0001 C CNN
+	1    700  4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	775  5275 1100 5275
+$Comp
+L power:VCC #PWR061
+U 1 1 5F3A2E1C
+P 2525 5000
+AR Path="/5AE74AF7/5F3A2E1C" Ref="#PWR061"  Part="1" 
+AR Path="/5AF84E03/5F3A2E1C" Ref="#PWR0127"  Part="1" 
+F 0 "#PWR0127" H 2525 5100 30  0001 C CNN
+F 1 "VCC" H 2529 5127 30  0000 C CNN
+F 2 "" H 2525 5000 50  0001 C CNN
+F 3 "" H 2525 5000 50  0001 C CNN
+	1    2525 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR060
+U 1 1 5F3A2E46
+P 875 4900
+AR Path="/5AE74AF7/5F3A2E46" Ref="#PWR060"  Part="1" 
+AR Path="/5AF84E03/5F3A2E46" Ref="#PWR0126"  Part="1" 
+F 0 "#PWR0126" H 875 5000 30  0001 C CNN
+F 1 "VCC" H 879 5027 30  0000 C CNN
+F 2 "" H 875 4900 50  0001 C CNN
+F 3 "" H 875 4900 50  0001 C CNN
+	1    875  4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS283 U45
+U 1 1 5F3A2F2F
+P 1550 4575
+AR Path="/5AE74AF7/5F3A2F2F" Ref="U45"  Part="1" 
+AR Path="/5AF84E03/5F3A2F2F" Ref="U73"  Part="1" 
+F 0 "U73" V 1603 4031 60  0000 R CNN
+F 1 "74LS283" V 1497 4031 60  0000 R CNN
+F 2 "" H 1550 4575 60  0001 C CNN
+F 3 "" H 1550 4575 60  0001 C CNN
+	1    1550 4575
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74LS283 U46
+U 1 1 5F3A5CFF
+P 3575 4700
+AR Path="/5AE74AF7/5F3A5CFF" Ref="U46"  Part="1" 
+AR Path="/5AF84E03/5F3A5CFF" Ref="U74"  Part="1" 
+F 0 "U74" V 3628 4156 60  0000 R CNN
+F 1 "74LS283" V 3522 4156 60  0000 R CNN
+F 2 "" H 3575 4700 60  0001 C CNN
+F 3 "" H 3575 4700 60  0001 C CNN
+	1    3575 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3725 5400 4125 5400
+Wire Wire Line
+	1700 5275 1700 5075
+Wire Wire Line
+	1700 5075 1750 5075
+Wire Wire Line
+	1850 5075 1850 5275
+Wire Wire Line
+	1700 5275 1850 5275
+Connection ~ 1850 5275
+Wire Wire Line
+	1950 5075 1950 5275
+Wire Wire Line
+	1850 5275 1950 5275
+Connection ~ 1950 5275
+Wire Wire Line
+	1950 5275 2000 5275
+Wire Wire Line
+	2000 5300 2050 5300
+Wire Wire Line
+	2050 5300 2050 5100
+Connection ~ 2000 5300
+Wire Wire Line
+	2000 5300 2000 5275
+Wire Wire Line
+	2350 4575 2350 5100
+Wire Wire Line
+	2350 5100 2050 5100
+Connection ~ 2050 5100
+Wire Wire Line
+	2050 5100 2050 5075
+Wire Wire Line
+	1250 5075 1250 5525
+Wire Wire Line
+	1350 5075 1350 6550
+Wire Wire Line
+	1450 5075 1450 6450
+Wire Wire Line
+	1550 5075 1550 5950
+Wire Wire Line
+	1100 5275 1100 5075
+Wire Wire Line
+	1100 5075 1050 5075
+Wire Wire Line
+	1050 4075 1075 4075
+Wire Wire Line
+	1075 4075 1075 3875
+Wire Wire Line
+	1075 3875 1225 3875
+Wire Wire Line
+	1350 3950 1150 3950
+Wire Wire Line
+	1150 3950 1150 4075
+Wire Wire Line
+	1350 3750 1350 3950
+Wire Wire Line
+	1450 3875 1400 3875
+Wire Wire Line
+	1400 3875 1400 4000
+Wire Wire Line
+	1400 4000 1250 4000
+Wire Wire Line
+	1250 4000 1250 4075
+Wire Wire Line
+	1350 4075 1500 4075
+Wire Wire Line
+	1500 4075 1500 3875
+Wire Wire Line
+	1500 3875 1550 3875
+Wire Wire Line
+	1550 4075 2400 4075
+Wire Wire Line
+	2400 4075 2400 5200
+Wire Wire Line
+	2400 5200 3075 5200
+Wire Wire Line
+	3275 5200 3275 6425
+Wire Wire Line
+	3375 5200 3375 6100
+Wire Wire Line
+	3475 5200 3475 5700
+Wire Wire Line
+	3575 5200 3575 5625
+Wire Wire Line
+	3725 5400 3725 5200
+Wire Wire Line
+	3725 5200 3775 5200
+Wire Wire Line
+	3875 5200 3975 5200
+Wire Wire Line
+	3975 5200 4075 5200
+Connection ~ 3975 5200
+Wire Wire Line
+	3875 5200 3775 5200
+Connection ~ 3875 5200
+Connection ~ 3775 5200
+Wire Wire Line
+	3100 4000 3100 4200
+Wire Wire Line
+	3100 4200 3075 4200
+Wire Wire Line
+	3100 4000 3200 4000
+Wire Wire Line
+	3375 4000 3250 4000
+Wire Wire Line
+	3250 4000 3250 4075
+Wire Wire Line
+	3250 4075 3175 4075
+Wire Wire Line
+	3175 4075 3175 4200
+Wire Wire Line
+	3275 4200 3275 4075
+Wire Wire Line
+	3275 4075 3475 4075
+Wire Wire Line
+	3475 3600 3475 4075
+Wire Wire Line
+	3375 4200 3500 4200
+Wire Wire Line
+	3500 4200 3500 4000
+Wire Wire Line
+	3500 4000 3575 4000
+Wire Wire Line
+	3575 4200 3575 4050
+Wire Wire Line
+	3575 4050 3775 4050
+Wire Wire Line
+	3775 4050 3775 4000
+Wire Wire Line
+	4375 4700 4375 5425
+Wire Wire Line
+	4375 5425 4125 5425
+Connection ~ 4125 5425
+Wire Wire Line
+	4125 5425 4125 5650
+Wire Wire Line
+	750  4925 775  4925
+Wire Wire Line
+	750  4575 750  4925
+Wire Wire Line
+	2775 4700 2775 4375
+Wire Wire Line
+	2775 4375 2675 4375
+Connection ~ 2675 4375
+Wire Wire Line
+	2675 4375 2675 4500
+$Comp
+L Device:C_Small C12
+U 1 1 64F2C9E1
+P 575 4600
+AR Path="/5AE74AF7/64F2C9E1" Ref="C12"  Part="1" 
+AR Path="/5AF84E03/64F2C9E1" Ref="C38"  Part="1" 
+F 0 "C38" H 667 4646 50  0000 L CNN
+F 1 "100nF" H 667 4555 50  0000 L CNN
+F 2 "" H 575 4600 50  0001 C CNN
+F 3 "~" H 575 4600 50  0001 C CNN
+	1    575  4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	575  4500 575  4375
+Wire Wire Line
+	575  4375 600  4375
+Wire Wire Line
+	575  4700 575  4875
+Wire Wire Line
+	575  4875 600  4875
+$Comp
+L Device:C_Small C13
+U 1 1 64F33B67
+P 2600 4725
+AR Path="/5AE74AF7/64F33B67" Ref="C13"  Part="1" 
+AR Path="/5AF84E03/64F33B67" Ref="C39"  Part="1" 
+F 0 "C39" H 2692 4771 50  0000 L CNN
+F 1 "100nF" H 2692 4680 50  0000 L CNN
+F 2 "" H 2600 4725 50  0001 C CNN
+F 3 "~" H 2600 4725 50  0001 C CNN
+	1    2600 4725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 4825 2600 4900
+Wire Wire Line
+	2600 4900 2675 4900
+Wire Wire Line
+	2675 4900 2675 5000
+Wire Wire Line
+	2600 4625 2600 4500
+Wire Wire Line
+	2600 4500 2675 4500
+$Sheet
+S 1150 1775 150  500 
+U 5C353E40
+F0 "Sheet5C353E3F" 50
+F1 "LED_RED.sch" 50
+F2 "X" I B 1225 2275 50 
+$EndSheet
+$Sheet
+S 1400 1800 150  500 
+U 5C353EBC
+F0 "sheet5C353EB9" 50
+F1 "LED_RED.sch" 50
+F2 "X" I B 1475 2300 50 
+$EndSheet
+$Sheet
+S 1650 1775 150  500 
+U 5C357CEF
+F0 "sheet5C357CEB" 50
+F1 "LED_RED.sch" 50
+F2 "X" I B 1725 2275 50 
+$EndSheet
+$Sheet
+S 1900 1800 150  500 
+U 5C357CF2
+F0 "sheet5C357CEC" 50
+F1 "LED_RED.sch" 50
+F2 "X" I B 1975 2300 50 
+$EndSheet
+$Sheet
+S 3025 1725 150  500 
+U 5C35BB2B
+F0 "sheet5C35BB25" 50
+F1 "LED_RED.sch" 50
+F2 "X" I B 3100 2225 50 
+$EndSheet
+$Sheet
+S 3275 1750 150  500 
+U 5C35BB2E
+F0 "sheet5C35BB26" 50
+F1 "LED_RED.sch" 50
+F2 "X" I B 3350 2250 50 
+$EndSheet
+$Sheet
+S 3525 1725 150  500 
+U 5C35BB31
+F0 "sheet5C35BB27" 50
+F1 "LED_RED.sch" 50
+F2 "X" I B 3600 2225 50 
+$EndSheet
+$Sheet
+S 3775 1750 150  500 
+U 5C35BB34
+F0 "sheet5C35BB28" 50
+F1 "LED_RED.sch" 50
+F2 "X" I B 3850 2250 50 
+$EndSheet
+Wire Wire Line
+	1225 2275 1225 3875
+Wire Wire Line
+	1375 2375 1475 2375
+Wire Wire Line
+	1475 2375 1475 2300
+Wire Wire Line
+	1375 2375 1375 3750
+Wire Wire Line
+	1725 2275 1725 2750
+Wire Wire Line
+	1725 2750 1650 2750
+Connection ~ 1650 2750
+Wire Wire Line
+	1650 2750 1650 2675
+Wire Wire Line
+	1975 2300 1975 2800
+Wire Wire Line
+	1975 2800 1875 2800
+Connection ~ 1875 2800
+Wire Wire Line
+	1875 2800 1875 3025
+Wire Wire Line
+	3100 2225 3100 2900
+Wire Wire Line
+	3100 2900 3200 2900
+Connection ~ 3200 2900
+Wire Wire Line
+	3200 2900 3200 4000
+Wire Wire Line
+	3375 2400 3350 2400
+Wire Wire Line
+	3350 2400 3350 2250
+Wire Wire Line
+	3375 2400 3375 2550
+Connection ~ 3375 2550
+Wire Wire Line
+	3375 2550 3375 4000
+Wire Wire Line
+	3600 2225 3600 3600
+Wire Wire Line
+	3850 2250 3850 2675
+Wire Wire Line
+	3850 2675 3825 2675
+Connection ~ 3825 2675
+Wire Wire Line
+	3825 2675 3825 2525
+$Sheet
+S 4275 1725 150  500 
+U 5C384037
+F0 "sheet5C384034" 50
+F1 "LED_BLUE.sch" 50
+F2 "X" I B 4350 2225 50 
+$EndSheet
+Wire Wire Line
+	4375 2225 4350 2225
+Wire Wire Line
+	4375 2225 4375 4000
+$EndSCHEMATC

@@ -1,0 +1,32 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Spice_Netlist_Enabled,Spice_Lib_File,Spice_Model,Spice_Primitive
+1,Unpolarized capacitor,C_Small,C1 C2 C3 C4 C5 C6 C7 C8 C9 C10 C11 C12 C13 C14 C15 C16 C17 C18 C19 C20 C21 C22 C23 C24 C25 C26 C27 C28 C29 C30 C31 C32 C33 C34 C35 C36 C37 C38 C39 C40 C41 C42 C43 C44 C45 C46 C47 C48 C49 C50 C51 C52 C53 C54 C55 C56 C57 C58 C59 C60 C61 C62 C63 C64 C65 C66 C67 C68 C69 C70 C71,100nF,,71,,,,,
+2,LED generic,LED,D9 D10 D11 D12,GREEN,,4,,,,,
+3,LED generic,LED,D1 D2 D3 D4 D5 D6 D7 D8 D13 D14 D15 D16 D17 D18 D19 D20 D21 D22 D23 D24 D25 D26 D27 D28 D29 D30 D31 D32 D33 D34 D35 D36,RED,,32,,,,,
+4,DC Barrel Jack,Barrel_Jack,J2,Barrel_Jack,,1,,,,,
+5,"Generic connector, single row, 01x34, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x34,J1,Conn_01x34,,1,,,,,
+6,"50V Vds, 0.22A Id, N-channel MOSFET, SOT-23",2N7002,Q1 Q2 Q3 Q4 Q5 Q6 Q7 Q8 Q9 Q10 Q11 Q12 Q13 Q14 Q15 Q16 Q17 Q18 Q19 Q20 Q21 Q22 Q23 Q24 Q25 Q26 Q27 Q28 Q29 Q30 Q31 Q32 Q33 Q34 Q35 Q36,2N7002,SOT-23,36,https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf,,,,
+7,Resistor,R,R1 R2 R3 R4 R5 R6 R7 R8 R9 R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 R20 R21 R22 R23 R24 R25 R26 R27 R28 R29 R30 R31 R32 R33 R34 R35 R36,1k,,36,,,,,
+8,quad 2-input NOR gate,74HC02,U7 U38,74HC02,,2,http://www.ti.com/lit/gpn/sn74hc02,,,,
+9,hex inverter,74HC04,U39 U40 U41 U42 U71 U72,74HC04,,6,http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf,,,,
+10,Quad 2-input XOR,74HC86,U43 U44,74HC86,,2,http://www.ti.com/lit/gpn/sn74HC86,,,,
+11,Quad And2,74LS08,U1 U5 U6,74LS08,,3,http://www.ti.com/lit/gpn/sn74LS08,,,,
+12,Multiplexer 8 to 1,74LS151,U8 U10 U11 U13 U14 U16 U17 U19 U20 U22 U23 U25 U26 U28 U29 U31 U32 U34,74LS151,,18,http://www.ti.com/lit/gpn/sn74LS151,Y,74hc.lib,74HC151,X
+13,Quad 2 to 1 line Multiplexer,74LS157,U9 U12 U15 U18 U21 U24 U27 U30 U33 U35 U36 U37 U53 U54,74LS157,,14,http://www.ti.com/lit/gpn/sn74LS157,,,,
+14,"Multiplexer 8 to 1, 3-state Outputs",74LS251,U55 U56 U57 U58 U59 U60 U61 U62 U63 U64 U65 U66 U67 U68 U69 U70,74LS251,,16,http://www.ti.com/lit/gpn/sn74LS251,,,,
+15,4-bit full Adder,74LS283,U45 U46 U47 U48 U49 U50 U51 U52 U73 U74,74LS283,,10,http://www.ti.com/lit/gpn/sn74LS283,,,,
+16,Quad 2-input OR,74LS32,U2 U3 U4,74LS32,,3,http://www.ti.com/lit/gpn/sn74LS32,,,,
+
+
+
+
+
+Component Groups:,16
+Component Count:,255
+Fitted Components:,255
+Number of PCBs:,1
+Total components:,255
+Schematic Version:,
+Schematic Date:,
+BoM Date:,Do 07 Jun 2018 03:05:30 CEST
+Schematic Source:,/home/christian/CPU/Alu/Alu.sch
+KiCad Version:,Eeschema 5.0.0-rc2-unknown-6090f90~65~ubuntu17.10.1

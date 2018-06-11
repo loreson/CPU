@@ -1,0 +1,726 @@
+EESchema Schematic File Version 4
+LIBS:myCpu-cache
+EELAYER 26 0
+EELAYER END
+$Descr A0 33110 46811 portrait
+encoding utf-8
+Sheet 71 100
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx:74LS153 U141
+U 1 1 812F095F
+P 8075 4150
+F 0 "U141" H 8075 5108 60  0000 C CNN
+F 1 "74LS153" H 8075 5002 60  0000 C CNN
+F 2 "" H 8075 4150 60  0001 C CNN
+F 3 "" H 8075 4150 60  0001 C CNN
+	1    8075 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS153 U137
+U 1 1 812F09E7
+P 7950 7350
+F 0 "U137" H 7950 8308 60  0000 C CNN
+F 1 "74LS153" H 7950 8202 60  0000 C CNN
+F 2 "" H 7950 7350 60  0001 C CNN
+F 3 "" H 7950 7350 60  0001 C CNN
+	1    7950 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS153 U139
+U 1 1 812F0A85
+P 7975 10225
+F 0 "U139" H 7975 11183 60  0000 C CNN
+F 1 "74LS153" H 7975 11077 60  0000 C CNN
+F 2 "" H 7975 10225 60  0001 C CNN
+F 3 "" H 7975 10225 60  0001 C CNN
+	1    7975 10225
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS153 U140
+U 1 1 812F0D4A
+P 7975 12650
+F 0 "U140" H 7975 13608 60  0000 C CNN
+F 1 "74LS153" H 7975 13502 60  0000 C CNN
+F 2 "" H 7975 12650 60  0001 C CNN
+F 3 "" H 7975 12650 60  0001 C CNN
+	1    7975 12650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS153 U138
+U 1 1 812F0D51
+P 7950 15500
+F 0 "U138" H 7950 16458 60  0000 C CNN
+F 1 "74LS153" H 7950 16352 60  0000 C CNN
+F 2 "" H 7950 15500 60  0001 C CNN
+F 3 "" H 7950 15500 60  0001 C CNN
+	1    7950 15500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS153 U142
+U 1 1 812F0D58
+P 8300 18525
+F 0 "U142" H 8300 19483 60  0000 C CNN
+F 1 "74LS153" H 8300 19377 60  0000 C CNN
+F 2 "" H 8300 18525 60  0001 C CNN
+F 3 "" H 8300 18525 60  0001 C CNN
+	1    8300 18525
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS153 U143
+U 1 1 812F1353
+P 8300 20925
+F 0 "U143" H 8300 21883 60  0000 C CNN
+F 1 "74LS153" H 8300 21777 60  0000 C CNN
+F 2 "" H 8300 20925 60  0001 C CNN
+F 3 "" H 8300 20925 60  0001 C CNN
+	1    8300 20925
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS153 U144
+U 1 1 812F135A
+P 8325 23800
+F 0 "U144" H 8325 24758 60  0000 C CNN
+F 1 "74LS153" H 8325 24652 60  0000 C CNN
+F 2 "" H 8325 23800 60  0001 C CNN
+F 3 "" H 8325 23800 60  0001 C CNN
+	1    8325 23800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0156
+U 1 1 812F1AD5
+P 7850 5275
+F 0 "#PWR0156" H 7850 5275 30  0001 C CNN
+F 1 "GND" H 7850 5205 30  0001 C CNN
+F 2 "" H 7850 5275 60  0001 C CNN
+F 3 "" H 7850 5275 60  0001 C CNN
+	1    7850 5275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0164
+U 1 1 812F1B16
+P 8350 5275
+F 0 "#PWR0164" H 8350 5375 30  0001 C CNN
+F 1 "VCC" H 8354 5402 30  0000 C CNN
+F 2 "" H 8350 5275 60  0001 C CNN
+F 3 "" H 8350 5275 60  0001 C CNN
+	1    8350 5275
+	1    0    0    -1  
+$EndComp
+$Comp
+L spice:C C110
+U 1 1 812F1B57
+P 8100 5275
+F 0 "C110" V 7813 5275 60  0000 C CNN
+F 1 "100nF" V 7919 5275 60  0000 C CNN
+F 2 "" H 8100 5275 60  0000 C CNN
+F 3 "" H 8100 5275 60  0000 C CNN
+	1    8100 5275
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0154
+U 1 1 812F1CB2
+P 7775 8500
+F 0 "#PWR0154" H 7775 8500 30  0001 C CNN
+F 1 "GND" H 7775 8430 30  0001 C CNN
+F 2 "" H 7775 8500 60  0001 C CNN
+F 3 "" H 7775 8500 60  0001 C CNN
+	1    7775 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0162
+U 1 1 812F1CB8
+P 8275 8500
+F 0 "#PWR0162" H 8275 8600 30  0001 C CNN
+F 1 "VCC" H 8279 8627 30  0000 C CNN
+F 2 "" H 8275 8500 60  0001 C CNN
+F 3 "" H 8275 8500 60  0001 C CNN
+	1    8275 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L spice:C C108
+U 1 1 812F1CBE
+P 8025 8500
+F 0 "C108" V 7738 8500 60  0000 C CNN
+F 1 "100nF" V 7844 8500 60  0000 C CNN
+F 2 "" H 8025 8500 60  0000 C CNN
+F 3 "" H 8025 8500 60  0000 C CNN
+	1    8025 8500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0155
+U 1 1 812F1D0D
+P 7800 11425
+F 0 "#PWR0155" H 7800 11425 30  0001 C CNN
+F 1 "GND" H 7800 11355 30  0001 C CNN
+F 2 "" H 7800 11425 60  0001 C CNN
+F 3 "" H 7800 11425 60  0001 C CNN
+	1    7800 11425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0163
+U 1 1 812F1D13
+P 8300 11425
+F 0 "#PWR0163" H 8300 11525 30  0001 C CNN
+F 1 "VCC" H 8304 11552 30  0000 C CNN
+F 2 "" H 8300 11425 60  0001 C CNN
+F 3 "" H 8300 11425 60  0001 C CNN
+	1    8300 11425
+	1    0    0    -1  
+$EndComp
+$Comp
+L spice:C C109
+U 1 1 812F1D19
+P 8050 11425
+F 0 "C109" V 7763 11425 60  0000 C CNN
+F 1 "100nF" V 7869 11425 60  0000 C CNN
+F 2 "" H 8050 11425 60  0000 C CNN
+F 3 "" H 8050 11425 60  0000 C CNN
+	1    8050 11425
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0152
+U 1 1 812F1E44
+P 7700 13950
+F 0 "#PWR0152" H 7700 13950 30  0001 C CNN
+F 1 "GND" H 7700 13880 30  0001 C CNN
+F 2 "" H 7700 13950 60  0001 C CNN
+F 3 "" H 7700 13950 60  0001 C CNN
+	1    7700 13950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0160
+U 1 1 812F1E4A
+P 8200 13950
+F 0 "#PWR0160" H 8200 14050 30  0001 C CNN
+F 1 "VCC" H 8204 14077 30  0000 C CNN
+F 2 "" H 8200 13950 60  0001 C CNN
+F 3 "" H 8200 13950 60  0001 C CNN
+	1    8200 13950
+	1    0    0    -1  
+$EndComp
+$Comp
+L spice:C C106
+U 1 1 812F1E50
+P 7950 13950
+F 0 "C106" V 7663 13950 60  0000 C CNN
+F 1 "100nF" V 7769 13950 60  0000 C CNN
+F 2 "" H 7950 13950 60  0000 C CNN
+F 3 "" H 7950 13950 60  0000 C CNN
+	1    7950 13950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0153
+U 1 1 812F1FAD
+P 7725 16825
+F 0 "#PWR0153" H 7725 16825 30  0001 C CNN
+F 1 "GND" H 7725 16755 30  0001 C CNN
+F 2 "" H 7725 16825 60  0001 C CNN
+F 3 "" H 7725 16825 60  0001 C CNN
+	1    7725 16825
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0161
+U 1 1 812F1FB3
+P 8225 16825
+F 0 "#PWR0161" H 8225 16925 30  0001 C CNN
+F 1 "VCC" H 8229 16952 30  0000 C CNN
+F 2 "" H 8225 16825 60  0001 C CNN
+F 3 "" H 8225 16825 60  0001 C CNN
+	1    8225 16825
+	1    0    0    -1  
+$EndComp
+$Comp
+L spice:C C107
+U 1 1 812F1FB9
+P 7975 16825
+F 0 "C107" V 7688 16825 60  0000 C CNN
+F 1 "100nF" V 7794 16825 60  0000 C CNN
+F 2 "" H 7975 16825 60  0000 C CNN
+F 3 "" H 7975 16825 60  0000 C CNN
+	1    7975 16825
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0159
+U 1 1 812F22A6
+P 8050 19625
+F 0 "#PWR0159" H 8050 19625 30  0001 C CNN
+F 1 "GND" H 8050 19555 30  0001 C CNN
+F 2 "" H 8050 19625 60  0001 C CNN
+F 3 "" H 8050 19625 60  0001 C CNN
+	1    8050 19625
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0167
+U 1 1 812F22AC
+P 8550 19625
+F 0 "#PWR0167" H 8550 19725 30  0001 C CNN
+F 1 "VCC" H 8554 19752 30  0000 C CNN
+F 2 "" H 8550 19625 60  0001 C CNN
+F 3 "" H 8550 19625 60  0001 C CNN
+	1    8550 19625
+	1    0    0    -1  
+$EndComp
+$Comp
+L spice:C C113
+U 1 1 812F22B2
+P 8300 19625
+F 0 "C113" V 8013 19625 60  0000 C CNN
+F 1 "100nF" V 8119 19625 60  0000 C CNN
+F 2 "" H 8300 19625 60  0000 C CNN
+F 3 "" H 8300 19625 60  0000 C CNN
+	1    8300 19625
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0158
+U 1 1 812F2465
+P 8025 22150
+F 0 "#PWR0158" H 8025 22150 30  0001 C CNN
+F 1 "GND" H 8025 22080 30  0001 C CNN
+F 2 "" H 8025 22150 60  0001 C CNN
+F 3 "" H 8025 22150 60  0001 C CNN
+	1    8025 22150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0166
+U 1 1 812F246B
+P 8525 22150
+F 0 "#PWR0166" H 8525 22250 30  0001 C CNN
+F 1 "VCC" H 8529 22277 30  0000 C CNN
+F 2 "" H 8525 22150 60  0001 C CNN
+F 3 "" H 8525 22150 60  0001 C CNN
+	1    8525 22150
+	1    0    0    -1  
+$EndComp
+$Comp
+L spice:C C112
+U 1 1 812F2471
+P 8275 22150
+F 0 "C112" V 7988 22150 60  0000 C CNN
+F 1 "100nF" V 8094 22150 60  0000 C CNN
+F 2 "" H 8275 22150 60  0000 C CNN
+F 3 "" H 8275 22150 60  0000 C CNN
+	1    8275 22150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0157
+U 1 1 812F263B
+P 8000 25075
+F 0 "#PWR0157" H 8000 25075 30  0001 C CNN
+F 1 "GND" H 8000 25005 30  0001 C CNN
+F 2 "" H 8000 25075 60  0001 C CNN
+F 3 "" H 8000 25075 60  0001 C CNN
+	1    8000 25075
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0165
+U 1 1 812F2641
+P 8500 25075
+F 0 "#PWR0165" H 8500 25175 30  0001 C CNN
+F 1 "VCC" H 8504 25202 30  0000 C CNN
+F 2 "" H 8500 25075 60  0001 C CNN
+F 3 "" H 8500 25075 60  0001 C CNN
+	1    8500 25075
+	1    0    0    -1  
+$EndComp
+$Comp
+L spice:C C111
+U 1 1 812F2647
+P 8250 25075
+F 0 "C111" V 7963 25075 60  0000 C CNN
+F 1 "100nF" V 8069 25075 60  0000 C CNN
+F 2 "" H 8250 25075 60  0000 C CNN
+F 3 "" H 8250 25075 60  0000 C CNN
+	1    8250 25075
+	0    1    1    0   
+$EndComp
+Text HLabel 7325 3450 0    60   Input ~ 0
+Bit0_X0
+Text HLabel 7325 3550 0    60   Input ~ 0
+Bit0_X1
+Text HLabel 7325 3650 0    60   Input ~ 0
+Bit0_X2
+Text HLabel 7325 3750 0    60   Input ~ 0
+Bit0_X3
+Text HLabel 7325 4100 0    60   Input ~ 0
+Bit1_X0
+Text HLabel 7325 4200 0    60   Input ~ 0
+Bit1_X1
+Text HLabel 7325 4300 0    60   Input ~ 0
+Bit1_X2
+Text HLabel 7325 4400 0    60   Input ~ 0
+Bit1_X3
+Text HLabel 7200 6650 0    60   Input ~ 0
+Bit2_X0
+Text HLabel 7200 6750 0    60   Input ~ 0
+Bit2_X1
+Text HLabel 7200 6850 0    60   Input ~ 0
+Bit2_X2
+Text HLabel 7200 6950 0    60   Input ~ 0
+Bit2_X3
+Text HLabel 7200 7300 0    60   Input ~ 0
+Bit3_X0
+Text HLabel 7200 7400 0    60   Input ~ 0
+Bit3_X1
+Text HLabel 7200 7500 0    60   Input ~ 0
+Bit3_X2
+Text HLabel 7200 7600 0    60   Input ~ 0
+Bit3_X3
+Text HLabel 7225 9525 0    60   Input ~ 0
+Bit4_X0
+Text HLabel 7225 9625 0    60   Input ~ 0
+Bit4_X1
+Text HLabel 7225 9725 0    60   Input ~ 0
+Bit4_X2
+Text HLabel 7225 9825 0    60   Input ~ 0
+Bit4_X3
+Text HLabel 7225 10175 0    60   Input ~ 0
+Bit5_X0
+Text HLabel 7225 10275 0    60   Input ~ 0
+Bit5_X1
+Text HLabel 7225 10375 0    60   Input ~ 0
+Bit5_X2
+Text HLabel 7225 10475 0    60   Input ~ 0
+Bit5_X3
+Text HLabel 7225 11950 0    60   Input ~ 0
+Bit6_X0
+Text HLabel 7225 12050 0    60   Input ~ 0
+Bit6_X1
+Text HLabel 7225 12150 0    60   Input ~ 0
+Bit6_X2
+Text HLabel 7225 12250 0    60   Input ~ 0
+Bit6_X3
+Text HLabel 7225 12600 0    60   Input ~ 0
+Bit7_X0
+Text HLabel 7225 12700 0    60   Input ~ 0
+Bit7_X1
+Text HLabel 7225 12800 0    60   Input ~ 0
+Bit7_X2
+Text HLabel 7225 12900 0    60   Input ~ 0
+Bit7_X3
+Text HLabel 7200 14800 0    60   Input ~ 0
+Bit8_X0
+Text HLabel 7200 14900 0    60   Input ~ 0
+Bit8_X1
+Text HLabel 7200 15000 0    60   Input ~ 0
+Bit8_X2
+Text HLabel 7200 15100 0    60   Input ~ 0
+Bit8_X3
+Text HLabel 7200 15450 0    60   Input ~ 0
+Bit9_X0
+Text HLabel 7200 15550 0    60   Input ~ 0
+Bit9_X1
+Text HLabel 7200 15650 0    60   Input ~ 0
+Bit9_X2
+Text HLabel 7200 15750 0    60   Input ~ 0
+Bit9_X3
+Text HLabel 7550 17825 0    60   Input ~ 0
+Bit10_X0
+Text HLabel 7550 17925 0    60   Input ~ 0
+Bit10_X1
+Text HLabel 7550 18025 0    60   Input ~ 0
+Bit10_X2
+Text HLabel 7550 18125 0    60   Input ~ 0
+Bit10_X3
+Text HLabel 7550 18475 0    60   Input ~ 0
+Bit11_X0
+Text HLabel 7550 18575 0    60   Input ~ 0
+Bit11_X1
+Text HLabel 7550 18675 0    60   Input ~ 0
+Bit11_X2
+Text HLabel 7550 18775 0    60   Input ~ 0
+Bit11_X3
+Text HLabel 7550 20225 0    60   Input ~ 0
+Bit12_X0
+Text HLabel 7550 20325 0    60   Input ~ 0
+Bit12_X1
+Text HLabel 7550 20425 0    60   Input ~ 0
+Bit12_X2
+Text HLabel 7550 20525 0    60   Input ~ 0
+Bit12_X3
+Text HLabel 7550 20875 0    60   Input ~ 0
+Bit13_X0
+Text HLabel 7550 20975 0    60   Input ~ 0
+Bit13_X1
+Text HLabel 7550 21075 0    60   Input ~ 0
+Bit13_X2
+Text HLabel 7550 21175 0    60   Input ~ 0
+Bit13_X3
+Text HLabel 7575 23100 0    60   Input ~ 0
+Bit14_X0
+Text HLabel 7575 23200 0    60   Input ~ 0
+Bit14_X1
+Text HLabel 7575 23300 0    60   Input ~ 0
+Bit14_X2
+Text HLabel 7575 23400 0    60   Input ~ 0
+Bit14_X3
+Text HLabel 7575 23750 0    60   Input ~ 0
+Bit15_X0
+Text HLabel 7575 23850 0    60   Input ~ 0
+Bit15_X1
+Text HLabel 7575 23950 0    60   Input ~ 0
+Bit15_X2
+Text HLabel 7575 24050 0    60   Input ~ 0
+Bit15_X3
+Text HLabel 9150 3650 2    60   Output ~ 0
+Z0
+Text HLabel 9050 4300 2    60   Output ~ 0
+Z1
+Text HLabel 9025 6850 2    60   Output ~ 0
+Z2
+Text HLabel 8975 7525 2    60   Output ~ 0
+Z3
+Text HLabel 9225 9750 2    60   Output ~ 0
+Z4
+Text HLabel 8925 10350 2    60   Output ~ 0
+Z5
+Text HLabel 8900 12200 2    60   Output ~ 0
+Z6
+Text HLabel 8900 12850 2    60   Output ~ 0
+Z7
+Text HLabel 8850 15100 2    60   Output ~ 0
+Z8
+Text HLabel 8850 15750 2    60   Output ~ 0
+Z9
+Text HLabel 9300 18175 2    60   Output ~ 0
+Z10
+Text HLabel 9250 18800 2    60   Output ~ 0
+Z11
+Text HLabel 9575 20375 2    60   Output ~ 0
+Z12
+Text HLabel 9475 21100 2    60   Output ~ 0
+Z13
+Text HLabel 9375 23375 2    60   Output ~ 0
+Z14
+Text HLabel 9400 24075 2    60   Output ~ 0
+Z15
+Wire Wire Line
+	7850 5275 7850 4550
+Wire Wire Line
+	7850 4550 7325 4550
+Connection ~ 7850 5275
+Wire Wire Line
+	7850 4550 7850 3975
+Wire Wire Line
+	7850 3975 7325 3975
+Wire Wire Line
+	7325 3975 7325 3900
+Connection ~ 7850 4550
+Wire Wire Line
+	8825 3650 9150 3650
+Wire Wire Line
+	9050 4300 8825 4300
+Wire Wire Line
+	8700 6850 9025 6850
+Wire Wire Line
+	8975 7525 8700 7525
+Wire Wire Line
+	8700 7525 8700 7500
+Wire Wire Line
+	9225 9750 8725 9750
+Wire Wire Line
+	8725 9750 8725 9725
+Wire Wire Line
+	8725 10375 8925 10375
+Wire Wire Line
+	8925 10375 8925 10350
+Wire Wire Line
+	8725 12150 8725 12200
+Wire Wire Line
+	8725 12200 8900 12200
+Wire Wire Line
+	8725 12800 8900 12800
+Wire Wire Line
+	8900 12800 8900 12850
+Wire Wire Line
+	8850 15100 8700 15100
+Wire Wire Line
+	8700 15100 8700 15000
+Wire Wire Line
+	8700 15650 8850 15650
+Wire Wire Line
+	8850 15650 8850 15750
+Wire Wire Line
+	9250 18800 9050 18800
+Wire Wire Line
+	9050 18800 9050 18675
+Wire Wire Line
+	9050 18025 9050 18175
+Wire Wire Line
+	9050 18175 9300 18175
+Wire Wire Line
+	9050 20425 9575 20425
+Wire Wire Line
+	9575 20425 9575 20375
+Wire Wire Line
+	9475 21100 9050 21100
+Wire Wire Line
+	9050 21100 9050 21075
+Wire Wire Line
+	9075 23300 9075 23375
+Wire Wire Line
+	9075 23375 9375 23375
+Wire Wire Line
+	9375 24075 9400 24075
+Wire Wire Line
+	9350 24075 9075 24075
+Wire Wire Line
+	9075 24075 9075 23950
+Wire Wire Line
+	8000 25075 8000 24200
+Wire Wire Line
+	8000 24200 7575 24200
+Connection ~ 8000 25075
+Wire Wire Line
+	8000 24200 8000 23550
+Wire Wire Line
+	8000 23550 7575 23550
+Connection ~ 8000 24200
+Wire Wire Line
+	8025 22150 8025 21375
+Wire Wire Line
+	8025 21375 7550 21375
+Wire Wire Line
+	7550 21375 7550 21325
+Connection ~ 8025 22150
+Wire Wire Line
+	8025 20650 7550 20650
+Wire Wire Line
+	7550 20650 7550 20675
+Wire Wire Line
+	8025 20650 8025 21375
+Connection ~ 8025 21375
+Wire Wire Line
+	8050 19625 8050 18925
+Wire Wire Line
+	8050 18925 7550 18925
+Connection ~ 8050 19625
+Wire Wire Line
+	8050 18925 8050 18275
+Wire Wire Line
+	8050 18275 7550 18275
+Connection ~ 8050 18925
+Wire Wire Line
+	7725 16825 7725 15900
+Wire Wire Line
+	7725 15250 7200 15250
+Connection ~ 7725 16825
+Wire Wire Line
+	7725 13950 7700 13950
+Wire Wire Line
+	7700 13950 7700 13050
+Wire Wire Line
+	7700 13050 7675 13050
+Connection ~ 7700 13950
+Wire Wire Line
+	7675 13050 7675 12400
+Wire Wire Line
+	7675 12400 7225 12400
+Connection ~ 7675 13050
+Wire Wire Line
+	7675 13050 7225 13050
+Wire Wire Line
+	7825 11425 7800 11425
+Wire Wire Line
+	7775 11425 7775 10625
+Wire Wire Line
+	7775 10625 7750 10625
+Connection ~ 7800 11425
+Wire Wire Line
+	7800 11425 7775 11425
+Wire Wire Line
+	7750 10625 7750 9975
+Wire Wire Line
+	7750 9975 7225 9975
+Connection ~ 7750 10625
+Wire Wire Line
+	7750 10625 7225 10625
+Wire Wire Line
+	7850 8500 7850 7750
+Wire Wire Line
+	7850 7750 7700 7750
+Wire Wire Line
+	7700 7750 7700 7100
+Wire Wire Line
+	7700 7100 7200 7100
+Connection ~ 7700 7750
+Wire Wire Line
+	7700 7750 7200 7750
+Text HLabel 1900 4250 0    60   Input ~ 0
+S0
+Text HLabel 1900 4350 0    60   Input ~ 0
+S1
+Text Label 1900 4250 0    60   ~ 0
+S0
+Text Label 1900 4350 0    60   ~ 0
+S1
+Text Label 7325 4750 2    60   ~ 0
+S0
+Text Label 7325 4850 2    60   ~ 0
+S1
+Text Label 7200 7950 2    60   ~ 0
+S0
+Text Label 7200 8050 2    60   ~ 0
+S1
+Text Label 7225 10825 2    60   ~ 0
+S0
+Text Label 7225 10925 2    60   ~ 0
+S1
+Text Label 7225 13250 2    60   ~ 0
+S0
+Text Label 7225 13350 2    60   ~ 0
+S1
+Text Label 7200 16100 2    60   ~ 0
+S0
+Text Label 7200 16200 2    60   ~ 0
+S1
+Wire Wire Line
+	7200 15900 7725 15900
+Connection ~ 7725 15900
+Wire Wire Line
+	7725 15900 7725 15250
+Text Label 7550 19125 2    60   ~ 0
+S0
+Text Label 7550 19225 2    60   ~ 0
+S1
+Text Label 7550 21525 2    60   ~ 0
+S0
+Text Label 7550 21625 2    60   ~ 0
+S1
+Text Label 7575 24400 2    60   ~ 0
+S0
+Text Label 7575 24500 2    60   ~ 0
+S1
+$EndSCHEMATC
