@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 57 191
+Sheet 48 191
 Title ""
 Date ""
 Rev ""
@@ -420,4 +420,66 @@ Wire Wire Line
 	2575 3225 2700 3225
 Wire Wire Line
 	2700 3225 2700 3700
+$Comp
+L Device:C_Small C6
+U 1 1 5B6737E0
+P 3850 6675
+F 0 "C6" H 3942 6721 50  0000 L CNN
+F 1 "100nF" H 3942 6630 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.29x1.40mm_HandSolder" H 3850 6675 50  0001 C CNN
+F 3 "~" H 3850 6675 50  0001 C CNN
+	1    3850 6675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 5B6738F5
+P 4450 6700
+F 0 "C7" H 4542 6746 50  0000 L CNN
+F 1 "100nF" H 4542 6655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.29x1.40mm_HandSolder" H 4450 6700 50  0001 C CNN
+F 3 "~" H 4450 6700 50  0001 C CNN
+	1    4450 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0513
+U 1 1 5B673D34
+P 4175 6300
+F 0 "#PWR0513" H 4175 6150 50  0001 C CNN
+F 1 "VCC" H 4192 6473 50  0000 C CNN
+F 2 "" H 4175 6300 50  0001 C CNN
+F 3 "" H 4175 6300 50  0001 C CNN
+	1    4175 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Alu-rescue:GND-power #PWR0514
+U 1 1 5B673D8C
+P 4150 6950
+F 0 "#PWR0514" H 4150 6950 30  0001 C CNN
+F 1 "GND-power" H 4150 6880 30  0001 C CNN
+F 2 "" H 4150 6950 50  0001 C CNN
+F 3 "" H 4150 6950 50  0001 C CNN
+	1    4150 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 6775 4150 6775
+Wire Wire Line
+	4150 6775 4150 6800
+Wire Wire Line
+	4450 6800 4150 6800
+Connection ~ 4150 6800
+Wire Wire Line
+	4150 6800 4150 6950
+Wire Wire Line
+	3850 6575 4175 6575
+Wire Wire Line
+	4175 6575 4175 6300
+Wire Wire Line
+	4175 6575 4450 6575
+Wire Wire Line
+	4450 6575 4450 6600
+Connection ~ 4175 6575
 $EndSCHEMATC

@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 38 191
+Sheet 120 191
 Title ""
 Date ""
 Rev ""
@@ -121,8 +121,6 @@ Wire Wire Line
 	700  4425 700  4200
 Wire Wire Line
 	2850 4300 2675 4300
-Wire Wire Line
-	2675 4300 2675 4375
 Wire Wire Line
 	2675 5000 2525 5000
 Wire Wire Line
@@ -383,13 +381,6 @@ Wire Wire Line
 	750  4925 775  4925
 Wire Wire Line
 	750  4575 750  4925
-Wire Wire Line
-	2775 4700 2775 4375
-Wire Wire Line
-	2775 4375 2675 4375
-Connection ~ 2675 4375
-Wire Wire Line
-	2675 4375 2675 4500
 $Comp
 L Device:C_Small C12
 U 1 1 64F2C9E1
@@ -437,7 +428,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 4900 2675 4900
 Wire Wire Line
-	2675 4900 2675 5000
+	2675 4900 2675 4925
 Wire Wire Line
 	2600 4625 2600 4500
 Wire Wire Line
@@ -556,4 +547,13 @@ Wire Wire Line
 	4375 2225 4350 2225
 Wire Wire Line
 	4375 2225 4375 4000
+Wire Wire Line
+	2675 4300 2675 4500
+Wire Wire Line
+	2775 4700 2775 4925
+Wire Wire Line
+	2775 4925 2675 4925
+Connection ~ 2675 4925
+Wire Wire Line
+	2675 4925 2675 5000
 $EndSCHEMATC
