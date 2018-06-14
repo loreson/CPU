@@ -420,13 +420,6 @@ Connection ~ 9450 3925
 Wire Wire Line
 	9450 3925 9300 3925
 $Sheet
-S 1100 850  150  500 
-U 5C3F2A96
-F0 "Sheet5C3F2A95" 50
-F1 "LED_RED.sch" 50
-F2 "X" I B 1175 1350 50 
-$EndSheet
-$Sheet
 S 1425 850  150  500 
 U 5C3F2B4E
 F0 "sheet5C3F2B4B" 50
@@ -549,4 +542,17 @@ F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    3875 3950
 	0    -1   -1   0   
 $EndComp
+$Sheet
+S 750  925  500  150 
+U 5B6188BC
+F0 "Sheet5B6188BB" 50
+F1 "LED_RED.sch" 50
+F2 "X" I L 750 1000 50 
+$EndSheet
+Wire Wire Line
+	1175 1350 600  1350
+Wire Wire Line
+	600  1350 600  1000
+Wire Wire Line
+	600  1000 750  1000
 $EndSCHEMATC

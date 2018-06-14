@@ -2685,7 +2685,7 @@ U 1 1 5C026107
 P 3100 18775
 F 0 "U1" H 3100 19163 60  0000 C CNN
 F 1 "74LS08" H 3100 19057 60  0000 C CNN
-F 2 "" H 3100 18775 60  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3100 18775 60  0001 C CNN
 F 3 "" H 3100 18775 60  0001 C CNN
 F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
 F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
@@ -2700,7 +2700,7 @@ U 2 1 5C0261B9
 P 3125 19525
 F 0 "U1" H 3125 19913 60  0000 C CNN
 F 1 "74LS08" H 3125 19807 60  0000 C CNN
-F 2 "" H 3125 19525 60  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3125 19525 60  0001 C CNN
 F 3 "" H 3125 19525 60  0001 C CNN
 F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
 F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
@@ -2715,7 +2715,7 @@ U 4 1 5C02624F
 P 3250 20150
 F 0 "U1" H 3250 20538 60  0000 C CNN
 F 1 "74LS08" H 3250 20432 60  0000 C CNN
-F 2 "" H 3250 20150 60  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3250 20150 60  0001 C CNN
 F 3 "" H 3250 20150 60  0001 C CNN
 F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
 F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
@@ -2730,7 +2730,7 @@ U 3 1 5C0262B2
 P 3225 20800
 F 0 "U1" H 3225 21188 60  0000 C CNN
 F 1 "74LS08" H 3225 21082 60  0000 C CNN
-F 2 "" H 3225 20800 60  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3225 20800 60  0001 C CNN
 F 3 "" H 3225 20800 60  0001 C CNN
 F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
 F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
@@ -2879,7 +2879,6 @@ Wire Wire Line
 	24675 11900 25525 11900
 Wire Wire Line
 	26350 11900 26350 11925
-NoConn ~ 11000 8325
 Wire Wire Line
 	21200 5900 21200 5750
 Wire Wire Line
@@ -3698,7 +3697,7 @@ U 5 1 5BFA4A71
 P 3125 22025
 F 0 "U1" V 3492 22025 50  0000 C CNN
 F 1 "74LS08" V 3401 22025 50  0000 C CNN
-F 2 "" H 3125 22025 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3125 22025 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS08" H 3125 22025 50  0001 C CNN
 F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
 F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
@@ -3767,8 +3766,6 @@ Wire Wire Line
 Wire Wire Line
 	24650 8325 24650 8675
 Connection ~ 24500 8075
-Wire Wire Line
-	24500 8075 24625 8075
 Wire Wire Line
 	23175 8725 23250 8725
 Wire Wire Line
@@ -4011,7 +4008,7 @@ U 1 1 634BF0A2
 P 2075 6900
 F 0 "J1" H 1995 4975 50  0000 C CNN
 F 1 "Conn_01x34" H 1995 5066 50  0000 C CNN
-F 2 "" H 2075 6900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x34_P2.54mm_Vertical_SMD_Pin1Right" H 2075 6900 50  0001 C CNN
 F 3 "~" H 2075 6900 50  0001 C CNN
 F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
 F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
@@ -4121,7 +4118,7 @@ U 1 1 66550C76
 P 29550 11300
 F 0 "J2" H 29365 11277 50  0000 R CNN
 F 1 "Barrel_Jack" H 29365 11368 50  0000 R CNN
-F 2 "" H 29600 11260 50  0001 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 29600 11260 50  0001 C CNN
 F 3 "~" H 29600 11260 50  0001 C CNN
 F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
 F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
@@ -4565,7 +4562,7 @@ Wire Wire Line
 Wire Wire Line
 	975  14025 975  14050
 Text Label 800  14400 2    50   ~ 0
-Zflag
+ZFlag
 Wire Wire Line
 	800  14400 975  14400
 $Sheet
@@ -4747,12 +4744,7 @@ F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	24625 8075 24675 8075
-Wire Wire Line
 	24675 8075 24675 7875
-Connection ~ 24625 8075
-Wire Wire Line
-	24625 8075 24675 8075
 Connection ~ 24675 8075
 $Comp
 L 74xx:74HC02 U2
@@ -4769,4 +4761,8 @@ F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	5    22675 8725
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	24625 8075 24675 8075
+Wire Wire Line
+	24500 8075 24675 8075
 $EndSCHEMATC
