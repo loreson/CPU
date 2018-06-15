@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 161 191
+Sheet 189 191
 Title ""
 Date ""
 Rev ""
@@ -25,12 +25,8 @@ AR Path="/672E6CC2/661B60D5" Ref="R138"  Part="1"
 AR Path="/5BDEFC11/661B60D5" Ref="R166"  Part="1" 
 F 0 "R166" V 5468 3800 50  0000 C CNN
 F 1 "1k" V 5559 3800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0815_2038Metric_Pad1.64x4.00mm_HandSolder" V 5605 3800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.29x1.40mm_HandSolder" V 5605 3800 50  0001 C CNN
 F 3 "~" H 5675 3800 50  0001 C CNN
-F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
-F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
-F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
-F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    5675 3800
 	0    1    1    0   
 $EndComp
