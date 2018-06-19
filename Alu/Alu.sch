@@ -693,11 +693,9 @@ Wire Wire Line
 Wire Wire Line
 	11575 6825 11575 6625
 Wire Wire Line
-	5250 7450 5625 7450
-Wire Wire Line
 	5625 7450 5625 7475
 Wire Wire Line
-	5250 7550 5450 7550
+	5250 7550 5340 7550
 Wire Wire Line
 	5450 7550 5450 7600
 Wire Wire Line
@@ -706,8 +704,6 @@ Wire Wire Line
 	5625 7725 5375 7725
 Wire Wire Line
 	5375 7725 5375 7650
-Wire Wire Line
-	5375 7650 5250 7650
 Wire Wire Line
 	5250 7750 5350 7750
 Wire Wire Line
@@ -721,9 +717,9 @@ Wire Wire Line
 Wire Wire Line
 	5325 7975 5325 7850
 Wire Wire Line
-	5325 7850 5250 7850
+	5325 7850 5260 7850
 Wire Wire Line
-	5250 7950 5250 8000
+	5250 7950 5250 7955
 Wire Wire Line
 	5250 8000 5525 8000
 Wire Wire Line
@@ -735,9 +731,7 @@ Wire Wire Line
 Wire Wire Line
 	5475 8200 5475 8050
 Wire Wire Line
-	5475 8050 5250 8050
-Wire Wire Line
-	5250 8150 5350 8150
+	5475 8050 5275 8050
 Wire Wire Line
 	5350 8150 5350 8300
 Wire Wire Line
@@ -863,10 +857,6 @@ Wire Wire Line
 Wire Wire Line
 	6525 13975 6075 13975
 Wire Wire Line
-	6075 13975 6075 14025
-Wire Wire Line
-	6075 14125 6425 14125
-Wire Wire Line
 	6425 14125 6425 14150
 Wire Wire Line
 	6425 14150 6525 14150
@@ -874,10 +864,6 @@ Wire Wire Line
 	6525 14300 6250 14300
 Wire Wire Line
 	6250 14300 6250 14225
-Wire Wire Line
-	6250 14225 6075 14225
-Wire Wire Line
-	6075 14325 6400 14325
 Wire Wire Line
 	6400 14325 6400 14450
 Wire Wire Line
@@ -891,21 +877,17 @@ Wire Wire Line
 Wire Wire Line
 	6350 14500 6350 14425
 Wire Wire Line
-	6350 14425 6075 14425
-Wire Wire Line
-	6075 14525 6425 14525
-Wire Wire Line
 	6425 14525 6425 14775
 Wire Wire Line
 	6425 14775 6525 14775
 Wire Wire Line
-	6075 14625 6350 14625
+	6075 14625 6125 14625
 Wire Wire Line
 	6350 14625 6350 14925
 Wire Wire Line
 	6350 14925 6525 14925
 Wire Wire Line
-	6075 14725 6075 14975
+	6075 14725 6075 14775
 Wire Wire Line
 	6075 14975 6450 14975
 Wire Wire Line
@@ -2331,8 +2313,6 @@ Wire Wire Line
 Wire Wire Line
 	8425 10750 8425 10725
 Wire Wire Line
-	8200 12925 7675 12925
-Wire Wire Line
 	7675 12925 7675 12975
 Wire Wire Line
 	7675 12975 7650 12975
@@ -2341,9 +2321,7 @@ Wire Wire Line
 Wire Wire Line
 	7850 13150 7850 13025
 Wire Wire Line
-	7850 13025 8175 13025
-Wire Wire Line
-	8175 13375 7675 13375
+	7850 13025 8025 13025
 Wire Wire Line
 	7675 13375 7675 13325
 Wire Wire Line
@@ -2353,10 +2331,6 @@ Wire Wire Line
 Wire Wire Line
 	8000 13550 8000 13650
 Wire Wire Line
-	8000 13650 8225 13650
-Wire Wire Line
-	8200 13775 7875 13775
-Wire Wire Line
 	7875 13775 7875 13725
 Wire Wire Line
 	7875 13725 7650 13725
@@ -2365,11 +2339,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 13975 8150 14000
 Wire Wire Line
-	7650 14225 8025 14225
-Wire Wire Line
 	7650 14225 7650 14200
-Wire Wire Line
-	7650 14450 8050 14450
 Wire Wire Line
 	8325 16200 7975 16200
 Wire Wire Line
@@ -2638,35 +2608,21 @@ Wire Wire Line
 Wire Wire Line
 	6750 27375 6750 27275
 Wire Wire Line
-	6750 27275 7050 27275
+	6750 27275 6800 27275
 Wire Wire Line
 	7050 27400 6850 27400
 Wire Wire Line
 	6850 27400 6850 27475
 Wire Wire Line
-	6850 27475 6675 27475
-Wire Wire Line
-	6675 27575 6875 27575
-Wire Wire Line
 	6875 27575 6875 27525
 Wire Wire Line
 	6875 27525 7050 27525
 Wire Wire Line
-	6675 27675 7050 27675
-Wire Wire Line
-	7050 27800 6675 27800
-Wire Wire Line
 	6675 27800 6675 27775
-Wire Wire Line
-	6675 27875 7050 27875
 Wire Wire Line
 	7050 27875 7050 27900
 Wire Wire Line
-	7050 28000 6675 28000
-Wire Wire Line
 	6675 28000 6675 27975
-Wire Wire Line
-	6675 28075 7050 28075
 Wire Wire Line
 	7050 28075 7050 28100
 $Comp
@@ -4706,8 +4662,12 @@ U 1 1 5BF73C30
 P 2075 6100
 F 0 "J8" H 1995 4975 50  0000 C CNN
 F 1 "Conn_01x18" H 1995 5066 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical_SMD_Pin1Left" H 2075 6100 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical" H 2075 6100 50  0001 C CNN
 F 3 "~" H 2075 6100 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    2075 6100
 	-1   0    0    1   
 $EndComp
@@ -4717,8 +4677,12 @@ U 1 1 5BF73EF7
 P 1025 8525
 F 0 "J4" H 945 7400 50  0000 C CNN
 F 1 "Conn_01x18" H 945 7491 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical_SMD_Pin1Left" H 1025 8525 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical" H 1025 8525 50  0001 C CNN
 F 3 "~" H 1025 8525 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    1025 8525
 	-1   0    0    1   
 $EndComp
@@ -4790,8 +4754,12 @@ U 1 1 5C9D4F11
 P 1725 5575
 F 0 "J7" H 1645 4950 50  0000 C CNN
 F 1 "Conn_01x08" H 1645 5041 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical_SMD_Pin1Right" H 1725 5575 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 1725 5575 50  0001 C CNN
 F 3 "~" H 1725 5575 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    1725 5575
 	-1   0    0    1   
 $EndComp
@@ -4801,8 +4769,12 @@ U 1 1 5C9D5140
 P 1400 5575
 F 0 "J6" H 1320 4950 50  0000 C CNN
 F 1 "Conn_01x08" H 1320 5041 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical_SMD_Pin1Right" H 1400 5575 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 1400 5575 50  0001 C CNN
 F 3 "~" H 1400 5575 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    1400 5575
 	-1   0    0    1   
 $EndComp
@@ -4812,8 +4784,12 @@ U 1 1 5CB943A1
 P 1050 5575
 F 0 "J5" H 970 4950 50  0000 C CNN
 F 1 "Conn_01x08" H 970 5041 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical_SMD_Pin1Right" H 1050 5575 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 1050 5575 50  0001 C CNN
 F 3 "~" H 1050 5575 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    1050 5575
 	-1   0    0    1   
 $EndComp
@@ -4823,8 +4799,12 @@ U 1 1 5CD535DF
 P 725 5550
 F 0 "J3" H 645 4925 50  0000 C CNN
 F 1 "Conn_01x08" H 645 5016 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical_SMD_Pin1Right" H 725 5550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 725 5550 50  0001 C CNN
 F 3 "~" H 725 5550 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    725  5550
 	-1   0    0    1   
 $EndComp
@@ -4834,8 +4814,12 @@ U 1 1 5D0D1B2E
 P 375 5550
 F 0 "J1" H 295 4925 50  0000 C CNN
 F 1 "Conn_01x08" H 295 5016 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical_SMD_Pin1Right" H 375 5550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 375 5550 50  0001 C CNN
 F 3 "~" H 375 5550 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    375  5550
 	-1   0    0    1   
 $EndComp
@@ -5003,8 +4987,12 @@ U 1 1 61D27DB7
 P 1700 6500
 F 0 "J13" H 1620 5875 50  0000 C CNN
 F 1 "Conn_01x08" H 1620 5966 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical_SMD_Pin1Right" H 1700 6500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 1700 6500 50  0001 C CNN
 F 3 "~" H 1700 6500 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    1700 6500
 	-1   0    0    1   
 $EndComp
@@ -5014,8 +5002,12 @@ U 1 1 61D27DBE
 P 1375 6500
 F 0 "J12" H 1295 5875 50  0000 C CNN
 F 1 "Conn_01x08" H 1295 5966 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical_SMD_Pin1Right" H 1375 6500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 1375 6500 50  0001 C CNN
 F 3 "~" H 1375 6500 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    1375 6500
 	-1   0    0    1   
 $EndComp
@@ -5025,8 +5017,12 @@ U 1 1 61D27DC5
 P 1025 6500
 F 0 "J11" H 945 5875 50  0000 C CNN
 F 1 "Conn_01x08" H 945 5966 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical_SMD_Pin1Right" H 1025 6500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 1025 6500 50  0001 C CNN
 F 3 "~" H 1025 6500 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    1025 6500
 	-1   0    0    1   
 $EndComp
@@ -5036,8 +5032,12 @@ U 1 1 61D27DCC
 P 700 6475
 F 0 "J10" H 620 5850 50  0000 C CNN
 F 1 "Conn_01x08" H 620 5941 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical_SMD_Pin1Right" H 700 6475 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 700 6475 50  0001 C CNN
 F 3 "~" H 700 6475 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    700  6475
 	-1   0    0    1   
 $EndComp
@@ -5047,8 +5047,12 @@ U 1 1 61D27DD3
 P 350 6475
 F 0 "J9" H 270 5850 50  0000 C CNN
 F 1 "Conn_01x08" H 270 5941 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical_SMD_Pin1Right" H 350 6475 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 350 6475 50  0001 C CNN
 F 3 "~" H 350 6475 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    350  6475
 	-1   0    0    1   
 $EndComp
@@ -5268,13 +5272,17 @@ Connection ~ 2300 6700
 Wire Wire Line
 	2300 6700 2500 6700
 $Comp
-L Connector_Generic:Conn_01x08 J?
+L Connector_Generic:Conn_01x08 J14
 U 1 1 6474048E
 P 11025 6175
-F 0 "J?" H 10945 5550 50  0000 C CNN
+F 0 "J14" H 10945 5550 50  0000 C CNN
 F 1 "Conn_01x08" H 10945 5641 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical_SMD_Pin1Right" H 11025 6175 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 11025 6175 50  0001 C CNN
 F 3 "~" H 11025 6175 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
 	1    11025 6175
 	-1   0    0    1   
 $EndComp
@@ -5329,4 +5337,386 @@ Wire Wire Line
 Connection ~ 11575 6625
 Wire Wire Line
 	11575 6625 11575 6550
+$Comp
+L Connector_Generic:Conn_01x08 J16
+U 1 1 5B6FC961
+P 4775 7825
+F 0 "J16" H 4695 7200 50  0000 C CNN
+F 1 "Conn_01x08" H 4695 7291 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 4775 7825 50  0001 C CNN
+F 3 "~" H 4775 7825 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
+	1    4775 7825
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5405 7420 5405 7450
+Wire Wire Line
+	5250 7450 5405 7450
+Connection ~ 5405 7450
+Wire Wire Line
+	5405 7450 5625 7450
+Wire Wire Line
+	4975 7425 4975 7420
+Wire Wire Line
+	4975 7420 5405 7420
+Wire Wire Line
+	4975 7525 5340 7525
+Wire Wire Line
+	5340 7525 5340 7550
+Connection ~ 5340 7550
+Wire Wire Line
+	5340 7550 5450 7550
+Wire Wire Line
+	4975 7650 4975 7625
+Wire Wire Line
+	4975 7650 5375 7650
+Wire Wire Line
+	4975 7725 5250 7725
+Wire Wire Line
+	5250 7725 5250 7750
+Wire Wire Line
+	4975 7825 5260 7825
+Wire Wire Line
+	5260 7825 5260 7850
+Connection ~ 5260 7850
+Wire Wire Line
+	5260 7850 5250 7850
+Wire Wire Line
+	4975 7955 4975 7925
+Wire Wire Line
+	4975 8025 5275 8025
+Wire Wire Line
+	5275 8025 5275 8050
+Connection ~ 5275 8050
+Wire Wire Line
+	5275 8050 5250 8050
+Wire Wire Line
+	4975 7955 5250 7955
+Connection ~ 5250 7955
+Wire Wire Line
+	5250 7955 5250 8000
+Wire Wire Line
+	4975 8150 4975 8125
+Wire Wire Line
+	4975 8150 5350 8150
+$Comp
+L Connector:Conn_01x02_Male J15
+U 1 1 5D3D61E4
+P 4760 8370
+F 0 "J15" H 4866 8548 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4866 8457 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4760 8370 50  0001 C CNN
+F 3 "~" H 4760 8370 50  0001 C CNN
+F 4 "" H 0   0   50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 0   0   50  0001 C CNN "Spice_Model"
+F 6 "" H 0   0   50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 0   0   50  0001 C CNN "Spice_Primitive"
+	1    4760 8370
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR025
+U 1 1 5D3D66B6
+P 5070 8520
+F 0 "#PWR025" H 5070 8370 50  0001 C CNN
+F 1 "VCC" H 5087 8693 50  0000 C CNN
+F 2 "" H 5070 8520 50  0001 C CNN
+F 3 "" H 5070 8520 50  0001 C CNN
+	1    5070 8520
+	1    0    0    -1  
+$EndComp
+$Comp
+L Alu-rescue:GND-power #PWR047
+U 1 1 5D3D67F1
+P 5190 8360
+F 0 "#PWR047" H 5190 8360 30  0001 C CNN
+F 1 "GND-power" H 5190 8290 30  0001 C CNN
+F 2 "" H 5190 8360 50  0001 C CNN
+F 3 "" H 5190 8360 50  0001 C CNN
+	1    5190 8360
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5190 8360 4960 8360
+Wire Wire Line
+	4960 8360 4960 8370
+Wire Wire Line
+	4960 8470 5020 8470
+Wire Wire Line
+	5020 8470 5020 8520
+Wire Wire Line
+	5020 8520 5070 8520
+$Comp
+L Connector_Generic:Conn_01x08 J17
+U 1 1 5D8D2A4C
+P 6000 27375
+F 0 "J17" H 5920 26750 50  0000 C CNN
+F 1 "Conn_01x08" H 5920 26841 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 6000 27375 50  0001 C CNN
+F 3 "~" H 6000 27375 50  0001 C CNN
+F 4 "" H 1225 19550 50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 1225 19550 50  0001 C CNN "Spice_Model"
+F 6 "" H 1225 19550 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 1225 19550 50  0001 C CNN "Spice_Primitive"
+	1    6000 27375
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J18
+U 1 1 5D8D2A57
+P 6000 28200
+F 0 "J18" H 6106 28378 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 6106 28287 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6000 28200 50  0001 C CNN
+F 3 "~" H 6000 28200 50  0001 C CNN
+F 4 "" H 1240 19830 50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 1240 19830 50  0001 C CNN "Spice_Model"
+F 6 "" H 1240 19830 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 1240 19830 50  0001 C CNN "Spice_Primitive"
+	1    6000 28200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 27075 6800 27075
+Wire Wire Line
+	6800 27075 6800 27275
+Connection ~ 6800 27275
+Wire Wire Line
+	6800 27275 7050 27275
+Wire Wire Line
+	6375 27475 6375 27175
+Wire Wire Line
+	6375 27175 6200 27175
+Wire Wire Line
+	6375 27475 6850 27475
+Wire Wire Line
+	6200 27275 6325 27275
+Wire Wire Line
+	6325 27275 6325 27575
+Wire Wire Line
+	6325 27575 6875 27575
+Wire Wire Line
+	6200 27375 6300 27375
+Wire Wire Line
+	6300 27375 6300 27675
+Wire Wire Line
+	6300 27675 7050 27675
+Wire Wire Line
+	6200 27475 6275 27475
+Wire Wire Line
+	6275 27475 6275 27800
+Wire Wire Line
+	6275 27800 6675 27800
+Connection ~ 6675 27800
+Wire Wire Line
+	6675 27800 7050 27800
+Wire Wire Line
+	6200 27575 6200 27600
+Wire Wire Line
+	6200 27600 6250 27600
+Wire Wire Line
+	6250 27600 6250 27875
+Wire Wire Line
+	6250 27875 7050 27875
+Wire Wire Line
+	6200 27675 5750 27675
+Wire Wire Line
+	5750 27675 5750 28000
+Wire Wire Line
+	5750 28000 6675 28000
+Connection ~ 6675 28000
+Wire Wire Line
+	6675 28000 7050 28000
+Wire Wire Line
+	6200 27775 6200 28075
+Wire Wire Line
+	6200 28075 7050 28075
+$Comp
+L Alu-rescue:GND-power #PWR0515
+U 1 1 5F6B2E17
+P 6225 28350
+F 0 "#PWR0515" H 6225 28350 30  0001 C CNN
+F 1 "GND-power" H 6225 28280 30  0001 C CNN
+F 2 "" H 6225 28350 50  0001 C CNN
+F 3 "" H 6225 28350 50  0001 C CNN
+	1    6225 28350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0516
+U 1 1 5F6B2ED0
+P 6325 28200
+F 0 "#PWR0516" H 6325 28050 50  0001 C CNN
+F 1 "VCC" H 6342 28373 50  0000 C CNN
+F 2 "" H 6325 28200 50  0001 C CNN
+F 3 "" H 6325 28200 50  0001 C CNN
+	1    6325 28200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6325 28200 6200 28200
+Wire Wire Line
+	6200 28300 6225 28300
+Wire Wire Line
+	6225 28300 6225 28350
+$Comp
+L Connector_Generic:Conn_01x08 J19
+U 1 1 5FBE4461
+P 5400 14450
+F 0 "J19" H 5320 13825 50  0000 C CNN
+F 1 "Conn_01x08" H 5320 13916 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 5400 14450 50  0001 C CNN
+F 3 "~" H 5400 14450 50  0001 C CNN
+F 4 "" H 625 6625 50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 625 6625 50  0001 C CNN "Spice_Model"
+F 6 "" H 625 6625 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 625 6625 50  0001 C CNN "Spice_Primitive"
+	1    5400 14450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6350 14425 6100 14425
+Wire Wire Line
+	6250 14225 6075 14225
+Wire Wire Line
+	5600 14050 6075 14050
+Wire Wire Line
+	6075 13975 6075 14050
+Wire Wire Line
+	5600 14125 5600 14150
+Wire Wire Line
+	5600 14125 6425 14125
+Wire Wire Line
+	5600 14250 6075 14250
+Wire Wire Line
+	6075 14250 6075 14225
+Wire Wire Line
+	5600 14325 5600 14350
+Wire Wire Line
+	5600 14325 6400 14325
+Wire Wire Line
+	6100 14450 6100 14425
+Connection ~ 6100 14425
+Wire Wire Line
+	6100 14425 6075 14425
+Wire Wire Line
+	5600 14525 5600 14550
+Wire Wire Line
+	5600 14525 6425 14525
+Wire Wire Line
+	5600 14650 6125 14650
+Wire Wire Line
+	6125 14650 6125 14625
+Connection ~ 6125 14625
+Wire Wire Line
+	6125 14625 6350 14625
+Wire Wire Line
+	6075 14775 5600 14775
+Wire Wire Line
+	5600 14775 5600 14750
+Connection ~ 6075 14775
+Wire Wire Line
+	6075 14775 6075 14975
+$Comp
+L Device:R R169
+U 1 1 6372C8B2
+P 5750 14450
+F 0 "R169" V 5543 14450 50  0000 C CNN
+F 1 "0" V 5634 14450 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 5680 14450 50  0001 C CNN
+F 3 "~" H 5750 14450 50  0001 C CNN
+	1    5750 14450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5900 14450 6100 14450
+$Comp
+L Device:R R170
+U 1 1 639C5A39
+P 5275 15000
+F 0 "R170" V 5068 15000 50  0000 C CNN
+F 1 "0" V 5159 15000 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 5205 15000 50  0001 C CNN
+F 3 "~" H 5275 15000 50  0001 C CNN
+	1    5275 15000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0510
+U 1 1 639C5C77
+P 5425 15000
+F 0 "#PWR0510" H 5425 14850 50  0001 C CNN
+F 1 "VCC" H 5442 15173 50  0000 C CNN
+F 2 "" H 5425 15000 50  0001 C CNN
+F 3 "" H 5425 15000 50  0001 C CNN
+	1    5425 15000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J20
+U 1 1 639C76E9
+P 9550 13325
+F 0 "J20" H 9470 12700 50  0000 C CNN
+F 1 "Conn_01x08" H 9470 12791 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 9550 13325 50  0001 C CNN
+F 3 "~" H 9550 13325 50  0001 C CNN
+F 4 "" H 4775 5500 50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 4775 5500 50  0001 C CNN "Spice_Model"
+F 6 "" H 4775 5500 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 4775 5500 50  0001 C CNN "Spice_Primitive"
+	1    9550 13325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 12925 9350 13025
+Wire Wire Line
+	7675 12925 9350 12925
+Wire Wire Line
+	9350 13125 8025 13125
+Wire Wire Line
+	8025 13125 8025 13025
+Connection ~ 8025 13025
+Wire Wire Line
+	8025 13025 8175 13025
+Wire Wire Line
+	8750 13375 8750 13225
+Wire Wire Line
+	8750 13225 9350 13225
+Wire Wire Line
+	7675 13375 8750 13375
+Wire Wire Line
+	9350 13325 8825 13325
+Wire Wire Line
+	8825 13325 8825 13650
+Wire Wire Line
+	8975 13775 8975 13425
+Wire Wire Line
+	8975 13425 9350 13425
+Wire Wire Line
+	7875 13775 8975 13775
+Wire Wire Line
+	9350 13525 9025 13525
+Wire Wire Line
+	9025 13525 9025 13975
+Wire Wire Line
+	9025 13975 8150 13975
+Connection ~ 8150 13975
+Wire Wire Line
+	9150 14225 9150 13625
+Wire Wire Line
+	9150 13625 9350 13625
+Wire Wire Line
+	7650 14225 9150 14225
+Wire Wire Line
+	9350 13725 9225 13725
+Wire Wire Line
+	9225 13725 9225 14450
+Wire Wire Line
+	7650 14450 9225 14450
+Wire Wire Line
+	8000 13650 8825 13650
 $EndSCHEMATC

@@ -469,10 +469,6 @@ Wire Wire Line
 Connection ~ 3075 2250
 Wire Wire Line
 	3075 2250 3075 2475
-Wire Wire Line
-	3650 1550 3650 2225
-Wire Wire Line
-	3650 2225 4000 2225
 Connection ~ 4000 2225
 Wire Wire Line
 	4000 2225 4000 2375
@@ -511,4 +507,25 @@ Wire Wire Line
 Connection ~ 7675 2225
 Wire Wire Line
 	7425 2225 7675 2225
+$Comp
+L Device:R R161
+U 1 1 5FBC962A
+P 3625 1875
+F 0 "R161" H 3695 1921 50  0000 L CNN
+F 1 "0" H 3695 1830 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 3555 1875 50  0001 C CNN
+F 3 "~" H 3625 1875 50  0001 C CNN
+	1    3625 1875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3625 1725 3625 1625
+Wire Wire Line
+	3625 1625 3650 1625
+Wire Wire Line
+	3650 1625 3650 1550
+Wire Wire Line
+	3625 2025 3625 2225
+Wire Wire Line
+	3625 2225 4000 2225
 $EndSCHEMATC

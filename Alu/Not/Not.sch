@@ -1,0 +1,928 @@
+EESchema Schematic File Version 4
+LIBS:Not-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+NoConn ~ 7375 4750
+$Comp
+L power:VDD #PWR07
+U 1 1 5FBC5627
+P 8900 3275
+F 0 "#PWR07" H 8900 3375 30  0001 C CNN
+F 1 "VDD" H 8915 3412 30  0000 C CNN
+F 2 "" H 8900 3275 60  0001 C CNN
+F 3 "" H 8900 3275 60  0001 C CNN
+	1    8900 3275
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5FBC5628
+P 8375 5200
+F 0 "#PWR03" H 8375 5200 30  0001 C CNN
+F 1 "GND" H 8375 5130 30  0001 C CNN
+F 2 "" H 8375 5200 60  0001 C CNN
+F 3 "" H 8375 5200 60  0001 C CNN
+	1    8375 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR02
+U 1 1 5C8FF8DB
+P 8250 5250
+F 0 "#PWR02" H 8250 5250 30  0001 C CNN
+F 1 "VSS" H 8250 5308 30  0000 C CNN
+F 2 "" H 8250 5250 60  0001 C CNN
+F 3 "" H 8250 5250 60  0001 C CNN
+	1    8250 5250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR01
+U 1 1 5FBC562A
+P 6600 5975
+F 0 "#PWR01" H 6600 6075 30  0001 C CNN
+F 1 "VCC" H 6604 6102 30  0000 C CNN
+F 2 "" H 6600 5975 50  0001 C CNN
+F 3 "" H 6600 5975 50  0001 C CNN
+	1    6600 5975
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR06
+U 1 1 5FBC562B
+P 8900 3200
+F 0 "#PWR06" H 8900 3300 30  0001 C CNN
+F 1 "VCC" H 8904 3327 30  0000 C CNN
+F 2 "" H 8900 3200 50  0001 C CNN
+F 3 "" H 8900 3200 50  0001 C CNN
+	1    8900 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U?
+U 1 1 5FBC562C
+P 2000 3875
+AR Path="/5AE6649D/5FBC562C" Ref="U?"  Part="1" 
+AR Path="/5B1BA146/5FBC562C" Ref="U?"  Part="1" 
+AR Path="/5AE655FE/64F62017/5FBC562C" Ref="U?"  Part="1" 
+AR Path="/5FBC562C" Ref="U1"  Part="1" 
+F 0 "U1" V 2038 3697 40  0000 R CNN
+F 1 "74HC04" V 1962 3697 40  0000 R CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2000 3875 60  0001 C CNN
+F 3 "" H 2000 3875 60  0001 C CNN
+F 4 "" H 1000 950 50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 1000 950 50  0001 C CNN "Spice_Model"
+F 6 "" H 1000 950 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 1000 950 50  0001 C CNN "Spice_Primitive"
+	1    2000 3875
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74HC04 U?
+U 2 1 5FBC562D
+P 2600 3925
+AR Path="/5AE6649D/5FBC562D" Ref="U?"  Part="2" 
+AR Path="/5B1BA146/5FBC562D" Ref="U?"  Part="2" 
+AR Path="/5AE655FE/64F62017/5FBC562D" Ref="U?"  Part="2" 
+AR Path="/5FBC562D" Ref="U1"  Part="2" 
+F 0 "U1" V 2638 3747 40  0000 R CNN
+F 1 "74HC04" V 2562 3747 40  0000 R CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2600 3925 60  0001 C CNN
+F 3 "" H 2600 3925 60  0001 C CNN
+F 4 "" H 1000 950 50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 1000 950 50  0001 C CNN "Spice_Model"
+F 6 "" H 1000 950 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 1000 950 50  0001 C CNN "Spice_Primitive"
+	2    2600 3925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74HC04 U?
+U 3 1 5FBC562E
+P 3275 3900
+AR Path="/5AE6649D/5FBC562E" Ref="U?"  Part="3" 
+AR Path="/5B1BA146/5FBC562E" Ref="U?"  Part="3" 
+AR Path="/5AE655FE/64F62017/5FBC562E" Ref="U?"  Part="3" 
+AR Path="/5FBC562E" Ref="U1"  Part="3" 
+F 0 "U1" V 3313 3722 40  0000 R CNN
+F 1 "74HC04" V 3237 3722 40  0000 R CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3275 3900 60  0001 C CNN
+F 3 "" H 3275 3900 60  0001 C CNN
+F 4 "" H 1000 950 50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 1000 950 50  0001 C CNN "Spice_Model"
+F 6 "" H 1000 950 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 1000 950 50  0001 C CNN "Spice_Primitive"
+	3    3275 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74HC04 U?
+U 4 1 5F236273
+P 3925 3900
+AR Path="/5AE6649D/5F236273" Ref="U?"  Part="4" 
+AR Path="/5B1BA146/5F236273" Ref="U?"  Part="4" 
+AR Path="/5AE655FE/64F62017/5F236273" Ref="U?"  Part="4" 
+AR Path="/5F236273" Ref="U1"  Part="4" 
+F 0 "U1" V 3963 3722 40  0000 R CNN
+F 1 "74HC04" V 3887 3722 40  0000 R CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3925 3900 60  0001 C CNN
+F 3 "" H 3925 3900 60  0001 C CNN
+F 4 "" H 1000 950 50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 1000 950 50  0001 C CNN "Spice_Model"
+F 6 "" H 1000 950 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 1000 950 50  0001 C CNN "Spice_Primitive"
+	4    3925 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74HC04 U?
+U 5 1 5FBC5630
+P 4600 3900
+AR Path="/5AE6649D/5FBC5630" Ref="U?"  Part="5" 
+AR Path="/5B1BA146/5FBC5630" Ref="U?"  Part="5" 
+AR Path="/5AE655FE/64F62017/5FBC5630" Ref="U?"  Part="5" 
+AR Path="/5FBC5630" Ref="U1"  Part="5" 
+F 0 "U1" V 4638 3722 40  0000 R CNN
+F 1 "74HC04" V 4562 3722 40  0000 R CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4600 3900 60  0001 C CNN
+F 3 "" H 4600 3900 60  0001 C CNN
+F 4 "" H 1000 950 50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 1000 950 50  0001 C CNN "Spice_Model"
+F 6 "" H 1000 950 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 1000 950 50  0001 C CNN "Spice_Primitive"
+	5    4600 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74HC04 U?
+U 6 1 5FBC5631
+P 5125 3900
+AR Path="/5AE6649D/5FBC5631" Ref="U?"  Part="6" 
+AR Path="/5B1BA146/5FBC5631" Ref="U?"  Part="6" 
+AR Path="/5AE655FE/64F62017/5FBC5631" Ref="U?"  Part="6" 
+AR Path="/5FBC5631" Ref="U1"  Part="6" 
+F 0 "U1" V 5163 3722 40  0000 R CNN
+F 1 "74HC04" V 5087 3722 40  0000 R CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5125 3900 60  0001 C CNN
+F 3 "" H 5125 3900 60  0001 C CNN
+F 4 "" H 1000 950 50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 1000 950 50  0001 C CNN "Spice_Model"
+F 6 "" H 1000 950 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 1000 950 50  0001 C CNN "Spice_Primitive"
+	6    5125 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74HC04 U?
+U 1 1 5FBC5632
+P 5700 3925
+AR Path="/5AE6649D/5FBC5632" Ref="U?"  Part="1" 
+AR Path="/5B1BA146/5FBC5632" Ref="U?"  Part="1" 
+AR Path="/5AE655FE/64F62017/5FBC5632" Ref="U?"  Part="1" 
+AR Path="/5FBC5632" Ref="U2"  Part="1" 
+F 0 "U2" V 5738 3747 40  0000 R CNN
+F 1 "74HC04" V 5662 3747 40  0000 R CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5700 3925 60  0001 C CNN
+F 3 "" H 5700 3925 60  0001 C CNN
+F 4 "" H 925 950 50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 925 950 50  0001 C CNN "Spice_Model"
+F 6 "" H 925 950 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 925 950 50  0001 C CNN "Spice_Primitive"
+	1    5700 3925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74HC04 U?
+U 2 1 5F236521
+P 6375 3950
+AR Path="/5AE6649D/5F236521" Ref="U?"  Part="2" 
+AR Path="/5B1BA146/5F236521" Ref="U?"  Part="2" 
+AR Path="/5AE655FE/64F62017/5F236521" Ref="U?"  Part="2" 
+AR Path="/5F236521" Ref="U2"  Part="2" 
+F 0 "U2" V 6413 3772 40  0000 R CNN
+F 1 "74HC04" V 6337 3772 40  0000 R CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6375 3950 60  0001 C CNN
+F 3 "" H 6375 3950 60  0001 C CNN
+F 4 "" H 1000 950 50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 1000 950 50  0001 C CNN "Spice_Model"
+F 6 "" H 1000 950 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 1000 950 50  0001 C CNN "Spice_Primitive"
+	2    6375 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74HC04 U?
+U 3 1 5FBC5634
+P 8175 5975
+AR Path="/5AE6649D/5FBC5634" Ref="U?"  Part="3" 
+AR Path="/5B1BA146/5FBC5634" Ref="U?"  Part="3" 
+AR Path="/5AE655FE/64F62017/5FBC5634" Ref="U?"  Part="3" 
+AR Path="/5FBC5634" Ref="U2"  Part="3" 
+F 0 "U2" H 8175 6267 40  0000 C CNN
+F 1 "74HC04" H 8175 6191 40  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8175 5975 60  0001 C CNN
+F 3 "" H 8175 5975 60  0001 C CNN
+F 4 "" H 1000 950 50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 1000 950 50  0001 C CNN "Spice_Model"
+F 6 "" H 1000 950 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 1000 950 50  0001 C CNN "Spice_Primitive"
+	3    8175 5975
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U?
+U 5 1 5F236679
+P 8375 6550
+AR Path="/5AE6649D/5F236679" Ref="U?"  Part="5" 
+AR Path="/5B1BA146/5F236679" Ref="U?"  Part="5" 
+AR Path="/5AE655FE/64F62017/5F236679" Ref="U?"  Part="5" 
+AR Path="/5F236679" Ref="U2"  Part="5" 
+F 0 "U2" H 8375 6842 40  0000 C CNN
+F 1 "74HC04" H 8375 6766 40  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8375 6550 60  0001 C CNN
+F 3 "" H 8375 6550 60  0001 C CNN
+F 4 "" H 1000 950 50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 1000 950 50  0001 C CNN "Spice_Model"
+F 6 "" H 1000 950 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 1000 950 50  0001 C CNN "Spice_Primitive"
+	5    8375 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U?
+U 4 1 5FBC5636
+P 8350 7100
+AR Path="/5AE6649D/5FBC5636" Ref="U?"  Part="4" 
+AR Path="/5B1BA146/5FBC5636" Ref="U?"  Part="4" 
+AR Path="/5AE655FE/64F62017/5FBC5636" Ref="U?"  Part="4" 
+AR Path="/5FBC5636" Ref="U2"  Part="4" 
+F 0 "U2" H 8350 7392 40  0000 C CNN
+F 1 "74HC04" H 8350 7316 40  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8350 7100 60  0001 C CNN
+F 3 "" H 8350 7100 60  0001 C CNN
+F 4 "" H 1000 950 50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 1000 950 50  0001 C CNN "Spice_Model"
+F 6 "" H 1000 950 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 1000 950 50  0001 C CNN "Spice_Primitive"
+	4    8350 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U?
+U 6 1 5F2367A4
+P 8375 7500
+AR Path="/5AE6649D/5F2367A4" Ref="U?"  Part="6" 
+AR Path="/5B1BA146/5F2367A4" Ref="U?"  Part="6" 
+AR Path="/5AE655FE/64F62017/5F2367A4" Ref="U?"  Part="6" 
+AR Path="/5F2367A4" Ref="U2"  Part="6" 
+F 0 "U2" H 8375 7792 40  0000 C CNN
+F 1 "74HC04" H 8375 7716 40  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8375 7500 60  0001 C CNN
+F 3 "" H 8375 7500 60  0001 C CNN
+F 4 "" H 1000 950 50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 1000 950 50  0001 C CNN "Spice_Model"
+F 6 "" H 1000 950 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 1000 950 50  0001 C CNN "Spice_Primitive"
+	6    8375 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 5975 7725 5975
+Wire Wire Line
+	7725 5975 7725 6550
+Wire Wire Line
+	7725 6550 7725 7100
+Connection ~ 7725 6550
+Wire Wire Line
+	7725 7100 7725 7500
+Connection ~ 7725 7100
+Wire Wire Line
+	2100 4750 2000 4750
+Wire Wire Line
+	2600 4650 2550 4650
+Wire Wire Line
+	3200 4600 3200 4475
+Wire Wire Line
+	3200 4350 3275 4350
+Wire Wire Line
+	3275 3100 3250 3100
+Wire Wire Line
+	3925 3225 3900 3225
+Wire Wire Line
+	4550 4350 4550 4450
+Wire Wire Line
+	4600 3250 4575 3250
+Wire Wire Line
+	4575 3250 4575 3175
+Wire Wire Line
+	5150 3200 5150 3250
+Wire Wire Line
+	5150 3450 5125 3450
+Wire Wire Line
+	6250 3500 6325 3500
+Wire Wire Line
+	6375 4625 6425 4625
+NoConn ~ 8675 7500
+NoConn ~ 8650 7100
+NoConn ~ 8675 6550
+NoConn ~ 8475 5975
+Wire Wire Line
+	2600 4225 2600 4600
+Wire Wire Line
+	3275 4200 3275 4350
+Wire Wire Line
+	3275 3100 3275 3175
+Wire Wire Line
+	3925 3225 3925 3600
+Wire Wire Line
+	3925 4200 3925 4475
+Wire Wire Line
+	4600 3250 4600 3325
+Wire Wire Line
+	4625 4350 4625 4200
+Wire Wire Line
+	4625 4200 4600 4200
+Wire Wire Line
+	4550 4350 4625 4350
+Wire Wire Line
+	5125 4200 5125 4400
+Wire Wire Line
+	5775 4225 5775 4475
+Wire Wire Line
+	5775 3625 5775 3500
+Wire Wire Line
+	5125 3450 5125 3600
+Wire Wire Line
+	6375 3500 6375 3650
+Wire Wire Line
+	6375 4250 6375 4625
+Wire Wire Line
+	7725 5975 7875 5975
+Connection ~ 7725 5975
+Wire Wire Line
+	7725 6550 8075 6550
+Wire Wire Line
+	7725 7100 8050 7100
+Wire Wire Line
+	7725 7500 8075 7500
+Wire Wire Line
+	8250 5250 8275 5250
+Wire Wire Line
+	8275 5250 8275 5200
+Wire Wire Line
+	8275 5200 8375 5200
+Wire Wire Line
+	8900 3275 8900 3200
+$Comp
+L 74xx:74HC04 U?
+U 7 1 5FB83B89
+P 8075 4025
+AR Path="/5AE6649D/5FB83B89" Ref="U?"  Part="7" 
+AR Path="/5B1BA146/5FB83B89" Ref="U?"  Part="7" 
+AR Path="/5AE655FE/64F62017/5FB83B89" Ref="U?"  Part="7" 
+AR Path="/5FB83B89" Ref="U1"  Part="7" 
+F 0 "U1" H 8305 4071 50  0000 L CNN
+F 1 "74HC04" H 8305 3980 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8075 4025 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf" H 8075 4025 50  0001 C CNN
+F 4 "" H 4775 -875 50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 4775 -875 50  0001 C CNN "Spice_Model"
+F 6 "" H 4775 -875 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 4775 -875 50  0001 C CNN "Spice_Primitive"
+	7    8075 4025
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74HC04 U?
+U 7 1 5FBC5639
+P 9000 4050
+AR Path="/5AE6649D/5FBC5639" Ref="U?"  Part="7" 
+AR Path="/5B1BA146/5FBC5639" Ref="U?"  Part="7" 
+AR Path="/5AE655FE/64F62017/5FBC5639" Ref="U?"  Part="7" 
+AR Path="/5FBC5639" Ref="U2"  Part="7" 
+F 0 "U2" H 9230 4096 50  0000 L CNN
+F 1 "74HC04" H 9230 4005 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 9000 4050 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf" H 9000 4050 50  0001 C CNN
+F 4 "" H 4775 -875 50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 4775 -875 50  0001 C CNN "Spice_Model"
+F 6 "" H 4775 -875 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 4775 -875 50  0001 C CNN "Spice_Primitive"
+	7    9000 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5FB83DC0
+P 7475 4000
+F 0 "C1" H 7567 4046 50  0000 L CNN
+F 1 "100nF" H 7567 3955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7475 4000 50  0001 C CNN
+F 3 "~" H 7475 4000 50  0001 C CNN
+F 4 "" H 4775 -875 50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 4775 -875 50  0001 C CNN "Spice_Model"
+F 6 "" H 4775 -875 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 4775 -875 50  0001 C CNN "Spice_Primitive"
+	1    7475 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5FB83F1E
+P 9625 4000
+F 0 "C2" H 9717 4046 50  0000 L CNN
+F 1 "100nF" H 9717 3955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9625 4000 50  0001 C CNN
+F 3 "~" H 9625 4000 50  0001 C CNN
+F 4 "" H 4775 -875 50  0001 C CNN "Spice_Lib_File"
+F 5 "" H 4775 -875 50  0001 C CNN "Spice_Model"
+F 6 "" H 4775 -875 50  0001 C CNN "Spice_Netlist_Enabled"
+F 7 "" H 4775 -875 50  0001 C CNN "Spice_Primitive"
+	1    9625 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7475 3900 7475 3525
+Wire Wire Line
+	7475 3525 8075 3525
+Wire Wire Line
+	9000 3525 9000 3550
+Connection ~ 8075 3525
+Wire Wire Line
+	9000 3550 9625 3550
+Wire Wire Line
+	9625 3550 9625 3900
+Connection ~ 9000 3550
+Wire Wire Line
+	9000 4550 9625 4550
+Wire Wire Line
+	9625 4550 9625 4100
+Wire Wire Line
+	8075 4550 8075 4525
+Connection ~ 9000 4550
+Wire Wire Line
+	8075 4550 7475 4550
+Wire Wire Line
+	7475 4550 7475 4100
+Connection ~ 8075 4550
+$Comp
+L power:VCC #PWR05
+U 1 1 5FB8886C
+P 8525 3225
+F 0 "#PWR05" H 8525 3075 50  0001 C CNN
+F 1 "VCC" H 8542 3398 50  0000 C CNN
+F 2 "" H 8525 3225 50  0001 C CNN
+F 3 "" H 8525 3225 50  0001 C CNN
+	1    8525 3225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8525 3225 8525 3300
+Connection ~ 8525 3525
+Wire Wire Line
+	8525 3525 9000 3525
+Wire Wire Line
+	8450 4675 8450 4550
+Connection ~ 8450 4550
+Wire Wire Line
+	8450 4550 9000 4550
+$Sheet
+S 1800 1825 225  525 
+U 5C342089
+F0 "Sheet5C342088" 50
+F1 "LED_RED.sch" 50
+F2 "X" I B 1925 2350 50 
+$EndSheet
+$Sheet
+S 2450 1750 225  525 
+U 5C342203
+F0 "sheet5C342200" 50
+F1 "LED_RED.sch" 50
+F2 "X" I B 2575 2275 50 
+$EndSheet
+$Sheet
+S 3100 1800 225  525 
+U 5C343278
+F0 "sheet5C343274" 50
+F1 "LED_RED.sch" 50
+F2 "X" I B 3225 2325 50 
+$EndSheet
+$Sheet
+S 3700 1800 225  525 
+U 5C34327B
+F0 "sheet5C343275" 50
+F1 "LED_RED.sch" 50
+F2 "X" I B 3825 2325 50 
+$EndSheet
+$Sheet
+S 4225 1725 225  525 
+U 5C3442F6
+F0 "sheet5C3442F0" 50
+F1 "LED_RED.sch" 50
+F2 "X" I B 4350 2250 50 
+$EndSheet
+$Sheet
+S 4975 1800 225  525 
+U 5C3442F9
+F0 "sheet5C3442F1" 50
+F1 "LED_RED.sch" 50
+F2 "X" I B 5100 2325 50 
+$EndSheet
+$Sheet
+S 5925 1875 225  525 
+U 5FBC5625
+F0 "sheet5C3442F2" 50
+F1 "LED_RED.sch" 50
+F2 "X" I B 6050 2400 50 
+$EndSheet
+$Sheet
+S 6350 1675 225  525 
+U 5FBC5626
+F0 "sheet5C3442F3" 50
+F1 "LED_RED.sch" 50
+F2 "X" I B 6475 2200 50 
+$EndSheet
+Wire Wire Line
+	3225 3175 3275 3175
+Wire Wire Line
+	3900 2325 3825 2325
+Wire Wire Line
+	4500 3325 4600 3325
+Connection ~ 4600 3325
+Wire Wire Line
+	4600 3325 4600 3600
+Wire Wire Line
+	5150 3250 5075 3250
+Wire Wire Line
+	5075 2325 5100 2325
+Connection ~ 5150 3250
+Wire Wire Line
+	5150 3250 5150 3450
+Wire Wire Line
+	5725 3500 5775 3500
+Connection ~ 6325 3500
+Wire Wire Line
+	6325 3500 6375 3500
+Wire Wire Line
+	3275 3600 2900 3600
+Wire Wire Line
+	2900 3200 3225 3200
+Wire Wire Line
+	3225 2325 3225 2575
+Connection ~ 3225 3175
+Wire Wire Line
+	3225 3175 3225 3200
+Wire Wire Line
+	2000 3575 1700 3575
+Wire Wire Line
+	1700 2925 1825 2925
+Wire Wire Line
+	1825 2925 1825 2625
+Wire Wire Line
+	1825 2625 2000 2625
+Connection ~ 1825 2925
+Wire Wire Line
+	1825 2925 2000 2925
+Wire Wire Line
+	2600 2375 2350 2375
+Wire Wire Line
+	2325 2375 2325 3075
+Wire Wire Line
+	2325 3075 2600 3075
+Wire Wire Line
+	2600 3075 2600 3000
+Connection ~ 2325 3075
+Wire Wire Line
+	2325 3550 2600 3550
+Wire Wire Line
+	2600 3550 2600 3625
+$Comp
+L power:GND #PWR04
+U 1 1 5B282430
+P 8450 4675
+F 0 "#PWR04" H 8450 4425 50  0001 C CNN
+F 1 "GND" H 8455 4502 50  0000 C CNN
+F 2 "" H 8450 4675 50  0001 C CNN
+F 3 "" H 8450 4675 50  0001 C CNN
+	1    8450 4675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 2925 1700 3575
+Wire Wire Line
+	2325 3075 2325 3550
+Wire Wire Line
+	2900 3200 2900 3600
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 5B2908DA
+P 8550 4175
+F 0 "J3" H 8630 4167 50  0000 L CNN
+F 1 "Conn_01x02" H 8630 4076 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8550 4175 50  0001 C CNN
+F 3 "~" H 8550 4175 50  0001 C CNN
+	1    8550 4175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 4275 8350 4550
+Wire Wire Line
+	8075 4550 8350 4550
+Connection ~ 8350 4550
+Wire Wire Line
+	8350 4550 8450 4550
+Wire Wire Line
+	8350 4175 8350 3525
+Wire Wire Line
+	8075 3525 8350 3525
+Connection ~ 8350 3525
+Wire Wire Line
+	8350 3525 8525 3525
+$Comp
+L Connector_Generic:Conn_01x08 J1
+U 1 1 5B2962D8
+P 3225 5475
+F 0 "J1" V 3349 5421 50  0000 C CNN
+F 1 "Conn_01x08" V 3440 5421 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 3225 5475 50  0001 C CNN
+F 3 "~" H 3225 5475 50  0001 C CNN
+	1    3225 5475
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J2
+U 1 1 5B296608
+P 3375 1025
+F 0 "J2" V 3499 971 50  0000 C CNN
+F 1 "Conn_01x08" V 3590 971 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 3375 1025 50  0001 C CNN
+F 3 "~" H 3375 1025 50  0001 C CNN
+	1    3375 1025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 4175 2000 4750
+Connection ~ 2000 4750
+Wire Wire Line
+	2000 4750 2000 5275
+Wire Wire Line
+	2600 4600 2925 4600
+Wire Wire Line
+	2925 4600 2925 5275
+Connection ~ 2600 4600
+Wire Wire Line
+	2600 4600 2600 4650
+Wire Wire Line
+	3075 5275 3075 4475
+Wire Wire Line
+	3075 4475 3200 4475
+Connection ~ 3200 4475
+Wire Wire Line
+	3200 4475 3200 4350
+Wire Wire Line
+	3925 4475 3375 4475
+Wire Wire Line
+	3375 4475 3375 5100
+Wire Wire Line
+	3125 5100 3125 5275
+Connection ~ 3925 4475
+Wire Wire Line
+	3925 4475 3925 4575
+Wire Wire Line
+	4225 4450 4550 4450
+Connection ~ 4550 4450
+Wire Wire Line
+	4550 4450 4550 4525
+Wire Wire Line
+	3325 5275 3350 5275
+Wire Wire Line
+	3350 5275 3350 5200
+Wire Wire Line
+	3350 5200 4875 5200
+Wire Wire Line
+	4875 5200 4875 4400
+Wire Wire Line
+	4875 4400 5125 4400
+Connection ~ 5125 4400
+Wire Wire Line
+	5125 4400 5125 4625
+Wire Wire Line
+	5775 4475 5450 4475
+Wire Wire Line
+	5450 4475 5450 5225
+Wire Wire Line
+	5450 5225 3425 5225
+Wire Wire Line
+	6375 5275 6375 4625
+Connection ~ 6375 4625
+Wire Wire Line
+	2975 825  2000 825 
+Wire Wire Line
+	2000 825  2000 2400
+Wire Wire Line
+	3075 825  3075 1300
+Wire Wire Line
+	3075 1300 2350 1300
+Wire Wire Line
+	2350 1300 2350 2375
+Connection ~ 2350 2375
+Wire Wire Line
+	2350 2375 2325 2375
+Wire Wire Line
+	3175 825  3175 2575
+Wire Wire Line
+	3175 2575 3225 2575
+Connection ~ 3225 2575
+Wire Wire Line
+	3225 2575 3225 3175
+Wire Wire Line
+	3900 625  3275 625 
+Wire Wire Line
+	3275 625  3275 825 
+Wire Wire Line
+	3900 625  3900 2325
+Connection ~ 3900 2325
+Wire Wire Line
+	3900 2325 3900 3225
+Wire Wire Line
+	3350 825  3375 825 
+Wire Wire Line
+	3350 825  3350 750 
+Wire Wire Line
+	3350 750  4500 750 
+Wire Wire Line
+	4500 750  4500 2375
+Wire Wire Line
+	3475 825  3475 775 
+Wire Wire Line
+	3475 775  5075 775 
+Wire Wire Line
+	5075 775  5075 2325
+Connection ~ 5075 2325
+Wire Wire Line
+	5075 2325 5075 3250
+Wire Wire Line
+	5775 2475 5725 2475
+Wire Wire Line
+	5725 2475 5725 2750
+Wire Wire Line
+	3575 825  3575 675 
+Wire Wire Line
+	3575 675  5775 675 
+Wire Wire Line
+	5775 675  5775 2475
+Wire Wire Line
+	3675 825  6325 825 
+$Comp
+L Device:R R9
+U 1 1 5B315FC4
+P 6225 5275
+F 0 "R9" V 6018 5275 50  0000 C CNN
+F 1 "0" V 6109 5275 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 6155 5275 50  0001 C CNN
+F 3 "~" H 6225 5275 50  0001 C CNN
+	1    6225 5275
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6075 5275 3550 5275
+$Comp
+L Device:R R10
+U 1 1 5B31CFC2
+P 4275 4825
+F 0 "R10" H 4205 4779 50  0000 R CNN
+F 1 "0" H 4205 4870 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 4205 4825 50  0001 C CNN
+F 3 "~" H 4275 4825 50  0001 C CNN
+	1    4275 4825
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4275 5150 4275 4975
+Wire Wire Line
+	3225 5150 4275 5150
+Wire Wire Line
+	4275 4675 4275 4550
+Wire Wire Line
+	4275 4550 4225 4550
+Wire Wire Line
+	4225 4550 4225 4450
+Wire Wire Line
+	1925 2350 1925 2400
+Wire Wire Line
+	1925 2400 2000 2400
+Connection ~ 2000 2400
+Wire Wire Line
+	2000 2400 2000 2625
+Text Label 2825 5575 3    50   ~ 0
+X0
+Text Label 2925 5575 3    50   ~ 0
+X1
+Text Label 3025 5575 3    50   ~ 0
+X2
+Text Label 3125 5575 3    50   ~ 0
+X3
+Text Label 3225 5575 3    50   ~ 0
+X4
+Text Label 3325 5575 3    50   ~ 0
+X5
+Text Label 3425 5575 3    50   ~ 0
+X6
+Text Label 3525 5575 3    50   ~ 0
+X7
+Wire Wire Line
+	2825 5275 2825 5575
+Connection ~ 2825 5275
+Wire Wire Line
+	2925 5275 2925 5575
+Wire Wire Line
+	2000 5275 2825 5275
+Connection ~ 2925 5275
+Wire Wire Line
+	3025 5275 3025 5575
+Connection ~ 3025 5275
+Wire Wire Line
+	3125 5575 3125 5275
+Wire Wire Line
+	3025 5275 3075 5275
+Connection ~ 3125 5275
+Wire Wire Line
+	3225 5150 3225 5275
+Connection ~ 3225 5275
+Wire Wire Line
+	3225 5275 3225 5575
+Wire Wire Line
+	3325 5575 3325 5275
+Wire Wire Line
+	3125 5100 3375 5100
+Connection ~ 3325 5275
+Wire Wire Line
+	3425 5225 3425 5275
+Connection ~ 3425 5275
+Wire Wire Line
+	3425 5275 3425 5575
+Wire Wire Line
+	3550 5275 3550 5575
+Wire Wire Line
+	3550 5575 3525 5575
+Connection ~ 3550 5275
+Wire Wire Line
+	3550 5275 3525 5275
+Wire Wire Line
+	6325 825  6325 2275
+Wire Wire Line
+	6475 2275 6325 2275
+Connection ~ 6325 2275
+Wire Wire Line
+	6325 2275 6325 3500
+Wire Wire Line
+	6475 2200 6475 2275
+Wire Wire Line
+	2600 2375 2600 2275
+Wire Wire Line
+	2600 2275 2575 2275
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5B3C8DAA
+P 8525 3300
+F 0 "#FLG0101" H 8525 3375 50  0001 C CNN
+F 1 "PWR_FLAG" H 8525 3474 50  0000 C CNN
+F 2 "" H 8525 3300 50  0001 C CNN
+F 3 "~" H 8525 3300 50  0001 C CNN
+	1    8525 3300
+	1    0    0    -1  
+$EndComp
+Connection ~ 8525 3300
+Wire Wire Line
+	8525 3300 8525 3525
+Wire Wire Line
+	6050 2750 5725 2750
+Connection ~ 5725 2750
+Wire Wire Line
+	5725 2750 5725 3500
+Wire Wire Line
+	6050 2400 6050 2750
+Wire Wire Line
+	5700 4225 5775 4225
+Wire Wire Line
+	5700 3625 5775 3625
+Wire Wire Line
+	4350 2250 4350 2375
+Wire Wire Line
+	4350 2375 4500 2375
+Connection ~ 4500 2375
+Wire Wire Line
+	4500 2375 4500 3325
+$EndSCHEMATC
